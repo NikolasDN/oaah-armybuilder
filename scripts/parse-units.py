@@ -30,6 +30,8 @@ FACTION_COLORS = {
     "Halflings": "#b08d57",
 }
 
+SHARED_FACTIONS = {"Dragonslayers", "Monsters"}
+
 HOME_TERRAIN_HINTS = {
     "Dragonslayers": "Hills",
     "Monsters": "Hills",
@@ -206,6 +208,7 @@ def main() -> None:
                     "name": faction_name,
                     "color": FACTION_COLORS.get(faction_name, "#7a6a4f"),
                     "suggestedHomeTerrain": HOME_TERRAIN_HINTS.get(faction_name, "Plains"),
+                    "shared": faction_name in SHARED_FACTIONS,
                     "units": [],
                 }
                 factions.append(current)
@@ -290,7 +293,8 @@ def main() -> None:
     total = sum(len(f["units"]) for f in factions)
     print(f"Wrote {len(factions)} factions, {total} units -> {OUT_PATH}")
     for faction in factions:
-        print(f"  {faction['name']}: {len(faction['units'])}")
+        kind = "shared" if faction.get("shared") else "army"
+        print(f"  {faction['name']}: {len(faction['units'])} ({kind})")
 
 
 if __name__ == "__main__":

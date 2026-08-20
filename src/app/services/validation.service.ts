@@ -128,7 +128,10 @@ export class ValidationService {
     }
 
     for (const item of resolved) {
-      if (item.entry.mercenary && item.unit.factionId === army.factionId) {
+      if (
+        item.entry.mercenary &&
+        this.catalog.isAvailableWithoutMercenary(item.unit, army.factionId)
+      ) {
         issues.push({
           severity: 'error',
           message: `${item.unit.name} belongs to this army list and cannot be taken as a mercenary.`,

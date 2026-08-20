@@ -34,6 +34,7 @@
       "name": "Dragonslayers",
       "color": "#c9a227",
       "suggestedHomeTerrain": "Hills",
+      "shared": true,
       "units": [
         {
           "id": "dragonslayers-dwarven-dragonslayers",
@@ -208,6 +209,7 @@
       "name": "Monsters",
       "color": "#9b2c2c",
       "suggestedHomeTerrain": "Hills",
+      "shared": true,
       "units": [
         {
           "id": "monsters-greater-dragon",
@@ -1228,6 +1230,7 @@
       "name": "Orcs",
       "color": "#5a7a3a",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "orcs-orc-brutes",
@@ -3418,6 +3421,7 @@
       "name": "Elves",
       "color": "#2f6b4f",
       "suggestedHomeTerrain": "Forest",
+      "shared": false,
       "units": [
         {
           "id": "elves-high-elf-cavalry",
@@ -5946,6 +5950,7 @@
       "name": "Goblins",
       "color": "#6b8f3a",
       "suggestedHomeTerrain": "Forest",
+      "shared": false,
       "units": [
         {
           "id": "goblins-goblin-skirmishers",
@@ -7792,6 +7797,7 @@
       "name": "Undead",
       "color": "#6b5b95",
       "suggestedHomeTerrain": "Burial Ground",
+      "shared": false,
       "units": [
         {
           "id": "undead-skeleton-infantry",
@@ -12548,6 +12554,7 @@
       "name": "Dwarves",
       "color": "#8a5a2b",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "dwarves-dwarven-infantry",
@@ -16863,6 +16870,7 @@
       "name": "Gnomes",
       "color": "#3d7a7a",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "gnomes-gnome-warriors",
@@ -17763,6 +17771,7 @@
       "name": "Humans",
       "color": "#3d5a80",
       "suggestedHomeTerrain": "Plains",
+      "shared": false,
       "units": [
         {
           "id": "humans-human-infantry",
@@ -19088,6 +19097,7 @@
       "name": "Lizardmen",
       "color": "#2f7a5a",
       "suggestedHomeTerrain": "Swamp",
+      "shared": false,
       "units": [
         {
           "id": "lizardmen-lizardmen-barbarians",
@@ -20447,6 +20457,7 @@
       "name": "Trolls",
       "color": "#4a6b3a",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "trolls-lesser-troll",
@@ -21255,6 +21266,7 @@
       "name": "Hobgoblins",
       "color": "#a35a32",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "hobgoblins-hobgoblin-infantry",
@@ -22083,6 +22095,7 @@
       "name": "Ratmen",
       "color": "#5c5c66",
       "suggestedHomeTerrain": "Ruins",
+      "shared": false,
       "units": [
         {
           "id": "ratmen-ratman-master-assassin",
@@ -23326,6 +23339,7 @@
       "name": "Halflings",
       "color": "#b08d57",
       "suggestedHomeTerrain": "Hills",
+      "shared": false,
       "units": [
         {
           "id": "halflings-halfling-militia",

@@ -77,12 +77,17 @@ export class ArmyBuilderComponent {
       list.push(unit);
       groups.set(key, list);
     }
-    return [...groups.entries()].map(([factionId, units]) => ({
-      factionId,
-      name: this.catalog.factionById(factionId)?.name ?? factionId,
-      native: factionId === army.factionId,
-      units,
-    }));
+    return [...groups.entries()]
+      .map(([factionId, units]) => ({
+        factionId,
+        name: this.catalog.factionById(factionId)?.name ?? factionId,
+        native: this.catalog.isAvailableFaction(factionId, army.factionId),
+        units,
+      }))
+      .sort(
+        (a, b) =>
+          this.groupRank(a.factionId, army.factionId) - this.groupRank(b.factionId, army.factionId)
+      );
   });
 
   constructor() {
@@ -97,6 +102,17 @@ export class ArmyBuilderComponent {
 
   factionName(id: string): string {
     return this.catalog.factionById(id)?.name ?? id;
+  }
+
+  private groupRank(factionId: string, armyFactionId: string): number {
+    if (factionId === armyFactionId) {
+      return 0;
+    }
+    const sharedIndex = this.catalog.sharedFactionIds.indexOf(factionId);
+    if (sharedIndex >= 0) {
+      return 1 + sharedIndex;
+    }
+    return 100;
   }
 
   kindLabel(kind: UnitKind): string {

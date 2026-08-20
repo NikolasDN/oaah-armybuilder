@@ -18,7 +18,7 @@ export class LandingComponent {
   private readonly validation = inject(ValidationService);
   private readonly router = inject(Router);
 
-  readonly factions = this.catalog.factions;
+  readonly factions = this.catalog.selectableFactions;
   readonly armies = this.storage.armies;
   readonly hasArmies = computed(() => this.armies().length > 0);
 

@@ -30,6 +30,7 @@ export interface Faction {
   name: string;
   color: string;
   suggestedHomeTerrain: string;
+  shared: boolean;
   units: CatalogUnit[];
 }
 
