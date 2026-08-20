@@ -1,0 +1,81 @@
+:root {
+  --bg: #12100c;
+  --bg-raised: #1b1712;
+  --parchment: #ead9b8;
+  --ink: #1c140c;
+  --muted: #b5a78c;
+  --line: #3a3226;
+  --gold: #c4a35a;
+  --blood: #c45a4a;
+  --blood-ink: #8c2418;
+  --ok-ink: #2f5a3c;
+  --display: "Cinzel", "Palatino Linotype", serif;
+  --body: "Source Serif 4", "Georgia", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--body);
+  background:
+    radial-gradient(circle at top, #2a2218, transparent 36%),
+    var(--bg);
+  color: var(--parchment);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button.ghost {
+  background: transparent;
+  color: var(--parchment);
+  border: 1px solid var(--line);
+  padding: 0.35rem 0.65rem;
+  cursor: pointer;
+}
+
+button.ghost:hover,
+button.ghost:focus-visible {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+button.danger {
+  color: var(--blood);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+input[type="search"],
+input[type="number"],
+input[type="text"],
+select {
+  background: var(--bg-raised);
+  color: var(--parchment);
+  border: 1px solid var(--line);
+  padding: 0.45rem 0.6rem;
+}
+
+input[type="search"] {
+  width: 100%;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+}

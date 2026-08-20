@@ -1,0 +1,69 @@
+<section class="hero">
+  <p class="eyebrow">Ganesha Games · Fantasy mass combat</p>
+  <h1>Of Armies And Hordes</h1>
+  <p class="lede">
+    Build a legal roster from the published lists. Choose an army type,
+    spend your points, and keep Limited, Personality, and Rare troops
+    within the rules.
+  </p>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <h2>Choose an army type</h2>
+    <p>Each list uses the stats from the army creation spreadsheet.</p>
+  </div>
+  <div class="faction-grid">
+    @for (faction of factions; track faction.id) {
+      <button
+        type="button"
+        class="faction-card"
+        [style.--faction]="faction.color"
+        (click)="startArmy(faction.id)"
+      >
+        <span class="faction-count">{{ faction.units.length }} profiles</span>
+        <strong>{{ faction.name }}</strong>
+        <span class="faction-meta">Home terrain: {{ faction.suggestedHomeTerrain }}</span>
+      </button>
+    }
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <h2>Saved army lists</h2>
+    <p>Stored in this browser only. Nothing is uploaded.</p>
+  </div>
+
+  @if (!hasArmies()) {
+    <div class="empty-saved">
+      <p>No saved army lists yet.</p>
+      <p class="muted">Pick an army type above to create your first roster.</p>
+    </div>
+  } @else {
+    <ul class="saved-list">
+      @for (army of armies(); track army.id) {
+        <li>
+          <a class="saved-card" [routerLink]="['/army', army.id]">
+            <span class="saved-swatch" [style.background]="factionColor(army.factionId)"></span>
+            <span class="saved-body">
+              <strong>{{ army.name }}</strong>
+              <span class="saved-meta">
+                {{ factionName(army.factionId) }}
+                · {{ army.homeTerrain }}
+                · {{ army.updatedAt | date: 'mediumDate' }}
+              </span>
+              <span class="saved-points" [class.illegal]="!isLegal(army)">
+                {{ summary(army) }}
+              </span>
+            </span>
+          </a>
+          <div class="saved-actions">
+            <button type="button" class="ghost" (click)="duplicateArmy($event, army.id)">Duplicate</button>
+            <button type="button" class="ghost danger" (click)="deleteArmy($event, army)">Delete</button>
+          </div>
+        </li>
+      }
+    </ul>
+  }
+</section>

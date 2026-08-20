@@ -1,0 +1,1316 @@
+Name,Interaction,Quality,Attack,Defense,Trait 1,Trait 2,Trait 3,Trait 4,Trait 5,Trait 6,Points,,Attack multiplier,5,,Trait 1,Trait 2,Trait 3,Trait 4,Trait 5,Trait 6,,defense,Trait 1,Trait 2,Trait 3,Trait 4,Trait 5,Trait 6,df,,Trait 1,Trait 2,Trait 3,Trait 4,Trait 5,Trait 6
+,0,6,-1,4,,,,,,,4,,Defense multiplier,5,,0,0,0,0,0,0,,2,1,1,1,1,1,1,2,,0,0,0,0,0,0
+,9,4,1,5,0,,,,,,25,,,,,0,0,0,0,0,0,,3,1,1,1,1,1,1,3,,0,0,0,0,0,0
+,13,4,1,6,,,,,,,29,,Divisor,"3,6",,0,0,0,0,0,0,,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DRAGONSLAYERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dwarven Dragonslayers,29,4,3,7,"Slayers - L, R3",Resilient - L,Slow,Fearless,,,59,,,,,5,12,-1,5,0,0,,7,1,1,1,1,1,1,7,,5,12,-1,5,0,0
+Elite Dragonslayers,34,3,3,7,"Slayers - L, R3",Resilient - L,Fearless,,,,80,,,,,5,12,5,0,0,0,,7,1,1,1,1,1,1,7,,5,12,5,0,0,0
+Dwarven Giantslayers,30,4,3,7,"Slayers - L, R3",Resilient - L,,Fearless,,,60,,,,,5,12,0,5,0,0,,7,1,1,1,1,1,1,7,,5,12,0,5,0,0
+Hero Dragonslayer,41,3,4,7,"Slayers - L, R3",Hero - P,Shooters 2 - L,Fearless,,,99,,,,,5,8,16,5,0,0,,7,1,1,1,1,1,1,7,,5,8,16,5,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MONSTERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Greater Dragon,129,3,4,8,Flying - L,"Monster Level 3 - L, R3",Dragon Breath level 6 – R1,Tough - L,Extra Lives x4 - P,Fear,617,,,,,18,60,300,24,80,13,,8,1,1,1,1,1,1,8,,18,60,300,24,80,13
+Small Land Wyrm,89,4,3,7,"Monster Level 2 - L, R3",Dragon Breath level 2 - R3,Tough - L,Extra Lives x2 - L,Poison/Venom - L,,148,,,,,35,40,24,20,8,0,,7,1,1,1,3,1,1,21,,35,40,24,0,8,0
+Great Land Wyrm,147,3,3,7,"Monster Level 3 - L, R3",Dragon Breath level 3 – R2,Tough - L,Extra Lives x3 - L,Poison/Venom - L,,291,,,,,60,80,24,40,8,0,,7,1,1,1,4,1,1,28,,60,80,24,0,8,0
+"Ballista, Scorpion",16,4,1,5,Artillery level 2 – L,,,,,,42,,,,,20,0,0,0,0,0,,3,1,1,1,1,1,1,3,,20,0,0,0,0,0
+Stone Thrower,21,4,1,5,Artillery level 3 - L,,,,,,58,,,,,40,0,0,0,0,0,,3,1,1,1,1,1,1,3,,40,0,0,0,0,0
+Catapult,21,4,1,5,Artillery level 3 - L,,,,,,58,,,,,40,0,0,0,0,0,,3,1,1,1,1,1,1,3,,40,0,0,0,0,0
+Small Cannon,28,4,1,5,Artillery level 4 – L,,,,,,92,,,,,80,0,0,0,0,0,,3,1,1,1,1,1,1,3,,80,0,0,0,0,0
+Large Cannon,39,4,1,5,Artillery level 5 – R1,,,,,,158,,,,,160,0,0,0,0,0,,3,1,1,1,1,1,1,3,,160,0,0,0,0,0
+Gorgon,40,3,2,6,"Monster Level 2 - L, R3",Poison/Venom - L,Gaze Attack Level 1 - P,,,,101,,,,,35,8,8,0,0,0,,6,1,1,1,1,1,1,6,,35,8,8,0,0,0
+Gigantogorgon,53,3,2,7,"Monster Level 3 - L, R3",Poison/Venom - L,Gaze Attack Level 2 - P,,,,143,,,,,60,8,16,0,0,0,,7,1,1,1,1,1,1,7,,60,8,16,0,0,0
+Medusa with Bow,46,3,2,6,"Monster Level 2 - L, R3",Shooters 2 - L,Poison/Venom - L,Gaze Attack Level 2 - P,,,128,,,,,35,16,8,16,0,0,,6,1,1,1,1,1,1,6,,35,16,8,16,0,0
+Catoblepas,48,4,1,6,"Monster Level 2 - L, R3",Gaze Attack Level 2 - P,Slow,Swamp-Walk,Ambushers - L,,76,,,,,35,16,-1,3,3,0,,6,1,1,1,2,1,1,12,,35,16,-1,0,3,0
+Giant Snake,34,4,3,6,"Monster Level 2 - L, R3",Poison/Venom - L,Ambushers - L,,,,76,,,,,35,8,3,0,0,0,,6,1,1,1,1,1,1,6,,35,8,3,0,0,0
+Norindaal Bearwolf,20,4,2,6,Forester,Fast,Animal,,,,39,,,,,5,4,-2,0,0,0,,6,1,1,1,1,1,1,6,,5,4,-2,0,0,0
+Bear,27,4,2,6,Forester,Tough - L,Animal,,,,56,,,,,5,24,-2,0,0,0,,6,1,1,1,1,1,1,6,,5,24,-2,0,0,0
+Boar,19,4,1,6,Resilient - L,Animal,,,,,38,,,,,12,-2,0,0,0,0,,6,1,1,1,1,1,1,6,,12,-2,0,0,0,0
+Giant Eagle,39,4,2,7,Flying - L,"Monster Level 2 - L, R3",Fast,0,,,85,,,,,18,35,4,0,0,0,,7,1,1,1,1,1,1,7,,18,35,4,0,0,0
+Bear-Owl Monster,31,4,2,6,"Monster Level 2 - L, R3",Forester,Animal,,,,65,,,,,35,5,-2,0,0,0,,6,1,1,1,1,1,1,6,,35,5,-2,0,0,0
+Floating Eye Monster,126,3,2,7,"Monster Level 3 - L, R3",Dragon Breath level 3 – R2,Flying - L,Gaze Attack Level 2 - P,Extra Lives x2 - L,,266,,,,,60,80,18,16,20,0,,7,1,1,1,1,3,1,21,,60,80,18,16,0,0
+Hill Giant,57,4,2,6,Giant Level 2 - L,Tough - L,Extra Lives x2 - L,,,,88,,,,,22,24,20,0,0,0,,6,1,1,3,1,1,1,18,,22,24,0,0,0,0
+Mountain Giant,81,4,3,7,Giant Level 3- L,Tough - L,Extra Lives x3 - L,,,,124,,,,,35,24,40,0,0,0,,7,1,1,4,1,1,1,28,,35,24,0,0,0,0
+Forest Giant,57,4,2,6,Giant Level 2 - L,Tough - L,Extra Lives x2 - L,,,,88,,,,,22,24,20,0,0,0,,6,1,1,3,1,1,1,18,,22,24,0,0,0,0
+Storm Giant,101,3,3,6,Giant Level 4- L,Tough - L,Extra Lives x3 - L,Trample - L,,,190,,,,,55,24,40,7,0,0,,6,1,1,4,1,1,1,24,,55,24,0,7,0,0
+Titan,82,3,3,8,Giant Level 5- R1,Tough - L,Extra Lives x4 - P,Trample - L,,,273,,,,,80,24,80,7,0,0,,8,1,1,1,1,1,1,8,,80,24,80,7,0,0
+Ogre Infantry,24,4,2,7,Resilient - L,,,,,,48,,,,,12,0,0,0,0,0,,7,1,1,1,1,1,1,7,,12,0,0,0,0,0
+Ogre Elite Infantry,33,3,2,7,Tough - L,,,,,,77,,,,,24,0,0,0,0,0,,7,1,1,1,1,1,1,7,,24,0,0,0,0,0
+Ogre Rock Throwers,26,4,2,7,Shooters 0 - L,Resilient - L,,,,,52,,,,,5,12,0,0,0,0,,7,1,1,1,1,1,1,7,,5,12,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ORCS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Orc Brutes,25,4,2,7,"Berserk - L, R3",Devastating Charge - L,,,,,50,,,,,8,7,0,0,0,0,,7,1,1,1,1,1,1,7,,8,7,0,0,0,0
+Orc Warriors,20,4,2,6,Devastating Charge - L,,,,,,39,,,,,7,0,0,0,0,0,,6,1,1,1,1,1,1,6,,7,0,0,0,0,0
+Orc Pikemen,19,4,2,6,Pikes,,,,,,38,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Orcling Rabble,#NUM!,5,1,5,Rabble,,,,,,9,,,,,-14,0,0,0,0,0,,3,1,1,1,1,1,1,3,,-14,0,0,0,0,0
+Orc Rabble,2,5,2,5,Rabble,,,,,,12,,,,,-14,0,0,0,0,0,,3,1,1,1,1,1,1,3,,-14,0,0,0,0,0
+Orc Rabble Pikemen,11,4,2,6,Pikes,Rabble,,,,,27,,,,,6,-14,0,0,0,0,,6,1,1,1,1,1,1,6,,6,-14,0,0,0,0
+Orc Rabble Javelineers,#NUM!,4,0,5,Shooters 0 - L,Rabble,,,,,13,,,,,5,-14,0,0,0,0,,3,1,1,1,1,1,1,3,,5,-14,0,0,0,0
+Elite Orc Warriors,23,3,2,6,Devastating Charge - L,,,,,,52,,,,,7,0,0,0,0,0,,6,1,1,1,1,1,1,6,,7,0,0,0,0,0
+Heavy Orc Warriors,17,4,2,7,Slow,,,,,,37,,,,,-1,0,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,0,0,0,0,0
+Orc Slingers,13,4,1,5,Shooters 1 - L,,,,,,33,,,,,10,0,0,0,0,0,,3,1,1,1,1,1,1,3,,10,0,0,0,0,0
+Orc Archers/Crossbowmen,24,4,2,6,Shooters 2 - L,,,,,,47,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+Orc Armored Archers/Crossbowmen,26,4,2,7,Shooters 2 - L,,,,,,51,,,,,16,0,0,0,0,0,,7,1,1,1,1,1,1,7,,16,0,0,0,0,0
+Orc Elite Marksmen/Arquebusiers,27,3,2,6,Shooters 2 - L,,,,,,62,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+Orc Warriors with Poisoned Blades,20,4,2,6,Poison/Venom - L,,,,,,40,,,,,8,0,0,0,0,0,,6,1,1,1,1,1,1,6,,8,0,0,0,0,0
+Orc Shooters with Poisoned Arrows,18,4,2,5,Shooters 1 - L,Poisoned Missiles L,,,,,41,,,,,10,4,0,0,0,0,,3,1,"1,5",1,1,1,1,"4,5",,10,0,0,0,0,0
+Orc Samurai,21,4,2,6,Fearless,Steadfast,,,,,42,,,,,5,5,0,0,0,0,,6,1,1,1,1,1,1,6,,5,5,0,0,0,0
+Orc Samurai With Pikes,22,4,2,6,Fearless,Pikes,,,,,43,,,,,5,6,0,0,0,0,,6,1,1,1,1,1,1,6,,5,6,0,0,0,0
+Armored Black Orcs,20,4,2,7,Steadfast,,,,,,42,,,,,5,0,0,0,0,0,,7,1,1,1,1,1,1,7,,5,0,0,0,0,0
+Armored Orc Pikemen,21,4,2,7,Pikes,,,,,,43,,,,,6,0,0,0,0,0,,7,1,1,1,1,1,1,7,,6,0,0,0,0,0
+Orc Elfslayers,19,4,2,6,"Slayers - L, R3",,,,,,38,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Orc Dwarfslayers,19,4,2,6,"Slayers - L, R3",,,,,,38,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Savage Orcs,15,4,2,5,Savage - L,Horde,,,,,38,,,,,9,1,0,0,0,0,,3,1,1,1,1,1,1,3,,9,1,0,0,0,0
+Orc Berserkers,14,4,2,5,"Berserk - L, R3",,,,,,36,,,,,8,0,0,0,0,0,,3,1,1,1,1,1,1,3,,8,0,0,0,0,0
+Orc Raiders/Rangers,13,4,1,5,Scout - R4,Skirmishers,,,,,33,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+Orc Wolf Riders,21,4,2,6,Mounted – L,Fast,,,,,42,,,,,6,4,0,0,0,0,,6,1,1,1,1,1,1,6,,6,4,0,0,0,0
+Orc Armored Wolf Riders,21,4,2,7,Mounted – L,,,,,,43,,,,,6,0,0,0,0,0,,7,1,1,1,1,1,1,7,,6,0,0,0,0,0
+Orc Boar Riders,22,4,2,6,Mounted – L,Devastating Charge - L,,,,,44,,,,,6,7,0,0,0,0,,6,1,1,1,1,1,1,6,,6,7,0,0,0,0
+Orc Elite Boar Riders,26,3,2,6,Mounted – L,Devastating Charge - L,,,,,59,,,,,6,7,0,0,0,0,,6,1,1,1,1,1,1,6,,6,7,0,0,0,0
+Orc Armored Boar Rider,24,4,2,7,Mounted – L,Devastating Charge - L,,,,,48,,,,,6,7,0,0,0,0,,7,1,1,1,1,1,1,7,,6,7,0,0,0,0
+Orc Elite Armored Boar Rider,28,3,2,7,Mounted – L,Devastating Charge - L,,,,,64,,,,,6,7,0,0,0,0,,7,1,1,1,1,1,1,7,,6,7,0,0,0,0
+Orc Pirates,13,4,1,5,Difficult Target,Skirmishers,,,,,33,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+Desert Orcs,18,4,2,6,Desert-Walk,Horde,,,,,37,,,,,3,1,0,0,0,0,,6,1,1,1,1,1,1,6,,3,1,0,0,0,0
+Mountain Orcs,19,4,2,6,Mountaineer,Ambushers - L,,,,,38,,,,,3,3,0,0,0,0,,6,1,1,1,1,1,1,6,,3,3,0,0,0,0
+Forest Orcs,19,4,2,6,Forester,0,,,,,38,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Desert Orc Shooters,14,4,1,5,Desert-Walk,Shooters 1 - L,,,,,36,,,,,3,10,0,0,0,0,,3,1,1,1,1,1,1,3,,3,10,0,0,0,0
+Mountain Orc Shooters,16,4,1,5,Mountaineer,Shooters 1 - L,Skirmishers,,,,40,,,,,3,10,5,0,0,0,,3,1,1,1,1,1,1,3,,3,10,5,0,0,0
+Forest Orc Shooters,15,4,1,5,Forester,Shooters 1 - L,0,,,,38,,,,,5,10,0,0,0,0,,3,1,1,1,1,1,1,3,,5,10,0,0,0,0
+Black Orcs,27,4,2,6,Drilled - L,Resilient - L,Steadfast,,,,54,,,,,8,12,5,0,0,0,,6,1,1,1,1,1,1,6,,8,12,5,0,0,0
+Orc Ambushers,25,4,1,6,Ambushers - L,Resilient - L,Savage - L,,,,49,,,,,3,12,9,0,0,0,,6,1,1,1,1,1,1,6,,3,12,9,0,0,0
+Orc Shaman Apprentice,24,4,1,6,Spell-Caster - P,Spell: Fireball,Spell: Curse,,,,47,,,,,10,6,5,0,0,0,,6,1,1,1,1,1,1,6,,10,6,5,0,0,0
+Orc Shaman,53,3,1,6,Extra Lives x2 - L,Spell-Caster - P,Spell: Curse,Spell: Fireball,Spell: Fury,,93,,,,,20,10,5,6,8,0,,6,3,1,1,1,1,1,18,,0,10,5,6,8,0
+Orc Discipline Master,18,4,1,6,"Discipline Master -P, R1",,,,,,36,,,,,8,0,0,0,0,0,,6,1,1,1,1,1,1,6,,8,0,0,0,0,0
+Orc Hero,52,3,3,8,Hero - P,Extra Lives x2 - L,,,,,92,,,,,8,20,0,0,0,0,,8,1,3,1,1,1,1,24,,8,0,0,0,0,0
+Orc Legendary Bowman,65,3,2,8,Hero - P,Extra Lives x2 - L,Shooters 3 - P,,,,110,,,,,8,20,21,0,0,0,,8,1,3,1,1,1,1,24,,8,0,21,0,0,0
+Orc Commander,79,3,3,7,Extra Lives x3 - L,Tough - L,"General – P, R1",,,,140,,,,,40,24,12,0,0,0,,7,4,1,1,1,1,1,28,,0,24,12,0,0,0
+Orc Beastmaster,23,4,1,6,Resilient - L,Beast Lord - P,,,,,45,,,,,12,7,0,0,0,0,,6,1,1,1,1,1,1,6,,12,7,0,0,0,0
+Orc Duelist,30,4,2,7,Tough - L,Champion - P,,,,,61,,,,,24,4,0,0,0,0,,7,1,1,1,1,1,1,7,,24,4,0,0,0,0
+Halforc Assassin,20,4,2,6,"Assassin Level 1 - P, R3",,,,,,39,,,,,7,0,0,0,0,0,,6,1,1,1,1,1,1,6,,7,0,0,0,0,0
+Orc Assassin,28,3,2,6,"Assassin Level 2 - P, R3",Stealth - P,,,,,63,,,,,14,3,0,0,0,0,,6,1,1,1,1,1,1,6,,14,3,0,0,0,0
+Orc Master Assassin,31,3,2,6,"Assassin Level 3 - P, R2",Stealth - P,,,,,71,,,,,21,3,0,0,0,0,,6,1,1,1,1,1,1,6,,21,3,0,0,0,0
+Orc Wyvern Rider,61,4,2,7,Flying - L,Fast,Poison/Venom - L,Extra Lives x3 - L,,,96,,,,,18,4,8,40,0,0,,7,1,1,1,4,1,1,28,,18,4,8,0,0,0
+Orc Necromancer,15,3,1,5,Necromancer - P,,,,,,44,,,,,10,0,0,0,0,0,,3,1,1,1,1,1,1,3,,10,0,0,0,0,0
+Orc Skeleton,0,4,2,5,Undead,,,,,,33,,,,,4,0,0,0,0,0,,3,,1,1,1,1,1,0,,4,0,0,0,0,0
+Orc Zombie,0,4,2,6,Undead,Slow,Nonreactive,Horde,,,27,,,,,4,-1,-12,1,0,0,,6,,1,1,1,1,1,0,,4,-1,-12,1,0,0
+Orc General's Bodyguard,20,4,2,7,Bodyguards - L,,,,,,42,,,,,5,0,0,0,0,0,,7,1,1,1,1,1,1,7,,5,0,0,0,0,0
+Orc Besiegers,16,4,1,6,Engineers - L,,,,,,33,,,,,4,0,0,0,0,0,,6,1,1,1,1,1,1,6,,4,0,0,0,0,0
+Orc Stonethrower,13,4,1,4,Artillery level 2 – L,,,,,,38,,,,,20,0,0,0,0,0,,2,1,1,1,1,1,1,2,,20,0,0,0,0,0
+Orc Ballista/scorpion,13,4,1,4,Artillery level 2 – L,,,,,,38,,,,,20,0,0,0,0,0,,2,1,1,1,1,1,1,2,,20,0,0,0,0,0
+Orc Catapult,17,4,1,4,Artillery level 3 - L,,,,,,54,,,,,40,0,0,0,0,0,,2,1,1,1,1,1,1,2,,40,0,0,0,0,0
+Orc Catapult with Flaming Projectiles,18,4,1,4,Artillery level 3 - L,Flaming Projectiles,,,,,58,,,,,40,5,0,0,0,0,,2,1,1,1,1,1,1,2,,40,5,0,0,0,0
+Orc Catapult with Plague Projectiles,18,4,1,4,Artillery level 3 - L,Plague Projectiles,,,,,58,,,,,40,5,0,0,0,0,,2,1,1,1,1,1,1,2,,40,5,0,0,0,0
+Orc Cannon,23,4,1,4,Artillery level 4 – L,,,,,,88,,,,,80,0,0,0,0,0,,2,1,1,1,1,1,1,2,,80,0,0,0,0,0
+Orc Mortar,32,4,1,4,Artillery level 5 – R1,,,,,,154,,,,,160,0,0,0,0,0,,2,1,1,1,1,1,1,2,,160,0,0,0,0,0
+Orc Battering Ram,20,4,2,6,,Siege Engine Level 1 - L,,,,,39,,,,,0,7,0,0,0,0,,6,1,1,1,1,1,1,6,,0,7,0,0,0,0
+Orc Siege Tower,26,4,2,8,Slow,Siege Engine Level 2 - L,,,,,53,,,,,-1,14,0,0,0,0,,8,1,1,1,1,1,1,8,,-1,14,0,0,0,0
+halforc highwaymen,15,4,2,5,Highwaymen – R2,Skirmishers,,,,,38,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+halforc treasure hunters,21,4,2,6,"Adventuring Party - L1, R1",,,,,,42,,,,,10,0,0,0,0,0,,6,1,1,1,1,1,1,6,,10,0,0,0,0,0
+Goblin Suicide Pact Warriors,14,4,1,4,"Expendable - L, R4",Difficult Target,Horde,,,,26,,,,,0,5,1,0,0,0,,2,2,1,1,1,1,1,4,,0,5,1,0,0,0
+Orc Chariot,#N/A,4,2,6,Chariot - L,Fast,,,,,40,,,,,4,4,0,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,4,0,0,0,0
+Orc Battle Chariot,#N/A,4,2,6,Chariot - L,Fast,Fear,Resilient - L,,,61,,,,,4,4,13,12,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,4,13,12,0,0
+Orc Boatmen,13,4,2,5,Boat,,,,,,32,,,,,3,0,0,0,0,0,,3,1,1,1,1,1,1,3,,3,0,0,0,0,0
+Snow Orcs,17,4,2,6,Snow-Walk,0,,,,,35,,,,,2,0,0,0,0,0,,6,1,1,1,1,1,1,6,,2,0,0,0,0,0
+Snow Orc Shooters,22,4,1,6,Snow-Walk,Shooters 1 - L,Skirmishers,,,,43,,,,,2,10,5,0,0,0,,6,1,1,1,1,1,1,6,,2,10,5,0,0,0
+Wyvern,52,3,3,7,Flying - L,"Monster Level 3 - L, R3",,,,,142,,,,,18,60,0,0,0,0,,7,1,1,1,1,1,1,7,,18,60,0,0,0,0
+,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ELVES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High Elf Cavalry,21,4,2,6,Mounted – L,Fast,,,,,42,,,,,6,4,0,0,0,0,,6,1,1,1,1,1,1,6,,6,4,0,0,0,0
+High Elf Heavy Cavalry,21,4,2,7,Mounted – L,,,,,,43,,,,,6,0,0,0,0,0,,7,1,1,1,1,1,1,7,,6,0,0,0,0,0
+High Elf Light Cavalry,19,4,1,6,Mounted – L,Fast,,,,,38,,,,,6,4,0,0,0,0,,6,1,1,1,1,1,1,6,,6,4,0,0,0,0
+High Elf Stag Riders,#DIV/0!,4,2,7,Mounted – L,Devastating Charge - L,Forester,,,,53,,,,,6,7,5,0,0,0,,7,1,1,1,1,1,1,7,,6,7,5,0,0,0
+Elven Pikemen,19,4,2,6,Pikes,,,,,,38,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Elven Armored Pikemen,20,4,2,7,Pikes,Slow,,,,,42,,,,,6,-1,0,0,0,0,,7,1,1,1,1,1,1,7,,6,-1,0,0,0,0
+Elven Halberdiers,23,4,2,6,Pikes,Savage - L,,,,,46,,,,,6,9,0,0,0,0,,6,1,1,1,1,1,1,6,,6,9,0,0,0,0
+Elite High Elf Archers,25,3,1,6,Shooters 2 - L,,,,,,57,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+High Elf Archers,24,4,2,6,Shooters 2 - L,,,,,,47,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+High Elf Armored Archers,25,4,2,7,Shooters 2 - L,Slow,,,,,50,,,,,16,-1,0,0,0,0,,7,1,1,1,1,1,1,7,,16,-1,0,0,0,0
+Young Elf Warriors,#NUM!,4,1,5,Rabble,Reluctant,,,,,12,,,,,-14,-2,0,0,0,0,,3,1,1,1,1,1,1,3,,-14,-2,0,0,0,0
+Young Elf Archers,6,4,1,5,Rabble,Reluctant,Shooters 1 - L,,,,20,,,,,-14,-2,10,0,0,0,,3,1,1,1,1,1,1,3,,-14,-2,10,0,0,0
+Elf Adventurers,16,4,1,5,"Adventuring Party - L1, R1",Ambushers - L,Skirmishers,,,,40,,,,,10,3,5,0,0,0,,3,1,1,1,1,1,1,3,,10,3,5,0,0,0
+Elf Swordsmen,16,4,2,6,,,,,,,33,,,,,0,0,0,0,0,0,,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+Elf Armored Swordsmen,17,4,2,7,Slow,,,,,,37,,,,,-1,0,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,0,0,0,0,0
+Elf Great Axes,#DIV/0!,4,2,6,Savage - L,,,,,,41,,,,,9,0,0,0,0,0,,6,1,1,1,1,1,1,6,,9,0,0,0,0,0
+Elite Elven Pikemen,23,4,2,6,Pikes,Drilled - L,,,,,45,,,,,6,8,0,0,0,0,,6,1,1,1,1,1,1,6,,6,8,0,0,0,0
+Elven Warrior Prince,39,3,3,7,Shooters 3 - P,Resilient - L,,,,,92,,,,,21,12,0,0,0,0,,7,1,1,1,1,1,1,7,,21,12,0,0,0,0
+Elven Warrior King,80,3,3,7,Shooters 3 - P,Tough - L,Extra Lives x2 - L,"General – P, R1",,,141,,,,,21,24,20,12,0,0,,7,1,1,3,1,1,1,21,,21,24,0,12,0,0
+High Elf Mage,23,3,1,5,Spell-Caster - P,Spell: Alter Terrain,Spell: Armor,Spell: Destroy Undead,Spell: Lightning Bolt,Spell: Meteor Storm,70,,,,,10,5,5,3,6,4,,3,1,1,1,1,1,1,3,,10,5,5,3,6,4
+Elf Scouts,25,4,1,6,Difficult Target,Scout - R4,Shooters 1 - L,Forester,,,50,,,,,5,5,10,5,0,0,,6,1,1,1,1,1,1,6,,5,5,10,5,0,0
+Elf Battledancers,19,4,2,6,Difficult Target,Horde,,,,,38,,,,,5,1,0,0,0,0,,6,1,1,1,1,1,1,6,,5,1,0,0,0,0
+Elven Prince High Guard,26,4,2,7,Bodyguards - L,Steadfast,Drilled - L,,,,53,,,,,5,5,8,0,0,0,,7,1,1,1,1,1,1,7,,5,5,8,0,0,0
+Elven Chariots,20,4,2,6,Chariot level 2 - L,Fast,,,,,40,,,,,4,4,0,0,0,0,,6,1,1,1,1,1,1,6,,4,4,0,0,0,0
+Elven Air Chariots,#N/A,4,2,7,Chariot level 3 - L,Fast,Flying - L,Resilient - L,,,72,,,,,7,4,18,12,0,0,,7,#N/A,1,1,1,1,1,#N/A,,#N/A,4,18,12,0,0
+Elven Paladins,26,4,2,7,Fearless,Resilient - L,,,,,52,,,,,5,12,0,0,0,0,,7,1,1,1,1,1,1,7,,5,12,0,0,0,0
+Elven Raiders,15,4,1,5,Difficult Target,Skirmishers,Fast,,,,37,,,,,5,5,4,0,0,0,,3,1,1,1,1,1,1,3,,5,5,4,0,0,0
+Elven Shieldwall,18,4,2,6,Shieldwall,,,,,,37,,,,,4,0,0,0,0,0,,6,1,1,1,1,1,1,6,,4,0,0,0,0,0
+Elven Conscript Slingers,11,4,0,5,Difficult Target,Shooters 0 - L,Reluctant,,,,28,,,,,5,5,-2,0,0,0,,3,1,1,1,1,1,1,3,,5,5,-2,0,0,0
+Elf City Militia,12,4,1,6,Reluctant,,,,,,28,,,,,-2,0,0,0,0,0,,6,1,1,1,1,1,1,6,,-2,0,0,0,0,0
+Elf City Militia Archers,19,4,1,6,Shooters 1 - L,,,,,,38,,,,,10,0,0,0,0,0,,6,1,1,1,1,1,1,6,,10,0,0,0,0,0
+Elven City High Guard,33,3,2,7,Pikes,Steadfast,Resilient - L,,,,76,,,,,6,5,12,0,0,0,,7,1,1,1,1,1,1,7,,6,5,12,0,0,0
+Elf Villagers,4,5,0,5,Reluctant,,,,,,13,,,,,-2,0,0,0,0,0,,3,1,1,1,1,1,1,3,,-2,0,0,0,0,0
+Elf seer,19,3,1,6,"Astrologer - P, R2",,,,,,44,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Elven Forest Guards,23,4,2,6,Forester,Steadfast,Talisman vs. Fey Creatures -P,,,,45,,,,,5,5,4,0,0,0,,6,1,1,1,1,1,1,6,,5,5,4,0,0,0
+Elven Ballista,16,4,1,5,Artillery level 2 – L,,,,,,42,,,,,20,0,0,0,0,0,,3,1,1,1,1,1,1,3,,20,0,0,0,0,0
+Elven Dog Handler,14,4,1,5,Forester,Beast Lord - P,,,,,35,,,,,5,7,0,0,0,0,,3,1,1,1,1,1,1,3,,5,7,0,0,0,0
+Elf Hero Marksman,56,3,2,6,Shooters 3 - P,Hero - P,Extra Lives x2 - L,,,,99,,,,,21,8,20,0,0,0,,6,1,1,3,1,1,1,18,,21,8,0,0,0,0
+Elf High Priest,40,3,1,7,High Priest - P,Extra Lives x2 - L,,,,,77,,,,,9,20,0,0,0,0,,7,1,3,1,1,1,1,21,,9,0,0,0,0,0
+Elf Stargazer,13,3,1,5,"Astrologer - P, R2",,,,,,39,,,,,5,0,0,0,0,0,,3,1,1,1,1,1,1,3,,5,0,0,0,0,0
+Elf Orcslayers,25,4,2,6,"Slayers - L, R3",Shooters 2 - L,,,,,51,,,,,5,16,0,0,0,0,,6,1,1,1,1,1,1,6,,5,16,0,0,0,0
+Fae Host,15,4,1,5,Rabble,Shooters 1 - L,Poisoned Missiles L,Difficult Target,Skirmishers,,33,,,,,-14,10,4,5,5,0,,3,1,1,"1,5",1,1,1,"4,5",,-14,10,0,5,5,0
+Fae Procession,32,4,1,7,"Monster Level 1 - L, R3",Spell-Caster - P,Spell: Chaos,Spell: Curse,Forester,,65,,,,,10,10,8,5,5,0,,7,1,1,1,1,1,1,7,,10,10,8,5,5,0
+Fae Hunt,39,4,1,7,"Monster Level 2 - L, R3",Spell-Caster - P,Spell: Chaos,Spell: Curse,Forester,,86,,,,,35,10,8,5,5,0,,7,1,1,1,1,1,1,7,,35,10,8,5,5,0
+Fae Dragon,73,3,1,7,"Monster Level 3 - L, R3",Spell-Caster - P,Spell: Chaos,Spell: Terror,Flying - L,Dragon Breath level 3 – R2,247,Extra Lives x3 - L,,,,60,10,8,6,18,80,,7,1,1,1,1,1,1,7,,60,10,8,6,18,80
+Minor Fae Dragon,#DIV/0!,3,1,6,"Monster Level 2 - L, R3",Spell-Caster - P,Spell: Chaos,Spell: Terror,Flying - L,Dragon Breath level 2 - R3,169,Extra Lives x2 - L,,,,35,10,8,6,18,40,,6,1,1,1,1,1,1,6,,35,10,8,6,18,40
+Fae Queen,44,3,2,6,Gaze Attack Level 3 - P,"General – P, R1",Spell-Caster - P,Spell: Blessing,Spell: Chaos,"Teleport - L, R1",119,,,,,25,12,10,4,8,8,,6,1,1,1,1,1,1,6,,25,12,10,4,8,8
+Greater Treeman,67,5,3,8,Tough - L,Giant Level 2 - L,Forester,Slow,Extra Lives x3 - L,,81,,,,,24,22,5,-1,40,0,,8,1,1,1,1,4,1,32,,24,22,5,-1,0,0
+Minor Treeman,47,5,2,7,Resilient - L,Giant Level 2 - L,Forester,Slow,Extra Lives x2 - L,,57,,,,,12,22,5,-1,20,0,,7,1,1,1,1,3,1,21,,12,22,5,-1,0,0
+Unicorn Rider,69,3,3,7,Hero - P,Fast,Extra Lives x3 - L,Forester,Mounted – L,,126,,,,,8,4,40,5,6,0,,7,1,1,4,1,1,1,28,,8,4,0,5,6,0
+Elven Avenger,25,3,2,6,"Assassin Level 1 - P, R3",Difficult Target,,,,,58,,,,,7,5,0,0,0,0,,6,1,1,1,1,1,1,6,,7,5,0,0,0,0
+Elven Apprentice Wizard,17,4,1,5,Spell-Caster - P,Spell: Alter Terrain,Spell: Destroy Undead,Spell: Rain of Arrows,,,44,,,,,10,5,3,5,0,0,,3,1,1,1,1,1,1,3,,10,5,3,5,0,0
+Elven Spellblade,#DIV/0!,3,3,7,Spell-Caster - P,Spell: Terror,Spell: Lightning Bolt,Spell: Rain of Arrows,Extra Lives x3 - L,,130,,,,,10,6,6,5,40,0,,7,1,1,1,1,4,1,28,,10,6,6,5,0,0
+Elven Wizard,35,3,2,6,Spell-Caster - P,Spell: Alter Terrain,Spell: Destroy Undead,Spell: Rain of Arrows,Spell: Meteor Storm,Spell: Teleportation,83,,,,,10,5,3,5,4,8,,6,1,1,1,1,1,1,6,,10,5,3,5,4,8
+Elven Witch,31,3,1,6,Spell-Caster - P,Spell: Teleportation,Spell: Curse,Spell: Lightning Bolt,,,71,,,,,10,8,5,6,0,0,,6,1,1,1,1,1,1,6,,10,8,5,6,0,0
+Armored Bears,28,4,2,7,Animal,Tough - L,,,,,56,,,,,-2,24,0,0,0,0,,7,1,1,1,1,1,1,7,,-2,24,0,0,0,0
+Dragon Rider,,3,3,8,Dragon Breath level 3 – R2,Flying - L,Fast,Extra Lives x4 - P,Resilient - L,,61,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Wild Hunt,27,3,2,6,Ambushers - L,Fear,,,,,62,,,,,3,13,0,0,0,0,,6,1,1,1,1,1,1,6,,3,13,0,0,0,0
+Snow Elves,12,4,1,5,Skirmishers,Snow-Walk,,,,,31,,,,,5,2,0,0,0,0,,3,1,1,1,1,1,1,3,,5,2,0,0,0,0
+Snow Elf Archers,17,4,1,5,Skirmishers,Snow-Walk,Shooters 2 - L,,,,44,,,,,5,2,16,0,0,0,,3,1,1,1,1,1,1,3,,5,2,16,0,0,0
+Elf Acrobat,28,3,2,6,Hero - P,Fast,Difficult Target,,,,63,,,,,8,4,5,0,0,0,,6,1,1,1,1,1,1,6,,8,4,5,0,0,0
+Giant Eagle Riders,34,3,2,7,Flying - L,Fast,Scout - R4,,,,80,,,,,18,4,5,0,0,0,,7,1,1,1,1,1,1,7,,18,4,5,0,0,0
+Warhawk Riders,#DIV/0!,4,2,6,Flying - L,Fast,Scout - R4,Difficult Target,,,60,,,,,18,4,5,5,0,0,,6,1,1,1,1,1,1,6,,18,4,5,5,0,0
+Griffin Rider,#DIV/0!,3,2,7,Flying - L,Fast,Resilient - L,,,,88,,,,,18,4,12,0,0,0,,7,1,1,1,1,1,1,7,,18,4,12,0,0,0
+Water Elemental,58,4,3,8,Amphibious,Extra Lives x4 - P,"Monster Level 2 - L, R3",,,,144,,,,,3,80,35,0,0,0,,8,1,1,1,1,1,1,8,,3,80,35,0,0,0
+Air Elemental,,3,3,8,"Immaterial - L, R2","Monster Level 3 - L, R3",Fast,,,,61,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wood Elf Archers,#DIV/0!,4,1,5,Shooters 2 - L,Forester,,,,,43,,,,,16,5,0,0,0,0,,3,1,1,1,1,1,1,3,,16,5,0,0,0,0
+Wood Elf Shaman,#DIV/0!,3,1,5,Spell-Caster - P,Spell: Alter Terrain,Spell: Eagle's Eyes,Spell: Fury,Spell: Summon Monster,,73,,,,,10,5,3,8,10,0,,3,1,1,1,1,1,1,3,,10,5,3,8,10,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GOBLINS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Goblin Skirmishers,9,4,0,5,Skirmishers,,,,,,25,,,,,5,0,0,0,0,0,,3,1,1,1,1,1,1,3,,5,0,0,0,0,0
+Goblin Swashbucklers,12,4,1,5,Skirmishers,,,,,,29,,,,,5,0,0,0,0,0,,3,1,1,1,1,1,1,3,,5,0,0,0,0,0
+Goblin Rabble,#NUM!,4,0,4,Skirmishers,Rabble,,,,,9,,,,,5,-14,0,0,0,0,,2,1,1,1,1,1,1,2,,5,-14,0,0,0,0
+Goblin Braves,13,4,1,5,Elan - L,Horde,,,,,33,,,,,9,1,0,0,0,0,,3,1,1,1,1,1,1,3,,9,1,0,0,0,0
+Goblin Wolf Riders,19,4,1,6,Mounted – L,Fast,,,,,38,,Alt Divisor,1,,6,4,0,0,0,0,,6,1,1,1,1,1,1,6,,6,4,0,0,0,0
+Elite Goblin Wolf Riders,22,3,1,6,Mounted – L,Fast,,,,,50,,Alt Divisor,1,,6,4,0,0,0,0,,6,1,1,1,1,1,1,6,,6,4,0,0,0,0
+Goblin Wolf Riders Archers,23,4,1,6,Mounted – L,Fast,Shooters 1 - L,,,,46,,,,,6,4,10,0,0,0,,6,1,1,1,1,1,1,6,,6,4,10,0,0,0
+Goblin Spider Riders,21,4,2,6,Mounted – L,Ambushers - L,,,,,41,,Alt Adder,5,,6,3,0,0,0,0,,6,1,1,1,1,1,1,6,,6,3,0,0,0,0
+Goblin Zealots,26,3,2,6,"Berserk - L, R3",Steadfast,Horde,,,,60,,,,,8,5,1,0,0,0,,6,1,1,1,1,1,1,6,,8,5,1,0,0,0
+Goblin Elite Spider Riders,28,3,2,6,Mounted – L,Ambushers - L,Poison/Venom - L,,,,63,,Alt Factor,5,,6,3,8,0,0,0,,6,1,1,1,1,1,1,6,,6,3,8,0,0,0
+Goblin Poisoners,5,4,1,6,Shooters 0 - L,Poisoned Missiles L,Rabble,,,,25,,,,,5,4,-14,0,0,0,,6,1,"1,5",1,1,1,1,9,,5,0,-14,0,0,0
+ Elite Goblin Poisoners,23,4,1,6,Shooters 1 - L,Poisoned Missiles L,,,,,41,,,,,10,4,0,0,0,0,,6,1,"1,5",1,1,1,1,9,,10,0,0,0,0,0
+Goblin Elfslayers,13,4,1,5,Forester,"Slayers - L, R3",,,,,33,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+Bugbear Raiders,,4,2,6,Horde,,,,,,33,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bugbear Bersekers,,4,2,6,"Berserk - L, R3",Horde,,,,,33,,,,,,,,,,,,,,,,,,,,,,,,,,
+Desert Goblin Slingers,6,4,1,5,Desert-Walk,Shooters 0 - L,Rabble,,,,20,,,,,3,5,-14,0,0,0,,3,1,1,1,1,1,1,3,,3,5,-14,0,0,0
+Desert Goblins,11,4,1,5,Desert-Walk,,,,,,28,,,,,3,0,0,0,0,0,,3,1,1,1,1,1,1,3,,3,0,0,0,0,0
+Forest Goblins,7,4,1,5,Forester,Shooters 0 - L,Rabble,,,,22,,,,,5,5,-14,0,0,0,,3,1,1,1,1,1,1,3,,5,5,-14,0,0,0
+Mountain Goblins,11,4,1,5,Mountaineer,,,,,,28,,,,,3,0,0,0,0,0,,3,1,1,1,1,1,1,3,,3,0,0,0,0,0
+Mountain Goblin Slingers,13,4,1,5,Mountaineer,Shooters 0 - L,,,,,32,,,,,3,5,0,0,0,0,,3,1,1,1,1,1,1,3,,3,5,0,0,0,0
+Lesser Goblins,12,4,1,5,Coward,"Expendable - L, R4",,,,,23,,,,,-2,0,0,0,0,0,,3,1,2,1,1,1,1,6,,-2,0,0,0,0,0
+Immature Lesser Goblins,#NUM!,4,1,5,Coward,"Expendable - L, R4",Rabble,,,,12,,,,,-2,0,-14,0,0,0,,3,1,2,1,1,1,1,6,,-2,0,-14,0,0,0
+Lesser Goblin Veteran Archers,14,4,1,5,Coward,Fast,Shooters 1 - L,,,,35,,,,,-2,4,10,0,0,0,,3,1,1,1,1,1,1,3,,-2,4,10,0,0,0
+Goblin Pikemen,11,4,1,5,Reluctant,Pikes,Slow,,,,28,,,,,-2,6,-1,0,0,0,,3,1,1,1,1,1,1,3,,-2,6,-1,0,0,0
+Goblin Assassin,24,3,2,6,"Assassin Level 1 - P, R3",Stealth - P,,,,,56,,,,,7,3,0,0,0,0,,6,1,1,1,1,1,1,6,,7,3,0,0,0,0
+Swamp Goblins,18,4,1,5,Ambushers - L,Swamp-Walk,Skirmishers,,,,34,,,,,3,3,5,0,0,0,,3,1,2,1,1,1,1,6,,3,0,5,0,0,0
+Wild Goblins,23,4,2,6,Savage - L,Difficult Target,,,,,45,,,,,9,5,0,0,0,0,,6,1,1,1,1,1,1,6,,9,5,0,0,0,0
+Wild Goblin Hero,52,3,2,6,Savage - L,Difficult Target,Hero - P,Extra Lives x2 - L,,,91,,,,,9,5,8,20,0,0,,6,1,1,1,3,1,1,18,,9,5,8,0,0,0
+Goblin Cult Leader,#N/A,3,2,3,"Assassin Level 2 - P, R3","Discipline Master -P, R1",Extra Lives x2 - L,,,,74,,,,,14,8,20,0,0,0,,#N/A,1,1,3,1,1,1,#N/A,,14,8,0,0,0,0
+Goblin Cultists,14,4,1,5,Fearless,Devastating Charge - L,Horde,,,,36,,,,,5,7,1,0,0,0,,3,1,1,1,1,1,1,3,,5,7,1,0,0,0
+Goblin Cultists Shooters,12,4,0,5,Fearless,Shooters 0 - L,Horde,,,,30,,,,,5,5,1,0,0,0,,3,1,1,1,1,1,1,3,,5,5,1,0,0,0
+Goblin Windriders,22,4,1,6,Flying - L,,,,,,44,,,,,18,0,0,0,0,0,,6,1,1,1,1,1,1,6,,18,0,0,0,0,0
+Goblin Highwaymen,15,4,1,5,Highwaymen – R2,Skirmishers,Difficult Target,,,,38,,,,,5,5,5,0,0,0,,3,1,1,1,1,1,1,3,,5,5,5,0,0,0
+Goblin Knights on Dodos,,4,2,7,Mounted – L,Devastating Charge - L,,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,
+Veteran Goblin Knights on Dodos,,3,2,7,Mounted – L,Devastating Charge - L,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,
+Goblin King,,3,3,7,"General – P, R1",Extra Lives x3 - L,Resilient - L,,,,56,,,,,,,,,,,,,,,,,,,,,,,,,,
+Goblin King's Guard,,4,2,7,Bodyguards - L,,,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,
+Goblin Sappers,9,4,0,5,Engineers - L,,,,,,24,,,,,4,0,0,0,0,0,,3,1,1,1,1,1,1,3,,4,0,0,0,0,0
+Goblin Veteran Sappers,15,3,1,5,Engineers - L,Difficult Target,,,,,43,,,,,4,5,0,0,0,0,,3,1,1,1,1,1,1,3,,4,5,0,0,0,0
+Goblin Knights,20,3,2,7,Slow,,,,,,49,,,,,-1,0,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,0,0,0,0,0
+Goblin Ballista,13,4,1,4,Artillery level 2 – L,Coward,,,,,36,,,,,20,-2,0,0,0,0,,2,1,1,1,1,1,1,2,,20,-2,0,0,0,0
+Goblin Catapult,21,4,1,5,Artillery level 3 - L,Coward,,,,,57,,,,,40,-2,0,0,0,0,,3,1,1,1,1,1,1,3,,40,-2,0,0,0,0
+Goblin Stone Thrower ,16,4,1,5,Artillery level 2 – L,Coward,,,,,40,,,,,20,-2,0,0,0,0,,3,1,1,1,1,1,1,3,,20,-2,0,0,0,0
+Goblin Cannon,28,4,1,5,Artillery level 4 – L,Coward,,,,,90,,,,,80,-2,0,0,0,0,,3,1,1,1,1,1,1,3,,80,-2,0,0,0,0
+Goblin Cannon with Veteran Crew,33,3,1,5,Artillery level 4 – L,,,,,,122,,,,,80,0,0,0,0,0,,3,1,1,1,1,1,1,3,,80,0,0,0,0,0
+Goblin Catapult with Firebombs,22,4,1,5,Artillery level 3 - L,Coward,Flaming Projectiles,,,,61,,,,,40,-2,5,0,0,0,,3,1,1,1,1,1,1,3,,40,-2,5,0,0,0
+Goblin Beast Riders,26,4,2,7,Mounted – L,Resilient - L,,,,,53,,,,,6,12,0,0,0,0,,7,1,1,1,1,1,1,7,,6,12,0,0,0,0
+Goblin War Giant,74,4,3,8,Giant Level 5- R1,Shooters 2 - L,Tough - L,Trample - L,Extra Lives x4 - P,,218,,,,,80,16,24,7,80,0,,8,1,1,1,1,1,1,8,,80,16,24,7,80,0
+Lesser Hill Giant,56,4,2,7,Giant Level 2 - L,Extra Lives x3 - L,,,,,89,,,,,22,40,0,0,0,0,,7,1,4,1,1,1,1,28,,22,0,0,0,0,0
+Lesser Hill Giant Throwing Stones,67,4,2,7,Giant Level 2 - L,Shooters 2 - L,Extra Lives x3 - L,,,,103,,,,,22,16,40,0,0,0,,7,1,1,4,1,1,1,28,,22,16,0,0,0,0
+Goblin Chariot,23,4,2,5,Chariot level 2 - L,Fast,"Expendable - L, R4",Devastating Charge - L,,,42,,,,,4,4,0,7,0,0,,3,1,1,2,1,1,1,6,,4,4,0,7,0,0
+Lesser Goblin Attack Contraption,17,4,1,5,Chariot level 2 - L,Shooters 1 - L,Devastating Charge - L,,,,43,,,,,4,10,7,0,0,0,,3,1,1,1,1,1,1,3,,4,10,7,0,0,0
+Goblin Attack Wagon,#N/A,4,1,7,Chariot level 4 - L,Shooters 0 - L,Devastating Charge - L,Trample - L,Unreliable,Extra Lives x3 - L,89,,,,,10,5,7,7,-2,40,,7,#N/A,1,1,1,,4,#N/A,,#N/A,5,7,7,-2,0
+Fungus Eaters,15,4,0,5,"Berserk - L, R3",Skirmishers,Devastating Charge - L,,,,38,,,,,8,5,7,0,0,0,,3,1,1,1,1,1,1,3,,8,5,7,0,0,0
+Goblin Discipline Master,,3,1,6,"Discipline Master -P, R1",,,,,,39,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UNDEAD   ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Skeleton Infantry,0,4,1,5,Undead,,,,,,28,,,,,4,0,0,0,0,0,,3,,1,1,1,1,1,0,,4,0,0,0,0,0
+Rabble Skeletons,,4,1,4,Undead,Rabble,,,,,21,,,,,,,,,,,,,,,,,,,,,,,,,,
+Skeleton Armored Infantry,0,4,1,6,Undead,,,,,,33,,,,,4,0,0,0,0,0,,6,,1,1,1,1,1,0,,4,0,0,0,0,0
+Skeleton Armored Infantry with Heavy Weapons,0,4,2,7,Undead,Slow,,,,,40,,,,,4,-1,0,0,0,0,,7,,1,1,1,1,1,0,,4,-1,0,0,0,0
+Skeleton Archers,0,4,1,5,Shooters 1 - L,Undead,,,,,37,,,,,10,4,0,0,0,0,,3,1,,1,1,1,1,0,,10,4,0,0,0,0
+Skeleton Slingers,0,4,1,5,Shooters 0 - L,Undead,,,,,33,,,,,5,4,0,0,0,0,,3,1,,1,1,1,1,0,,5,4,0,0,0,0
+Skeleton Elite Archers,0,3,1,5,Shooters 2 - L,Undead,,,,,56,,,,,16,4,0,0,0,0,,3,1,,1,1,1,1,0,,16,4,0,0,0,0
+Undead Walker,0,4,2,6,Undead,Slow,Nonreactive,Horde,,,27,,,,,4,-1,-12,1,0,0,,6,,1,1,1,1,1,0,,4,-1,-12,1,0,0
+Zombie Infantry,0,4,2,6,Undead,Slow,Horde,,,,37,,,,,4,-1,1,0,0,0,,6,,1,1,1,1,1,0,,4,-1,1,0,0,0
+Armored Zombies,0,4,2,6,Undead,Slow,Resilient - L,,,,46,,,,,4,-1,12,0,0,0,,6,,1,1,1,1,1,0,,4,-1,12,0,0,0
+Ghouls,0,4,1,5,Undead,Poison/Venom - L,,,,,35,,,,,4,8,0,0,0,0,,3,,1,1,1,1,1,0,,4,8,0,0,0,0
+Ghoul Lurkers,0,4,1,5,Undead,Poison/Venom - L,Ambushers - L,Skirmishers,,,42,,,,,4,8,3,5,0,0,,3,,1,1,1,1,1,0,,4,8,3,5,0,0
+Zombie Master,0,3,3,7,Undead,"General – P, R1",Tough - L,Extra Lives x2 - L,,,122,,,,,4,12,24,20,0,0,,7,,1,1,3,1,1,0,,4,12,24,0,0,0
+Zombie Rabble,0,4,1,5,Undead,Slow,Rabble,Horde,,,17,,,,,4,-1,-14,1,0,0,,3,,1,1,1,1,1,0,,4,-1,-14,1,0,0
+Skeleton Pikemen,0,4,2,5,Undead,Pikes,,,,,38,,,,,4,6,0,0,0,0,,3,,1,1,1,1,1,0,,4,6,0,0,0,0
+Skeleton Elite Pikemen,0,3,2,5,Undead,Pikes,,,,,50,,,,,4,6,0,0,0,0,,3,,1,1,1,1,1,0,,4,6,0,0,0,0
+Skeleton Armored Pikemen,0,4,2,6,Undead,Pikes,,,,,42,,,,,4,6,0,0,0,0,,6,,1,1,1,1,1,0,,4,6,0,0,0,0
+Skeleton Elite Armored Pikemen,0,3,2,6,Undead,Pikes,,,,,56,,,,,4,6,0,0,0,0,,6,,1,1,1,1,1,0,,4,6,0,0,0,0
+Zombie Slingers,0,4,1,6,Undead,Slow,Shooters 0 - L,,,,36,,,,,4,-1,5,0,0,0,,6,,1,1,1,1,1,0,,4,-1,5,0,0,0
+Skeleton Cavalry,0,4,2,6,Undead,Mounted – L,,,,,42,,,,,4,6,0,0,0,0,,6,,1,1,1,1,1,0,,4,6,0,0,0,0
+Skeleton Heavy Cavalry,0,4,2,7,Undead,Mounted – L,,,,,46,,,,,4,6,0,0,0,0,,7,,1,1,1,1,1,0,,4,6,0,0,0,0
+Skeleton Light Cavalry,0,4,2,6,Undead,Mounted – L,Fast,,,,45,,,,,4,6,4,0,0,0,,6,,1,1,1,1,1,0,,4,6,4,0,0,0
+Skeleton Mounted Javelineers,0,4,2,6,Undead,Mounted – L,Fast,Shooters 0 - L,,,49,,,,,4,6,4,5,0,0,,6,,1,1,1,1,1,0,,4,6,4,5,0,0
+Skeleton Mounted Archers,0,4,2,6,Undead,Mounted – L,Fast,Shooters 1 - L,,,53,,,,,4,6,4,10,0,0,,6,,1,1,1,1,1,0,,4,6,4,10,0,0
+Skeleton Camel Riders,0,4,2,6,Undead,Mounted – L,Desert-Walk,,,,44,,,,,4,6,3,0,0,0,,6,,1,1,1,1,1,0,,4,6,3,0,0,0
+Skeleton Camel Riders with Bows,0,4,2,6,Undead,Mounted – L,Desert-Walk,Shooters 1 - L,,,53,,,,,4,6,3,10,0,0,,6,,1,1,1,1,1,0,,4,6,3,10,0,0
+Skeleton Desert Raiders,0,4,2,5,Undead,Desert-Walk,,,,,35,,,,,4,3,0,0,0,0,,3,,1,1,1,1,1,0,,4,3,0,0,0,0
+Necromancer,23,3,1,5,Necromancer - P,Spell-Caster - P,Spell: Destroy Undead,Spell: Summon Monster,,,70,,,,,10,10,3,10,0,0,,3,1,1,1,1,1,1,3,,10,10,3,10,0,0
+Necromancer General,65,3,1,6,Necromancer - P,"General – P, R1",Extra Lives x3 - L,Resilient - L,,,121,,,,,10,12,40,12,0,0,,6,1,1,4,1,1,1,24,,10,12,0,12,0,0
+Skeletal Mammoth Carrying Archers,0,4,3,7,Undead,"Monster Level 3 - L, R3",Shooters 2 - L,Resilient - L,Extra Lives x4 - P,,185,,,,,4,60,16,12,80,0,,7,,1,1,1,1,1,0,,4,60,16,12,80,0
+Zombie Dragon,0,4,4,7,Undead,"Monster Level 3 - L, R3",Dragon Breath level 2 - R3,Flying - L,Slow,Extra Lives x4 - P,213,,,,,4,60,40,18,-1,80,,7,,1,1,1,1,1,0,,4,60,40,18,-1,80
+Skeletal Dragon,0,3,4,8,Undead,"Monster Level 3 - L, R3",Dragon Breath level 3 – R2,Flying - L,Extra Lives x3 - L,,291,,,,,4,60,80,18,40,0,,8,,1,1,1,4,1,0,,4,60,80,18,0,0
+Minor Skeletal Dragon,0,4,4,7,Undead,"Monster Level 2 - L, R3",Dragon Breath level 2 - R3,Flying - L,Tough - L,,147,,,,,4,35,40,18,24,0,,7,,1,1,1,1,1,0,,4,35,40,18,24,0
+Skeletal Giant,0,4,3,7,Undead,Giant Level 3- L,Extra Lives x2 - L,Resilient - L,,,101,,,,,4,35,20,12,0,0,,7,,1,3,1,1,1,0,,4,35,0,12,0,0
+Zombie Giant,0,4,3,7,Undead,Giant Level 4- L,Slow,Extra Lives x3 - L,Tough - L,,143,,,,,4,55,-1,40,24,0,,7,,1,1,4,1,1,0,,4,55,-1,0,24,0
+Undead Gorgon,0,3,2,6,Undead,Gaze Attack Level 2 - P,Poison/Venom - L,"Monster Level 2 - L, R3",,,114,,,,,4,16,8,35,0,0,,6,,1,1,1,1,1,0,,4,16,8,35,0,0
+Undead Gorgon with Bow,0,3,2,6,Undead,Gaze Attack Level 2 - P,Poison/Venom - L,"Monster Level 2 - L, R3",Shooters 2 - L,,132,,,,,4,16,8,35,16,0,,6,,1,1,1,1,1,0,,4,16,8,35,16,0
+Ghosts,0,4,1,5,Undead,"Immaterial - L, R2",Fear,Skirmishers,,,49,,,,,4,7,13,5,0,0,,3,,1,1,1,1,1,0,,4,7,13,5,0,0
+Spectres,0,4,1,5,Undead,"Immaterial - L, R2",Ambushers - L,Skirmishers,,,41,,,,,4,7,3,5,0,0,,3,,1,1,1,1,1,0,,4,7,3,5,0,0
+Wights,0,4,2,7,Undead,Horde,Devastating Charge - L,,,,48,,,,,4,1,7,0,0,0,,7,,1,1,1,1,1,0,,4,1,7,0,0,0
+Mounted Wights,0,4,2,7,Undead,Mounted – L,Devastating Charge - L,,,,52,,,,,4,6,7,0,0,0,,7,,1,1,1,1,1,0,,4,6,7,0,0,0
+Wraiths,0,4,2,7,Undead,Fear,Savage - L,,,,59,,,,,4,13,9,0,0,0,,7,,1,1,1,1,1,0,,4,13,9,0,0,0
+Mounted Wraiths,0,4,2,7,Undead,Fear,Savage - L,Mounted – L,,,64,,,,,4,13,9,6,0,0,,7,,1,1,1,1,1,0,,4,13,9,6,0,0
+Skeletal Minotaurs,0,4,2,6,Undead,Tough - L,Devastating Charge - L,,,,63,,,,,4,24,7,0,0,0,,6,,1,1,1,1,1,0,,4,24,7,0,0,0
+Elite Skeletal Minotaurs,0,3,2,6,Undead,Tough - L,Devastating Charge - L,,,,83,,,,,4,24,7,0,0,0,,6,,1,1,1,1,1,0,,4,24,7,0,0,0
+Bone Catapult,0,4,1,6,Artillery level 2 – L,Undead,,,,,49,,,,,20,4,0,0,0,0,,6,1,,1,1,1,1,0,,20,4,0,0,0,0
+Greater Bone Catapult,0,4,1,6,Artillery level 3 - L,Undead,,,,,66,,,,,40,4,0,0,0,0,,6,1,,1,1,1,1,0,,40,4,0,0,0,0
+Screaming Skull Shooter,0,4,1,6,Artillery level 4 – L,Flaming Projectiles,Undead,,,,103,,,,,80,5,4,0,0,0,,6,1,1,,1,1,1,0,,80,5,4,0,0,0
+Zombie Thrower,0,4,1,6,Artillery level 4 – L,Plague Projectiles,Undead,,,,103,,,,,80,5,4,0,0,0,,6,1,1,,1,1,1,0,,80,5,4,0,0,0
+Ghost Thrower,#N/A,4,1,6,Artillery level 2 – L,Fear Projectiles,Undead,,,,56,,,,,20,8,4,0,0,0,,6,1,#N/A,,1,1,1,#N/A,,20,#N/A,4,0,0,0
+Death Altar,0,4,2,6,Siege Engine Level 3 – L,Undead,,,,,54,,,,,21,4,0,0,0,0,,6,1,,1,1,1,1,0,,21,4,0,0,0,0
+Skeletal Ogres,0,4,2,6,Tough - L,Undead,,,,,57,,,,,24,4,0,0,0,0,,6,1,,1,1,1,1,0,,24,4,0,0,0,0
+Vampire Knights,0,3,2,7,Tough - L,Undead,Ambushers - L,Vampire,,,91,,,,,24,4,3,6,0,0,,7,1,,1,,1,1,0,,24,4,3,6,0,0
+Minor Vampires,0,4,1,6,Tough - L,Undead,Vampire,,,,58,,,,,24,4,6,0,0,0,,6,1,,,1,1,1,0,,24,4,6,0,0,0
+Vampire Thralls ,,4,1,5,Coward,Rabble,,,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vampire Bats,,4,1,5,Flying - L,Rabble,Vampire,,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Werewolves,27,4,2,6,Forester,Resilient - L,Savage - L,,,,55,,,,,5,12,9,0,0,0,,6,1,1,1,1,1,1,6,,5,12,9,0,0,0
+Undead Chariot,#N/A,4,2,6,Chariot - L,Undead,Fast,,,,43,,,,,4,4,4,0,0,0,,6,#N/A,,1,1,1,1,#N/A,,#N/A,4,4,0,0,0
+Undead Hounds,0,4,2,5,Undead,Horde,Fast,,,,37,,,,,4,1,4,0,0,0,,3,,1,1,1,1,1,0,,4,1,4,0,0,0
+Pack of Wolves,13,4,2,5,Animal,Forester,Horde,,,,33,,,,,-2,5,1,0,0,0,,3,1,1,1,1,1,1,3,,-2,5,1,0,0,0
+Giant Bats,16,4,1,5,Flying - L,Animal,Horde,,,,39,,,,,18,-2,1,0,0,0,,3,1,1,1,1,1,1,3,,18,-2,1,0,0,0
+Minor mummies,0,4,2,7,Undead,Resilient - L,Desert-Walk,,,,53,,,,,4,12,3,0,0,0,,7,,1,1,1,1,1,0,,4,12,3,0,0,0
+Mummies,0,4,2,7,Undead,Tough - L,Desert-Walk,Fear,Steadfast,,78,,,,,4,24,3,13,5,0,,7,,1,1,1,1,1,0,,4,24,3,13,5,0
+Greater Mummy,0,3,3,8,Undead,Tough - L,Desert-Walk,Fear,Extra Lives x3 - L,,154,,,,,4,24,3,13,40,0,,8,,1,1,1,4,1,0,,4,24,3,13,0,0
+Greater Mummy General,0,3,3,8,Undead,Tough - L,Desert-Walk,Fear,Extra Lives x3 - L,"General – P, R1",168,,,,,4,24,3,13,40,12,,8,,1,1,1,4,1,0,,4,24,3,13,0,12
+Greater Mummy Sub-Commander,#N/A,3,3,8,Undead,Tough - L,Desert-Walk,Fear,Extra Lives x3 - L,Sub-Commander,166,,,,,4,24,3,13,40,10,,8,,1,1,1,4,#N/A,#N/A,,4,24,3,13,0,#N/A
+Undead Vikings,0,4,2,6,Undead,Shieldwall,Devastating Charge - L,,,,46,,,,,4,4,7,0,0,0,,6,,1,1,1,1,1,0,,4,4,7,0,0,0
+Undead Viking Archers,0,4,2,6,Undead,Shieldwall,Shooters 1 - L,,,,48,,,,,4,4,10,0,0,0,,6,,1,1,1,1,1,0,,4,4,10,0,0,0
+Undead Samurai,0,4,2,6,Undead,Drilled - L,Fear,,,,54,,,,,4,8,13,0,0,0,,6,,1,1,1,1,1,0,,4,8,13,0,0,0
+Plague Cart,#N/A,4,2,5,Undead,Chariot - L,Plague-Carriers,Extra Lives x2 - L,,,56,,,,,4,4,4,20,0,0,,3,,#N/A,"0,5",3,1,1,#N/A,,4,#N/A,0,0,0,0
+Flesh Golem,39,4,3,7,Artificial,"Monster Level 2 - L, R3",Fear,,,,84,,,,,3,35,13,0,0,0,,7,1,1,1,1,1,1,7,,3,35,13,0,0,0
+Banshee,0,4,1,7,Undead,"Monster Level 2 - L, R3",Fear,"Teleport - L, R1",Gaze Attack Level 2 - P,,97,,,,,4,35,13,8,16,0,,7,,1,1,1,1,1,0,,4,35,13,8,16,0
+Liche,0,3,2,7,Undead,Spell-Caster - P,Fear,Spell: Curse,Spell: Chaos,Spell: Lightning Bolt,101,Tough - L,,,,4,10,13,5,8,6,,7,,1,1,1,1,1,0,,4,10,13,5,8,6
+Greater Liche,0,3,2,8,Undead,Spell-Caster - P,Fear,Spell: Curse,Spell: Chaos,Spell: Terror,107,Tough - L,Extra Lives x2 - L,Spell: Meteor Storm,,4,10,13,5,8,6,,8,,1,1,1,1,1,0,,4,10,13,5,8,6
+Zombie Ogres,0,4,3,6,Undead,Tough - L,Slow,,,,60,,,,,4,24,-1,0,0,0,,6,,1,1,1,1,1,0,,4,24,-1,0,0,0
+Death  ,#N/A,3,4,8,Undead,"Assassin Level 3 - P, R2",Extra Lives x4 - P,Unique,Fear,Fast,207,,,,,4,21,80,4,13,4,,8,,1,1,#N/A,1,1,#N/A,,4,21,80,#N/A,13,4
+Grave Robbers,19,4,1,6,"Adventuring Party - L1, R1",,,,,,38,,,,,10,0,0,0,0,0,,6,1,1,1,1,1,1,6,,10,0,0,0,0,0
+the Flayed,12,4,2,5,Horde,,,,,,30,,,,,1,0,0,0,0,0,,3,1,1,1,1,1,1,3,,1,0,0,0,0,0
+Bog Zombies,0,4,2,6,Undead,Swamp-Walk,,,,,39,,,,,4,3,0,0,0,0,,6,,2,1,1,1,1,0,,4,0,0,0,0,0
+Large Skeletal Monster,0,4,3,7,Undead,"Monster Level 3 - L, R3",Extra Lives x3 - L,Tough - L,,,148,,,,,4,60,40,24,0,0,,7,,1,4,1,1,1,0,,4,60,0,24,0,0
+Bone Golem,44,4,2,7,Artificial,"Monster Level 3 - L, R3",Fear,,,,101,,,,,3,60,13,0,0,0,,7,1,1,1,1,1,1,7,,3,60,13,0,0,0
+Bone Demon,67,3,3,7,Extra Lives x4 - P,"General – P, R1",Tough - L,Spell-Caster - P,Spell: Fireball,Spell: Fury,211,Spell: Meteor Storm,,,,80,12,24,10,6,8,,7,1,1,1,1,1,1,7,,80,12,24,10,6,8
+Undead Torturers,0,3,2,6,Undead,Highwaymen – R2,Fear,,,,69,,,,,4,5,13,0,0,0,,6,,1,1,1,1,1,0,,4,5,13,0,0,0
+Undead Pirates,0,4,2,6,Undead,Shooters 0 - L,Amphibious,,,,43,,,,,4,5,3,0,0,0,,6,,1,1,1,1,1,0,,4,5,3,0,0,0
+Scythe-armed Skeletons,0,4,2,6,Undead,Devastating Charge - L,,,,,43,,,,,4,7,0,0,0,0,,6,,1,1,1,1,1,0,,4,7,0,0,0,0
+Armored Scythe-armed Skeletons,0,4,2,7,Undead,Devastating Charge - L,Slow,,,,46,,,,,4,7,-1,0,0,0,,7,,1,1,1,1,1,0,,4,7,-1,0,0,0
+Headless Horseman,#N/A,3,3,7,Undead,"Assassin Level 2 - P, R3",Mounted – L,Fast,Unique,,91,,,,,4,14,6,4,4,0,,7,,1,1,1,#N/A,1,#N/A,,4,14,6,4,#N/A,0
+Animated Scarecrows,15,4,1,5,Artificial,Fear,,,,,38,,,,,3,13,0,0,0,0,,3,1,1,1,1,1,1,3,,3,13,0,0,0,0
+Scourgemaster,15,3,1,5,"Discipline Master -P, R1",,,,,,42,,,,,8,0,0,0,0,0,,3,1,1,1,1,1,1,3,,8,0,0,0,0,0
+Skeletal Champion,0,3,2,6,Champion - P,Undead,,,,,53,,,,,4,4,0,0,0,0,,6,1,,1,1,1,1,0,,4,4,0,0,0,0
+Armored Skeletal Champion,0,3,2,7,Champion - P,Undead,,,,,59,,,,,4,4,0,0,0,0,,7,1,,1,1,1,1,0,,4,4,0,0,0,0
+Vampire General,0,3,3,7,Undead,"General – P, R1",Vampire,Extra Lives x4 - P,,,169,,,,,4,12,6,80,0,0,,7,,1,,1,1,1,0,,4,12,6,80,0,0
+Vampire Sub-Commander,#N/A,3,3,7,Undead,Sub-Commander,Vampire,Extra Lives x3 - L,,,122,,,,,4,10,6,40,0,0,,7,,#N/A,,4,1,1,#N/A,,4,#N/A,6,0,0,0
+Vampire General on Nightmare Steed,0,3,3,7,Undead,"General – P, R1",Vampire,Mounted – L,Fast,Extra Lives x4 - P,180,,,,,4,12,6,6,4,80,,7,,1,,1,1,1,0,,4,12,6,6,4,80
+Vampire Sub-Commander on Nightmare Steed,#N/A,3,3,7,Undead,Sub-Commander,Vampire,Extra Lives x3 - L,Mounted – L,Fast,133,,,,,4,10,6,40,6,4,,7,,#N/A,,4,1,1,#N/A,,4,#N/A,6,0,6,4
+Vampire Ogres,0,4,3,7,Undead,Tough - L,Vampire,,,,70,,,,,4,24,6,0,0,0,,7,,1,,1,1,1,0,,4,24,6,0,0,0
+Mummy Ogres,0,4,3,7,Undead,Slow,Desert-Walk,,,,47,,,,,4,-1,3,0,0,0,,7,,1,1,1,1,1,0,,4,-1,3,0,0,0
+Angry Villagers with Pitchforks,#NUM!,4,0,4,Rabble,Horde,,,,,6,,,,,-14,1,0,0,0,0,,2,1,1,1,1,1,1,2,,-14,1,0,0,0,0
+Village Militia,9,4,1,5,,,,,,,25,,,,,0,0,0,0,0,0,,3,1,1,1,1,1,1,3,,0,0,0,0,0,0
+Vampire Hero,0,3,3,7,Undead,Vampire,Hero - P,Extra Lives x2 - L,,,98,,,,,4,6,8,20,0,0,,7,,,1,3,1,1,0,,4,6,8,0,0,0
+Vampire Champion,0,3,3,7,Undead,Vampire,Champion - P,,,,71,,,,,4,6,4,0,0,0,,7,,,1,1,1,1,0,,4,6,4,0,0,0
+Night Prowler,0,4,2,6,Undead,Stealth - P,,,,,39,,,,,4,3,0,0,0,0,,6,,1,1,1,1,1,0,,4,3,0,0,0,0
+Vampire Orcs,0,4,2,6,Undead,Savage - L,Vampire,,,,49,,,,,4,9,6,0,0,0,,6,,1,,1,1,1,0,,4,9,6,0,0,0
+Bone Siege Tower,21,4,2,5,Siege Engine Level 3 – L,Fear,,,,,58,,,,,21,13,0,0,0,0,,3,1,1,1,1,1,1,3,,21,13,0,0,0,0
+Carcass Siege Tower,48,4,2,6,Siege Engine Level 3 – L,Fear,Extra Lives x4 - P,,,,128,,,,,21,13,80,0,0,0,,6,1,1,1,1,1,1,6,,21,13,80,0,0,0
+Hellfire Cannon,#N/A,4,2,6,Artillery level 4 – L,Flaming Projectiles,Fear Projectiles,Extra Lives x2 - L,,,128,,,,,80,5,8,20,0,0,,6,1,1,#N/A,3,1,1,#N/A,,80,5,#N/A,0,0,0
+Graveyard Elemental,62,4,3,7,Artificial,Extra Lives x4 - P,Fear,Giant Level 4- L,Resilient - L,,178,,,,,3,80,13,55,12,0,,7,1,1,1,1,1,1,7,,3,80,13,55,12,0
+Nightmare Cavalry,0,4,2,6,Undead,Mounted – L,Fear,,,,53,,,,,4,6,13,0,0,0,,6,,1,1,1,1,1,0,,4,6,13,0,0,0
+Nightmare Cannon,#N/A,4,2,5,Undead,Artillery level 2 – L,Fear Projectiles,,,,56,,,,,4,20,8,0,0,0,,3,,1,#N/A,1,1,1,#N/A,,4,20,#N/A,0,0,0
+Undead Dwarves,0,4,2,6,Undead,Slow,,,,,36,,,,,4,-1,0,0,0,0,,6,,1,1,1,1,1,0,,4,-1,0,0,0,0
+Zombie Dwarf Slingers,0,4,2,6,Undead,Slow,Shooters 1 - L,,,,44,,,,,4,-1,10,0,0,0,,6,,1,1,1,1,1,0,,4,-1,10,0,0,0
+Zombie Orcs,0,4,2,6,Undead,Savage - L,Slow,,,,43,,,,,4,9,-1,0,0,0,,6,,1,1,1,1,1,0,,4,9,-1,0,0,0
+Wraiths on Pteranodon,0,4,2,7,Undead,Flying - L,Extra Lives x2 - L,,,,73,,,,,4,18,20,0,0,0,,7,,1,3,1,1,1,0,,4,18,0,0,0,0
+Elite Wraiths on Pteranodon,0,3,2,7,Undead,Flying - L,Extra Lives x3 - L,,,,119,,,,,4,18,40,0,0,0,,7,,1,4,1,1,1,0,,4,18,0,0,0,0
+Zombie Goblins,0,4,1,5,Undead,Horde,Rabble,,,,18,,,,,4,1,-14,0,0,0,,3,,1,1,1,1,1,0,,4,1,-14,0,0,0
+Shades,0,4,2,6,Undead,"Immaterial - L, R2",,,,,43,,,,,4,7,0,0,0,0,,6,,1,1,1,1,1,0,,4,7,0,0,0,0
+Shadows,0,3,2,6,Undead,"Immaterial - L, R2",Ambushers - L,,,,60,,,,,4,7,3,0,0,0,,6,,1,1,1,1,1,0,,4,7,3,0,0,0
+Ghasts,0,3,2,6,Undead,Poison/Venom - L,Resilient - L,,,,71,,,,,4,8,12,0,0,0,,6,,1,1,1,1,1,0,,4,8,12,0,0,0
+Anti-Paladins,30,3,2,7,Resilient - L,Steadfast,,,,,69,,,,,12,5,0,0,0,0,,7,1,1,1,1,1,1,7,,12,5,0,0,0,0
+Anti'Paladin Hero,76,3,2,7,Tough - L,Steadfast,Hero - P,Extra Lives x3 - L,,,136,,,,,24,5,8,40,0,0,,7,1,1,1,4,1,1,28,,24,5,8,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DWARVES  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dwarven Infantry,16,4,2,6,Slow,,,,,,33,,,,,-1,0,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,0,0,0,0,0
+Dwarven Heavy Infantry,17,4,2,7,Slow,,,,,,37,,,,,-1,0,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,0,0,0,0,0
+Dwarven Slingers,16,4,1,6,Shooters 0 - L,Slow,,,,,33,,,,,5,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,5,-1,0,0,0,0
+Dwarven Archers,18,4,1,6,Shooters 1 - L,Slow,,,,,37,,,,,10,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,10,-1,0,0,0,0
+Dwarven Crossbows,21,4,1,6,Shooters 2 - L,Slow,,,,,42,,,,,16,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,16,-1,0,0,0,0
+Dwarven Young,#NUM!,4,1,5,Slow,Rabble,,,,,13,,,,,-1,-14,0,0,0,0,,3,1,1,1,1,1,1,3,,-1,-14,0,0,0,0
+Dwarven Elite Infantry,18,3,2,6,Slow,,,,,,43,,,,,-1,0,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,0,0,0,0,0
+Dwarven Polearms,20,4,2,6,Slow,Savage - L,,,,,40,,,,,-1,9,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,9,0,0,0,0
+Dwarven Elite Polearms,23,3,2,6,Slow,Savage - L,,,,,53,,,,,-1,9,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,9,0,0,0,0
+Dwarven Heavy Polearms,#N/A,4,2,3,Slow,Savage - L,,,,,28,,,,,-1,9,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,-1,9,0,0,0,0
+Dwarven Elite Heavy Polearms,25,3,2,7,Slow,Savage - L,,,,,59,,,,,-1,9,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,9,0,0,0,0
+Dwarven Warhammers,23,4,2,6,Slow,Savage - L,Devastating Charge - L,,,,46,,,,,-1,9,7,0,0,0,,6,1,1,1,1,1,1,6,,-1,9,7,0,0,0
+Dwarven Elite Warhammers,27,3,2,6,Slow,Savage - L,Devastating Charge - L,,,,61,,,,,-1,9,7,0,0,0,,6,1,1,1,1,1,1,6,,-1,9,7,0,0,0
+Dwarven Elite Crossbows/Blunderbusses,24,3,1,6,Shooters 2 - L,Slow,,,,,56,,,,,16,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,16,-1,0,0,0,0
+Dwarves with Runic Blunderbusses,28,4,2,6,Shooters 2 - L,Slow,Poisoned Missiles L,,,,49,,,,,16,-1,4,0,0,0,,6,1,1,"1,5",1,1,1,9,,16,-1,0,0,0,0
+Dwarven Steelwall Warriors,19,4,2,7,Slow,Shieldwall,,,,,40,,,,,-1,4,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,4,0,0,0,0
+Dwarven Scouts,13,4,1,5,Scout - R4,Skirmishers,,,,,33,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+Dwarven Scouts with Bows,16,4,1,5,Scout - R4,Skirmishers,Shooters 1 - L,,,,42,,,,,5,5,10,0,0,0,,3,1,1,1,1,1,1,3,,5,5,10,0,0,0
+Dwarven Tunnel Explorers,24,3,2,6,"Adventuring Party - L1, R1",,,,,,56,,,,,10,0,0,0,0,0,,6,1,1,1,1,1,1,6,,10,0,0,0,0,0
+Dwarven Pikes,19,4,2,6,Slow,Pikes,,,,,38,,,,,-1,6,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,6,0,0,0,0
+Dwarven Elite Pikes,22,3,2,6,Slow,Pikes,,,,,50,,,,,-1,6,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,6,0,0,0,0
+Dwarven Heavily Armored Pikes,20,4,2,7,Slow,Pikes,,,,,42,,,,,-1,6,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,6,0,0,0,0
+Dwarven Heavily Armored Elite Pikes,24,3,2,7,Slow,Pikes,,,,,56,,,,,-1,6,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,6,0,0,0,0
+Weremole,29,4,2,7,Burrowing,"Monster Level 1 - L, R3",Resilient - L,,,,58,,,,,3,10,12,0,0,0,,7,1,1,1,1,1,1,7,,3,10,12,0,0,0
+Werebear,73,4,3,7,Forester,"Monster Level 2 - L, R3",Tough - L,Extra Lives x2 - L,,,112,,,,,5,35,24,20,0,0,,7,1,1,1,3,1,1,21,,5,35,24,0,0,0
+Giant Star-nosed Mole Rider,21,4,2,6,Burrowing,Mounted – L,,,,,41,,,,,3,6,0,0,0,0,,6,1,1,1,1,1,1,6,,3,6,0,0,0,0
+Elite Giant Star-nosed Mole Rider,27,3,2,6,Burrowing,Mounted – L,Devastating Charge - L,,,,62,,,,,3,6,7,0,0,0,,6,1,1,1,1,1,1,6,,3,6,7,0,0,0
+Dwarven Mountaineers,12,4,1,5,Slow,Mountaineer,Skirmishers,,,,31,,,,,-1,3,5,0,0,0,,3,1,1,1,1,1,1,3,,-1,3,5,0,0,0
+Dwarven Siege Tower,67,4,3,7,Siege Engine Level 3 – L,Extra Lives x3 - L,Resilient - L,,,,103,,,,,21,40,12,0,0,0,,7,1,4,1,1,1,1,28,,21,0,12,0,0,0
+Dwarven Light Ballista,18,4,2,5,Artillery level 2 – L,,,,,,46,,,,,20,0,0,0,0,0,,3,1,1,1,1,1,1,3,,20,0,0,0,0,0
+Dwarven Ballista,22,4,2,5,Artillery level 3 - L,,,,,,63,,,,,40,0,0,0,0,0,,3,1,1,1,1,1,1,3,,40,0,0,0,0,0
+Dwarven Catapult,35,4,2,6,Artillery level 3 - L,Resilient - L,,,,,77,,,,,40,12,0,0,0,0,,6,1,1,1,1,1,1,6,,40,12,0,0,0,0
+Dwarven Bombard,46,4,2,6,Artillery level 4 – L,Tough - L,,,,,120,,,,,80,24,0,0,0,0,,6,1,1,1,1,1,1,6,,80,24,0,0,0,0
+Dwarven Light Cannon,44,4,2,6,Artillery level 4 – L,Resilient - L,,,,,110,,,,,80,12,0,0,0,0,,6,1,1,1,1,1,1,6,,80,12,0,0,0,0
+Dwarven Heavy Cannon,120,4,2,6,Artillery level 5 – R1,Tough - L,Extra Lives x3 - L,,,,220,,,,,160,24,40,0,0,0,,6,1,1,4,1,1,1,24,,160,24,0,0,0,0
+Dwarven Light Cannon with elite crew,88,3,2,6,Artillery level 4 – L,Resilient - L,Extra Lives x2 - L,,,,169,,,,,80,12,20,0,0,0,,6,1,1,3,1,1,1,18,,80,12,0,0,0,0
+Dwarven Heavy Cannon with elite crew,138,3,2,6,Artillery level 5 – R1,Tough - L,Extra Lives x3 - L,,,,293,,,,,160,24,40,0,0,0,,6,1,1,4,1,1,1,24,,160,24,0,0,0,0
+Dwarven Dragonfire Cannon,121,4,2,6,Artillery level 5 – R1,Tough - L,Extra Lives x3 - L,Flaming Projectiles,,,224,,,,,160,24,40,5,0,0,,6,1,1,4,1,1,1,24,,160,24,0,5,0,0
+Dwarven Flame Cannon,57,4,2,6,Artillery level 3 - L,Extra Lives x2 - L,Flaming Projectiles,,,,88,,,,,40,20,5,0,0,0,,6,1,3,1,1,1,1,18,,40,0,5,0,0,0
+Dwarven Goblin Pestilence Cannon,31,4,2,6,Artillery level 2 – L,Resilient - L,Plague Projectiles,,,,64,,,,,20,12,5,0,0,0,,6,1,1,1,1,1,1,6,,20,12,5,0,0,0
+Dwarven Bear Cavalry,37,4,2,7,Mounted – L,Extra Lives x2 - L,Horde,,,,60,,,,,6,20,1,0,0,0,,7,1,3,1,1,1,1,21,,6,0,1,0,0,0
+Dwarven Elite Bear Cavalry,48,3,2,7,Mounted – L,Extra Lives x3 - L,,,,,101,,,,,6,40,0,0,0,0,,7,1,4,1,1,1,1,28,,6,0,0,0,0,0
+Dwarven Giant Goat Cavalry,26,4,2,7,Mounted – L,Mountaineer,Devastating Charge - L,,,,51,,,,,6,3,7,0,0,0,,7,1,1,1,1,1,1,7,,6,3,7,0,0,0
+Dwarven Elite Giant Goat Cavalry,29,3,2,7,Mounted – L,Mountaineer,Devastating Charge - L,,,,68,,,,,6,3,7,0,0,0,,7,1,1,1,1,1,1,7,,6,3,7,0,0,0
+Dwarven Pony Cavalry,19,4,2,6,Mounted – L,,,,,,38,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Dwarven Pony Cavalry with Bows,24,4,2,6,Mounted – L,Shooters 1 - L,,,,,47,,,,,6,10,0,0,0,0,,6,1,1,1,1,1,1,6,,6,10,0,0,0,0
+Dwarven Pony Cavalry with Crossbows,26,4,2,6,Mounted – L,Shooters 2 - L,,,,,52,,,,,6,16,0,0,0,0,,6,1,1,1,1,1,1,6,,6,16,0,0,0,0
+Dwarven Chariot,#N/A,4,2,6,Chariot - L,Tough - L,,,,,57,,,,,4,24,0,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,24,0,0,0,0
+Dwarven Heavy Chariot,#N/A,4,2,7,Chariot - L,Tough - L,Extra Lives x2 - L,,,,78,,,,,4,24,20,0,0,0,,7,#N/A,1,3,1,1,1,#N/A,,#N/A,24,0,0,0,0
+Dwarven Chariot with Javelineer,#N/A,4,2,6,Chariot - L,Tough - L,Shooters 0 - L,,,,61,,,,,4,24,5,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,24,5,0,0,0
+Dwarven Heavy Chariot with Bowman,#N/A,4,2,7,Chariot - L,Tough - L,Extra Lives x2 - L,Shooters 1 - L,,,86,,,,,4,24,20,10,0,0,,7,#N/A,1,3,1,1,1,#N/A,,#N/A,24,0,10,0,0
+Dwarven Dragon Ale Flamethrower,56,3,2,6,Shooters 3 - P,Hero - P,Extra Lives x2 - L,Slow,,,98,,,,,21,8,20,-1,0,0,,6,1,1,3,1,1,1,18,,21,8,0,-1,0,0
+Dwarven Crossbow Marksman,29,3,2,6,Shooters 3 - P,Slow,,,,,67,,,,,21,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,21,-1,0,0,0,0
+Dwarven War Giant,0,4,2,8,Giant Level 5- R1,Tough - L,Trample - L,Unpredictable,Extra Lives x4 - P,,200,,,,,80,24,7,-1,80,0,,8,1,1,1,,1,1,0,,80,24,7,-1,80,0
+Dwarven War Giant with Ballista,0,4,2,8,Giant Level 5- R1,Tough - L,Trample - L,Unpredictable,Extra Lives x4 - P,Shooters 3 - P,218,,,,,80,24,7,-1,80,21,,8,1,1,1,,1,1,0,,80,24,7,-1,80,21
+Bear Handler,20,4,2,6,Beast Lord - P,,,,,,39,,,,,7,0,0,0,0,0,,6,1,1,1,1,1,1,6,,7,0,0,0,0,0
+Attack Bears,28,4,2,7,Animal,Tough - L,Horde,,,,57,,,,,-2,24,1,0,0,0,,7,1,1,1,1,1,1,7,,-2,24,1,0,0,0
+Boar Handler,22,4,2,6,Beast Lord - P,Forester,,,,,43,,,,,7,5,0,0,0,0,,6,1,1,1,1,1,1,6,,7,5,0,0,0,0
+Wild Boars,30,4,2,7,Animal,Tough - L,Horde,Forester,,,61,,,,,-2,24,1,5,0,0,,7,1,1,1,1,1,1,7,,-2,24,1,5,0,0
+Dwarven Bersekers,21,4,2,6,"Berserk - L, R3",Horde,,,,,41,,,,,8,1,0,0,0,0,,6,1,1,1,1,1,1,6,,8,1,0,0,0,0
+Dwarven Barbarians,17,4,2,6,Horde,,,,,,34,,,,,1,0,0,0,0,0,,6,1,1,1,1,1,1,6,,1,0,0,0,0,0
+Dwarven Barbarians with heavy weapons,20,4,2,6,Horde,Devastating Charge - L,,,,,40,,,,,1,7,0,0,0,0,,6,1,1,1,1,1,1,6,,1,7,0,0,0,0
+Dwarven Barbarian Slingers,15,4,1,5,Skirmishers,Shooters 1 - L,,,,,38,,,,,5,10,0,0,0,0,,3,1,1,1,1,1,1,3,,5,10,0,0,0,0
+Dwarven Great Axes,24,4,2,6,Slow,Resilient - L,Devastating Charge - L,,,,48,,,,,-1,12,7,0,0,0,,6,1,1,1,1,1,1,6,,-1,12,7,0,0,0
+Dwarven Elite Great Axes,28,3,2,6,Slow,Resilient - L,Devastating Charge - L,,,,64,,,,,-1,12,7,0,0,0,,6,1,1,1,1,1,1,6,,-1,12,7,0,0,0
+Dwarven Orcslayers,18,4,2,6,Slow,"Slayers - L, R3",,,,,37,,,,,-1,5,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,5,0,0,0,0
+Dwarven War Tank,70,3,1,8,Slow,Tough - L,Shooters 3 - P,Siege Engine Level 3 – L,Extra Lives x4 - P,,211,,,,,-1,24,21,21,80,0,,8,1,1,1,1,1,1,8,,-1,24,21,21,80,0
+Dwarven Muskets,26,4,2,6,Slow,Shooters 2 - L,Drilled - L,,,,53,,,,,-1,16,8,0,0,0,,6,1,1,1,1,1,1,6,,-1,16,8,0,0,0
+Barbarian Forest Guides,18,4,1,6,Slow,Forester,Scout - R4,,,,37,,,,,-1,5,5,0,0,0,,6,1,1,1,1,1,1,6,,-1,5,5,0,0,0
+Dwarven Champion,63,3,3,7,Slow,Champion - P,Extra Lives x2 - L,Tough - L,,,108,,,,,-1,4,20,24,0,0,,7,1,1,3,1,1,1,21,,-1,4,0,24,0,0
+Dwarven General,61,3,3,7,Slow,"General – P, R1",Extra Lives x4 - P,Tough - L,,,183,,,,,-1,12,80,24,0,0,,7,1,1,1,1,1,1,7,,-1,12,80,24,0,0
+Dwarven Sub-Commander,#N/A,3,3,7,Slow,Sub-Commander,Extra Lives x2 - L,Resilient - L,,,101,,,,,-1,10,20,12,0,0,,7,1,#N/A,3,1,1,1,#N/A,,-1,#N/A,0,12,0,0
+Dwarven Hero,27,3,3,7,Slow,Hero - P,,,,,63,,,,,-1,8,0,0,0,0,,7,1,1,1,1,1,1,7,,-1,8,0,0,0,0
+Dwarven Trollslayers,35,3,2,6,Slow,Tough - L,Devastating Charge - L,"Slayers - L, R3",,,83,,,,,-1,24,7,5,0,0,,6,1,1,1,1,1,1,6,,-1,24,7,5,0,0
+Dwarven Giantslayers,65,3,2,7,Slow,Tough - L,Devastating Charge - L,"Slayers - L, R3",Extra Lives x2 - L,,111,,,,,-1,24,7,5,20,0,,7,1,1,1,1,3,1,21,,-1,24,7,5,0,0
+Dwarven Goblinslayers,18,4,2,6,Slow,"Slayers - L, R3",,,,,37,,,,,-1,5,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,5,0,0,0,0
+Dwarven Dragonslayers,75,3,2,7,Slow,Tough - L,Devastating Charge - L,"Slayers - L, R3",Extra Lives x3 - L,,133,,,,,-1,24,7,5,40,0,,7,1,1,1,1,4,1,28,,-1,24,7,5,0,0
+Enslaved Land Wyrm,0,4,4,7,"Monster Level 4 – L, R2",Tough - L,Poison/Venom - L,Unpredictable,,,155,,,,,100,24,8,-1,0,0,,7,1,1,1,,1,1,0,,100,24,8,-1,0,0
+Dwarven Drunkards,0,5,2,6,Slow,Unreliable,,,,,21,,,,,-1,-2,0,0,0,0,,6,1,,1,1,1,1,0,,-1,-2,0,0,0,0
+Dwarven Drunkards on Ponies,0,4,2,6,Mounted – L,Unreliable,,,,,37,,,,,6,-2,0,0,0,0,,6,1,,1,1,1,1,0,,6,-2,0,0,0,0
+Legendary Brewer's Cart,#N/A,4,2,6,Chariot - L,"Army Standard – P, R1",Resilient - L,Extra Lives x3 - L,,,87,,,,,4,8,12,40,0,0,,6,#N/A,#N/A,1,4,1,1,#N/A,,#N/A,#N/A,12,0,0,0
+Dwarven Halls High Guard,45,3,3,7,Bodyguards - L,Slow,Extra Lives x2 - L,,,,82,,,,,5,-1,20,0,0,0,,7,1,1,3,1,1,1,21,,5,-1,0,0,0,0
+Dwarven Warrior King,66,3,3,7,Hero - P,"General – P, R1",Tough - L,Extra Lives x4 - P,Slow,"Inspiring Leader - P, R1",206,,,,,8,12,24,80,-1,12,,7,1,1,1,1,1,1,7,,8,12,24,80,-1,12
+Dwarven Noble,#N/A,3,3,7,Hero - P,Sub-Commander,,,,,76,,,,,8,10,0,0,0,0,,7,1,#N/A,1,1,1,1,#N/A,,8,#N/A,0,0,0,0
+Dwarven Runecaster,23,3,1,5,Spell-Caster - P,Slow,Spell: Chaos,Spell: Destroy Constructs,Spell: Fireball,Spell: Fury,70,,,,,10,-1,8,2,6,8,,3,1,1,1,1,1,1,3,,10,-1,8,2,6,8
+Apprentice Runecaster,17,4,1,5,Spell-Caster - P,Slow,Spell: Chaos,Spell: Fireball,,,44,,,,,10,-1,8,6,0,0,,3,1,1,1,1,1,1,3,,10,-1,8,6,0,0
+Dwarf Assassin,28,3,2,6,"Assassin Level 2 - P, R3",Stealth - P,,,,,63,,,,,14,3,0,0,0,0,,6,1,1,1,1,1,1,6,,14,3,0,0,0,0
+Novice Assassin,21,4,2,6,"Assassin Level 1 - P, R3",Stealth - P,,,,,42,,,,,7,3,0,0,0,0,,6,1,1,1,1,1,1,6,,7,3,0,0,0,0
+Dwarf Master Assassin,61,3,2,6,"Assassin Level 3 - P, R2",Stealth - P,Resilient - L,Extra Lives x2 - L,,,107,,,,,21,3,12,20,0,0,,6,1,1,1,3,1,1,18,,21,3,12,0,0,0
+Dwarf Rangers,#N/A,3,3,6,Ranger,Forester,Mountaineer,Extra Lives x2 - L,,,66,,,,,-14,5,3,20,0,0,,6,#N/A,1,1,3,1,1,#N/A,,#N/A,5,3,0,0,0
+Dwarven Ornithopter or Helicopter,39,3,1,7,Difficult Target,Flying - L,Fast,Shooters 2 - L,,,92,,,,,5,18,4,16,0,0,,7,1,1,1,1,1,1,7,,5,18,4,16,0,0
+Heavy Ornithopter or Helicopter,38,4,1,7,Flying - L,Shooters 2 - L,Tough - L,,,,82,,,,,18,16,24,0,0,0,,7,1,1,1,1,1,1,7,,18,16,24,0,0,0
+Snow Dwarves,13,4,1,5,Slow,Snow-Walk,Skirmishers,Mountaineer,,,33,,,,,-1,2,5,3,0,0,,3,1,1,1,1,1,1,3,,-1,2,5,3,0,0
+Dwarven Miners,15,4,1,6,Burrowing,Slow,,,,,31,,,,,3,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,3,-1,0,0,0,0
+Dwarven Civilians,10,5,1,6,Slow,,,,,,19,,,,,-1,0,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,0,0,0,0,0
+Dwarven Engineers,18,4,2,6,Slow,Engineers - L,,,,,36,,,,,-1,4,0,0,0,0,,6,1,1,1,1,1,1,6,,-1,4,0,0,0,0
+Dwarven Engineers with grenades,#N/A,4,2,6,Slow,Engineers - L,Grenades,,,,41,,,,,-1,4,6,0,0,0,,6,1,1,#N/A,1,1,1,#N/A,,-1,4,#N/A,0,0,0
+Dwarf Automaton,41,4,3,7,Artificial,"Monster Level 2 - L, R3",Tough - L,,,,93,,,,,3,35,24,0,0,0,,7,1,1,1,1,1,1,7,,3,35,24,0,0,0
+Dwarf Small Automaton,31,4,3,7,Artificial,Tough - L,,,,,64,,,,,3,24,0,0,0,0,,7,1,1,1,1,1,1,7,,3,24,0,0,0,0
+Dwarf Giant Automaton,63,4,4,8,Artificial,Giant Level 3- L,Tough - L,Extra Lives x4 - P,,,168,,,,,3,35,24,80,0,0,,8,1,1,1,1,1,1,8,,3,35,24,80,0,0
+Dwarf Runic Golem,98,3,3,7,Artificial,Giant Level 3- L,Tough - L,Extra Lives x3 - L,Talisman vs. Fey Creatures -P,,173,,,,,3,35,24,40,4,0,,7,1,1,1,4,1,1,28,,3,35,24,0,4,0
+Dwarf Knights on Hogs,29,3,3,7,Mounted – L,Fearless,,,,,68,,,,,6,5,0,0,0,0,,7,1,1,1,1,1,1,7,,6,5,0,0,0,0
+Mountain Giant,57,4,4,7,Mountaineer,Giant Level 3- L,Extra Lives x4 - P,Resilient - L,,,154,,,,,3,35,80,12,0,0,,7,1,1,1,1,1,1,7,,3,35,80,12,0,0
+Dwarven Hero on Ram,59,3,3,6,Mountaineer,Mounted – L,Fast,Devastating Charge - L,Hero - P,Extra Lives x2 - L,103,,,,,3,6,4,7,8,20,,6,1,1,1,1,1,3,18,,3,6,4,7,8,0
+Dwarven Druid,22,3,1,5,Spell-Caster - P,Slow,Spell: Alter Terrain,Spell: Eagle's Eyes,Spell: Windstorm,Spell: Summon Monster,68,,,,,10,-1,5,3,4,10,,3,1,1,1,1,1,1,3,,10,-1,5,3,4,10
+Apprentice Druid,16,4,1,5,Spell-Caster - P,Slow,Spell: Alter Terrain,Spell: Windstorm,,,40,,,,,10,-1,5,4,0,0,,3,1,1,1,1,1,1,3,,10,-1,5,4,0,0
+Dwarven Giant Bat Riders,26,4,1,6,Flying - L,Difficult Target,Shooters 0 - L,,,,53,,,,,18,5,5,0,0,0,,6,1,1,1,1,1,1,6,,18,5,5,0,0,0
+Dwarven Griffin Riders,32,4,1,6,Flying - L,Devastating Charge - L,Savage - L,Resilient - L,,,68,,,,,18,7,9,12,0,0,,6,1,1,1,1,1,1,6,,18,7,9,12,0,0
+Dwarven Grenadiers,#N/A,4,1,5,Shooters 2 - L,Slow,Skirmishers,Grenades,,,47,,,,,16,-1,5,6,0,0,,3,1,1,1,#N/A,1,1,#N/A,,16,-1,5,#N/A,0,0
+Mechanical Sappers,27,4,1,6,Tough - L,Artificial,Engineers - L,,,,55,,,,,24,3,4,0,0,0,,6,1,1,1,1,1,1,6,,24,3,4,0,0,0
+Runic Altar,#N/A,4,2,7,Spell-Caster - P,Slow,Spell: Armor,Spell: Meteor Storm,Tough - L,Unique,76,Extra Lives x2 – L,,,,10,-1,5,4,24,4,,7,1,1,1,1,1,#N/A,#N/A,,10,-1,5,4,24,#N/A
+Dwarven Armored Chariot,#N/A,4,2,9,"Chariot level 6 – P, R2",Slow,Tough - L,Extra Lives x3 - L,,,115,,,,,20,-1,24,40,0,0,,9,#N/A,1,1,4,1,1,#N/A,,#N/A,-1,24,0,0,0
+Runic Altar Guards,,3,2,7,Steadfast,Slow,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dwarven High Priest,34,3,2,6,Spell-Caster - P,Slow,Spell: Blessing,Spell: Curse,Spell: Futuresight,High Priest - P,80,,,,,10,-1,4,5,5,9,,6,1,1,1,1,1,1,6,,10,-1,4,5,5,9
+Dwarven Clerics,13,4,2,5,"Slayers - L, R3",Slow,,,,,33,,,,,5,-1,0,0,0,0,,3,1,1,1,1,1,1,3,,5,-1,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GNOMES  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gnome Warriors,14,4,1,5,Forester,Ambushers - L,Difficult Target,,,,36,,,,,5,3,5,0,0,0,,3,1,1,1,1,1,1,3,,5,3,5,0,0,0
+Gnome Archers,18,4,1,5,Forester,Shooters 1 - L,Difficult Target,Skirmishers,,,46,,,,,5,10,5,5,0,0,,3,1,1,1,1,1,1,3,,5,10,5,5,0,0
+Gnome Highwaymen,15,4,1,5,Forester,Highwaymen – R2,Skirmishers,,,,38,,,,,5,5,5,0,0,0,,3,1,1,1,1,1,1,3,,5,5,5,0,0,0
+Gnome Highwaymen with Handguns or crossbows,19,4,1,5,Forester,Highwaymen – R2,Skirmishers,Shooters 2 - L,,,51,,,,,5,5,5,16,0,0,,3,1,1,1,1,1,1,3,,5,5,5,16,0,0
+Gnome Miners,17,4,0,6,Burrowing,Slow,Difficult Target,Skirmishers,,,35,,,,,3,-1,5,5,0,0,,6,1,1,1,1,1,1,6,,3,-1,5,5,0,0
+Gnome Treasure Hunters,16,4,1,5,"Adventuring Party - L1, R1",Difficult Target,Ambushers - L,,,,40,,,,,10,5,3,0,0,0,,3,1,1,1,1,1,1,3,,10,5,3,0,0,0
+Gnome Shield Maidens,21,4,1,6,Shieldwall,Slow,Difficult Target,Devastating Charge - L,,,42,,,,,4,-1,5,7,0,0,,6,1,1,1,1,1,1,6,,4,-1,5,7,0,0
+Gnome Hare Riders,21,4,0,6,Mounted – L,Fast,Difficult Target,Skirmishers,,,42,,,,,6,4,5,5,0,0,,6,1,1,1,1,1,1,6,,6,4,5,5,0,0
+Gnome Hare Chariot,23,3,0,6,Chariot level 2 - L,Fast,Shooters 0 - L,Skirmishers,,,53,,,,,4,4,5,5,0,0,,6,1,1,1,1,1,1,6,,4,4,5,5,0,0
+Gnome Hero,34,3,2,5,Forester,Hero - P,Difficult Target,Extra Lives x2 - L,,,81,,,,,5,8,5,20,0,0,,3,1,1,1,3,1,1,9,,5,8,5,0,0,0
+Gnome Hero on Hare,39,3,2,5,Forester,Hero - P,Difficult Target,Extra Lives x2 - L,Mounted – L,Fast,92,,,,,5,8,5,20,6,4,,3,1,1,1,3,1,1,9,,5,8,5,0,6,4
+Gnomes Smoke Grenadiers,#N/A,4,1,5,Grenades,Poisoned Missiles L,Difficult Target,Skirmishers,,,42,,,,,6,4,5,5,0,0,,3,#N/A,"1,5",1,1,1,1,#N/A,,#N/A,0,5,5,0,0
+Gnome Small Flying Automaton,29,4,3,7,Artificial,Flying - L,,,,,59,,,,,3,18,0,0,0,0,,7,1,1,1,1,1,1,7,,3,18,0,0,0,0
+Gnome Small Flying Mechanical Animals,24,4,3,7,Artificial,Flying - L,Rabble,,,,48,,,,,3,18,-14,0,0,0,,7,1,1,1,1,1,1,7,,3,18,-14,0,0,0
+Gnomes with Poisoned Javelins,16,4,1,5,Difficult Target,Shooters 0 - L,Poisoned Missiles L,,,,37,,,,,5,5,4,0,0,0,,3,1,1,"1,5",1,1,1,"4,5",,5,5,0,0,0,0
+Gnome Artillery with Gas Bombs,18,4,1,5,Artillery level 2 – L,Plague Projectiles,,,,,46,,,,,20,5,0,0,0,0,,3,1,1,1,1,1,1,3,,20,5,0,0,0,0
+Gnome King,57,3,2,7,"General – P, R1",Resilient - L,Extra Lives x2 - L,,,,99,,,,,12,12,20,0,0,0,,7,1,1,3,1,1,1,21,,12,12,0,0,0,0
+Gnome Champion,29,3,2,6,Champion - P,Resilient - L,Fearless,,,,68,,,,,4,12,5,0,0,0,,6,1,1,1,1,1,1,6,,4,12,5,0,0,0
+Gnome Forest Guide,#N/A,3,2,5,Forester,Resilient - L,Ranger -P,Extra Lives x2 - L,,,86,,,,,5,12,5,20,0,0,,3,1,1,#N/A,3,1,1,#N/A,,5,12,#N/A,0,0,0
+Gnome Bodyguard,21,3,2,5,Forester,Resilient - L,Bodyguards - L,,,,63,,,,,5,12,5,0,0,0,,3,1,1,1,1,1,1,3,,5,12,5,0,0,0
+Gnome Cannon,,3,2,7,Artillery level 2 – L,Fear Projectiles,,,,,81,,,,,20,8,0,0,0,0,,,,,,,,,,,,,,,,
+Gnome Spore Catapult,,3,2,7,Artillery level 3 - L,Plague Projectiles,,,,,100,,,,,40,5,0,0,0,0,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HUMANS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Human Infantry,#DIV/0!,4,2,5,,,,,,,29,,,,,0,0,0,0,0,0,,3,1,1,1,1,1,1,3,,0,0,0,0,0,0
+Human Light Infantry,#DIV/0!,4,1,4,Skirmishers,,,,,,25,,,,,5,0,0,0,0,0,,2,1,1,1,1,1,1,2,,5,0,0,0,0,0
+Human Rabble Infantry,#NUM!,4,1,4,Rabble,"Expendable - L, R4",,,,,9,,,,,-14,0,0,0,0,0,,2,1,2,1,1,1,1,4,,-14,0,0,0,0,0
+Human Elite Infantry,#DIV/0!,3,2,6,,,,,,,44,,,,,0,0,0,0,0,0,,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+Human Heavy Infantry,#DIV/0!,4,2,7,,,,,,,38,,,,,0,0,0,0,0,0,,7,1,1,1,1,1,1,7,,0,0,0,0,0,0
+Human Heavy Infantry with Heavy weapons,#DIV/0!,4,2,6,Savage - L,,,,,,41,,,,,9,0,0,0,0,0,,6,1,1,1,1,1,1,6,,9,0,0,0,0,0
+Human Slingers,#DIV/0!,4,1,5,Shooters 0 - L,Skirmishers,,,,,33,,,,,5,5,0,0,0,0,,3,1,1,1,1,1,1,3,,5,5,0,0,0,0
+Human Archers,#DIV/0!,4,1,5,Shooters 2 - L,Skirmishers,,,,,43,,,,,16,5,0,0,0,0,,3,1,1,1,1,1,1,3,,16,5,0,0,0,0
+Human Armored Archers,#DIV/0!,4,1,6,Shooters 2 - L,,,,,,43,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+Human Crossbowmen,#DIV/0!,4,1,5,Shooters 2 - L,,,,,,38,,,,,16,0,0,0,0,0,,3,1,1,1,1,1,1,3,,16,0,0,0,0,0
+Human Armored Crossbowmen,#DIV/0!,4,1,6,Shooters 2 - L,Slow,,,,,42,,,,,16,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,16,-1,0,0,0,0
+Elite Crossbowmen,25,3,1,6,Shooters 2 - L,,,,,,57,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+"Elite Crossbowmen, Armored",26,3,1,7,Shooters 2 - L,Slow,,,,,61,,,,,16,-1,0,0,0,0,,7,1,1,1,1,1,1,7,,16,-1,0,0,0,0
+Human Elite Armored Crossbowmen,#DIV/0!,3,1,6,Shooters 2 - L,Slow,,,,,56,,,,,16,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,16,-1,0,0,0,0
+Human Pikemen,#DIV/0!,4,2,5,Pikes,,,,,,34,,,,,6,0,0,0,0,0,,3,1,1,1,1,1,1,3,,6,0,0,0,0,0
+Human Armored Pikemen,#DIV/0!,4,2,6,Pikes,Slow,,,,,38,,,,,6,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,6,-1,0,0,0,0
+Human Elite Armored Pikemen,#DIV/0!,4,2,6,Pikes,Slow,Drilled - L,Steadfast,,,48,,,,,6,-1,8,5,0,0,,6,1,1,1,1,1,1,6,,6,-1,8,5,0,0
+Human Mountain Troops,#DIV/0!,4,2,5,Mountaineer,Snow-Walk,,,,,33,,,,,3,2,0,0,0,0,,3,1,1,1,1,1,1,3,,3,2,0,0,0,0
+Human Mob,#NUM!,4,1,5,Rabble,Horde,,,,,14,,,,,-14,1,0,0,0,0,,3,1,1,1,1,1,1,3,,-14,1,0,0,0,0
+Villagers,#NUM!,4,1,4,Rabble,,,,,,9,,,,,-14,0,0,0,0,0,,2,1,1,1,1,1,1,2,,-14,0,0,0,0,0
+Human Boatmen,9,4,1,4,Boat,,,,,,23,,,,,3,0,0,0,0,0,,2,1,1,1,1,1,1,2,,3,0,0,0,0,0
+Human Messenger,10,4,1,4,Fast,Difficult Target,Reluctant,,,,27,,,,,4,5,-2,0,0,0,,2,1,1,1,1,1,1,2,,4,5,-2,0,0,0
+Human Light Cavalry,15,4,1,5,Mounted – L,Fast,Skirmishers,,,,38,,,,,6,4,5,0,0,0,,3,1,1,1,1,1,1,3,,6,4,5,0,0,0
+Human Light Horse Archers,19,4,2,5,Mounted – L,Fast,Skirmishers,Shooters 1 - L,,,50,,,,,6,4,5,10,0,0,,3,1,1,1,1,1,1,3,,6,4,5,10,0,0
+Human Heavy Cavalry,19,4,2,6,Mounted – L,,,,,,38,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Human Elite Heavy Cavalry,22,3,2,6,Mounted – L,,,,,,51,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Human Heavy Cavalry with Lances,22,4,2,6,Mounted – L,Devastating Charge - L,,,,,44,,,,,6,7,0,0,0,0,,6,1,1,1,1,1,1,6,,6,7,0,0,0,0
+Human Elite Knights with Lances,28,3,2,6,Mounted – L,Devastating Charge - L,Steadfast,,,,64,,,,,6,7,5,0,0,0,,6,1,1,1,1,1,1,6,,6,7,5,0,0,0
+Human Airship with balllistas,#N/A,4,1,7,Airship,Artillery level 2 – L,Tough - L,Extra Lives x3 - L,Flying - L,Fast,130,,,,,10,20,24,40,18,4,,7,#N/A,1,1,4,1,1,#N/A,,#N/A,20,24,0,18,4
+Human Heavy Airship with cannons,#N/A,4,1,7,Airship,Artillery level 4 – L,Tough - L,Extra Lives x4 - P,Flying - L,,210,,,,,10,80,24,80,18,0,,7,#N/A,1,1,1,1,1,#N/A,,#N/A,80,24,80,18,0
+City Militia ,11,4,2,5,Reluctant,,,,,,28,,,,,-2,0,0,0,0,0,,3,1,1,1,1,1,1,3,,-2,0,0,0,0,0
+City Militia with Bows,14,4,2,5,Reluctant,Shooters 1 - L,,,,,36,,,,,-2,10,0,0,0,0,,3,1,1,1,1,1,1,3,,-2,10,0,0,0,0
+Human General,60,3,3,7,"General – P, R1",Extra Lives x3 - L,,,,,113,,,,,12,40,0,0,0,0,,7,1,4,1,1,1,1,28,,12,0,0,0,0,0
+Dragon-Riding Knight,158,3,4,9,Flying - L,Devastating Charge - L,Dragon Breath level 2 - R3,"Monster Level 3 - L, R3",Tough - L,Extra Lives x3 - L,282,,,,,18,7,40,60,24,40,,9,1,1,1,1,1,4,36,,18,7,40,60,24,0
+Small Cannon,21,4,1,5,Artillery level 3 - L,,,,,,58,,,,,40,0,0,0,0,0,,3,1,1,1,1,1,1,3,,40,0,0,0,0,0
+Battle Wizard,20,3,1,5,Spell-Caster - P,Spell: Fireball,Spell: Lightning Bolt,,,,58,,,,,10,6,6,0,0,0,,3,1,1,1,1,1,1,3,,10,6,6,0,0,0
+Human Light Chariot,24,4,1,6,Chariot level 2 - L,Fast,Skirmishers,Shooters 1 - L,,,48,,,,,4,4,5,10,0,0,,6,1,1,1,1,1,1,6,,4,4,5,10,0,0
+Human Heavy Chariot,#N/A,4,2,6,Chariot level 3 - L,,Resilient - L,,,,49,,,,,7,0,12,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,0,12,0,0,0
+Human Armored Chariot,#N/A,4,2,6,Chariot level 4 - L,Trample - L,Resilient - L,,,,58,,,,,10,7,12,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,7,12,0,0,0
+Human Turtle Chariot,#N/A,4,2,8,"Chariot level 5 – L, R3",Trample - L,Tough - L,Extra Lives x3 - L,Slow,,112,,,,,14,7,24,40,-1,0,,8,#N/A,1,1,4,1,1,#N/A,,#N/A,7,24,0,-1,0
+Woodsman,#N/A,4,1,5,Ranger -P,Forester,,,,,33,,,,,5,5,0,0,0,0,0,3,#N/A,1,1,1,1,1,#N/A,,#N/A,5,0,0,0,0
+,,,,,,,,,,,0,,,,,,,,,,,0,,,,,,,,,,,,,,,
+LIZARDMEN  ,#N/A,,,,,,,,,,0,,,,,0,0,0,0,0,0,0,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+Lizardmen barbarians,17,4,2,6,Horde,,,,,,34,,,,,1,0,0,0,0,0,0,6,1,1,1,1,1,1,6,,1,0,0,0,0,0
+Giant Lizardmen,54,4,3,6,Resilient - L,Extra Lives x2 - L,Giant Level 2 - L,,,,83,,,,,12,20,22,0,0,0,0,6,1,3,1,1,1,1,18,,12,0,22,0,0,0
+Small Dinosaur,59,4,2,6,Tough - L,Extra Lives x3 - L,Savage - L,,,,94,,,,,24,40,9,0,0,0,0,6,1,4,1,1,1,1,24,,24,0,9,0,0,0
+Lizardmen clubmen,16,4,2,6,,,,,,,33,,,,,0,0,0,0,0,0,0,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+Lizardman Infantry,16,4,2,6,,,,,,,33,,,,,0,0,0,0,0,0,0,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+Lizardmen Javelineers,14,4,1,5,Shooters 0 - L,Poisoned Missiles L,,,,,33,,,,,5,4,0,0,0,0,0,3,1,"1,5",1,1,1,1,"4,5",,5,0,0,0,0,0
+Lizardmen Shooters,13,4,1,5,Shooters 1 - L,,,,,,33,,,,,10,0,0,0,0,0,0,3,1,1,1,1,1,1,3,,10,0,0,0,0,0
+Poison Throwing Cannon,22,4,1,5,Artillery level 3 - L,Plague Projectiles,,,,,63,,,,,40,5,0,0,0,0,0,3,1,1,1,1,1,1,3,,40,5,0,0,0,0
+Naga Witch,66,3,2,6,Spell-Caster - P,Spell: Terror,Spell: Curse,Tough - L,Extra Lives x2 - L,,117,,,,,10,6,5,24,20,0,0,6,1,1,1,1,3,1,18,,10,6,5,24,0,0
+Lizardman General,30,3,3,7,"General – P, R1",,,,,,69,,,,,12,0,0,0,0,0,0,7,1,1,1,1,1,1,7,,12,0,0,0,0,0
+Komodo Dragons,22,4,2,6,Resilient - L,Animal,Ambushers - L,,,,44,,,,,12,-2,3,0,0,0,0,6,1,1,1,1,1,1,6,,12,-2,3,0,0,0
+Lizardmen crossbows,15,4,1,5,Shooters 2 - L,,,,,,38,,,,,16,0,0,0,0,0,0,3,1,1,1,1,1,1,3,,16,0,0,0,0,0
+Lizardmen Elite Macemen,20,4,2,6,Drilled - L,,,,,,40,,,,,8,0,0,0,0,0,0,6,1,1,1,1,1,1,6,,8,0,0,0,0,0
+Lizardmen Armored Infantry,26,4,2,7,Slow,Drilled - L,Savage - L,,,,51,,,,,-1,8,9,0,0,0,0,7,1,1,1,1,1,1,7,,-1,8,9,0,0,0
+Lizardman Champion,23,3,2,7,Champion - P,,,,,,54,,,,,4,0,0,0,0,0,0,7,1,1,1,1,1,1,7,,4,0,0,0,0,0
+Lizardman Desert Raider,18,4,2,6,Desert-Walk,,,,,,36,,,,,3,0,0,0,0,0,0,6,1,1,1,1,1,1,6,,3,0,0,0,0,0
+Lizardmam Desert Guide,#N/A,3,3,7,Desert-Walk,Ranger -P,,,,,64,,,,,3,5,0,0,0,0,0,7,1,#N/A,1,1,1,1,#N/A,,3,#N/A,0,0,0,0
+Pteranodon Air Cavalry,64,3,2,8,Flying - L,Shooters 1 - L,Extra Lives x2 - L,,,,109,,,,,18,10,20,0,0,0,0,8,1,1,3,1,1,1,24,,18,10,0,0,0,0
+Lizardman Discipline Master,25,3,2,7,"Discipline Master -P, R1",,,,,,59,,,,,8,0,0,0,0,0,0,7,1,1,1,1,1,1,7,,8,0,0,0,0,0
+Lizardman Warband,0,4,2,6,Desert-Walk,warband,,,,,39,,,,,3,4,0,0,0,0,0,6,1,,1,1,1,1,0,,3,4,0,0,0,0
+Lizardman Veteran Warband,0,4,2,6,Desert-Walk,warband,Drilled - L,,,,46,,,,,3,4,8,0,0,0,0,6,1,,1,1,1,1,0,,3,4,8,0,0,0
+Lizardman Jungle Fighters,0,4,2,6,Forester,warband,Poison/Venom - L,,,,48,,,,,5,4,8,0,0,0,0,6,1,,1,1,1,1,0,,5,4,8,0,0,0
+Lizardman Emerald Skins,0,4,2,6,Desert-Walk,warband,Resilient - L,,,,49,,,,,3,4,12,0,0,0,0,6,1,,1,1,1,1,0,,3,4,12,0,0,0
+Lizardman Jungle Ambushers,31,4,2,6,Forester,Ambushers - L,Poison/Venom - L,Shooters 0 - L,Poisoned Missiles L,,54,,,,,5,3,8,5,4,0,0,6,1,1,1,1,"1,5",1,9,,5,3,8,5,0,0
+Turtlemen Mercenaries,15,4,1,8,Amphibious,Slow,Reluctant,,,,38,,,,,3,-1,-2,0,0,0,0,8,1,1,1,1,1,1,8,,3,-1,-2,0,0,0
+Turtlemen Bodyguards,23,4,2,8,Amphibious,Slow,Bodyguards - L,,,,48,,,,,3,-1,5,0,0,0,0,8,1,1,1,1,1,1,8,,3,-1,5,0,0,0
+Lizardmen Rabble Shooters,9,4,1,5,Shooters 1 - L,Poisoned Missiles L,Rabble,,,,25,,,,,10,4,-14,0,0,0,0,3,1,"1,5",1,1,1,1,"4,5",,10,0,-14,0,0,0
+Thunder Lizards,0,4,4,9,"Monster Level 3 - L, R3",Extra Lives x4 - P,Unpredictable,,,,170,,,,,60,80,-1,0,0,0,0,9,1,1,,1,1,1,0,,60,80,-1,0,0,0
+Raptors,23,4,2,6,Fast,Animal,Devastating Charge - L,Forester,,,45,,,,,4,-2,7,5,0,0,0,6,1,1,1,1,1,1,6,,4,-2,7,5,0,0
+Lizardman Raptor Handler,29,3,2,7,Beast Lord - P,Fast,Forester,,,,68,,,,,7,4,5,0,0,0,0,7,1,1,1,1,1,1,7,,7,4,5,0,0,0
+Lizardman Jungle Shaman,50,3,1,6,Spell-Caster - P,Extra Lives x2 - L,Forester,Spell: Alter Terrain,Spell: Armor,,89,,,,,10,20,5,5,5,0,0,6,1,3,1,1,1,1,18,,10,0,5,5,5,0
+Lizardman Priestess of Ssikliss,,3,2,6,Spell-Caster - P,High Priest - P,Spell: Bolster,Spell: Chaos,Spell: Lightning Bolt,Spell: Destroy Constructs,90,,,,,10,9,6,8,6,2,0,0,1,1,1,1,0,0,0,0,0,0,,,,
+Lizardman Assassin,,3,2,6,Stealth - P,"Assassin Level 2 - P, R3",Forester,Poison/Venom - L,,,78,,,,,3,14,5,8,0,0,0,0,1,1,1,1,0,0,0,0,0,0,,,,
+Lizardman Siege Tower,,4,3,7,Siege Engine Level 1 - L,Forester,Tough - L,Extra Lives x2 - L,,,88,,,,,7,5,24,20,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,
+Lizardman Light Chariot,28,4,3,6,Chariot level 2 - L,Shooters 0 - L,Resilient - L,Desert-Walk,,,58,,,,,4,5,12,3,0,0,0,6,1,1,1,1,1,1,6,,4,5,12,3,0,0
+Thunder Lizard Heavy Chariot,#N/A,4,3,8,"Chariot level 5 – L, R3",Shooters 0 - L,Tough - L,Trample - L,Extra Lives x2 - L,,104,,,,,14,5,24,7,20,0,0,8,#N/A,1,1,1,3,1,#N/A,,#N/A,5,24,7,0,0
+Lizardman Poison Cannon,,3,1,6,Artillery level 3 - L,Plague Projectiles,Resilient - L,,,,102,,,,,40,5,12,0,0,0,0,0,0,0,0,,,,,,,,,,,
+Lizardman Ballista,,4,3,7,Artillery level 2 – L,,,,,,58,,,,,20,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,
+TROLLS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lesser Troll,#DIV/0!,5,1,6,Shooters 0 - L,,,,,,22,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Troll,#DIV/0!,4,2,6,Resilient - L,,,,,,43,,,,,12,0,0,0,0,0,,6,1,1,1,1,1,1,6,,12,0,0,0,0,0
+Great Troll,#DIV/0!,4,3,6,,Tough - L,Fearless,,,,62,,,,,0,24,5,0,0,0,,6,1,1,1,1,1,1,6,,0,24,5,0,0,0
+Trollkin,#DIV/0!,4,2,6,Horde,,,,,,34,,,,,1,0,0,0,0,0,,6,1,1,1,1,1,1,6,,1,0,0,0,0,0
+Troll Shaman,17,4,1,5,Spell-Caster - P,Spell: Alter Terrain,Spell: Meteor Storm,Spell: Windstorm,,,44,,,,,10,5,4,4,0,0,,3,1,1,1,1,1,1,3,,10,5,4,4,0,0
+Troll Archers,16,4,1,6,Shooters 0 - L,,,,,,33,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Stone Trolls,29,4,2,7,Slow,Mountaineer,Tough - L,,,,59,,,,,-1,3,24,0,0,0,,7,1,1,1,1,1,1,7,,-1,3,24,0,0,0
+Forest trolls,24,4,2,6,Forester,Resilient - L,,,,,48,,,,,5,12,0,0,0,0,,6,1,1,1,1,1,1,6,,5,12,0,0,0,0
+River trolls,23,4,2,6,Amphibious,Resilient - L,,,,,46,,,,,3,12,0,0,0,0,,6,1,1,1,1,1,1,6,,3,12,0,0,0,0
+Green Trolls,50,4,2,7,Tough - L,Extra Lives x2 - L,,,,,74,,,,,24,20,0,0,0,0,,7,1,3,1,1,1,1,21,,24,0,0,0,0,0
+Blue Troll Scouts,26,3,2,6,Savage - L,Scout - R4,,,,,60,,,,,9,5,0,0,0,0,,6,1,1,1,1,1,1,6,,9,5,0,0,0,0
+Dark Trolls,0,4,3,6,Pikes,Unreliable,,,,,41,,,,,6,-2,0,0,0,0,,6,1,,1,1,1,1,0,,6,-2,0,0,0,0
+Trollwolves,34,4,2,6,Animal,Fast,Forester,Extra Lives x2 - L,,,56,,,,,-2,4,5,20,0,0,,6,1,1,1,3,1,1,18,,-2,4,5,0,0,0
+Trollcats,0,4,1,5,Animal,Difficult Target,Forester,Unreliable,,,30,,,,,-2,5,5,-2,0,0,,3,1,1,1,,1,1,0,,-2,5,5,-2,0,0
+Young Troll Javelineers,17,4,1,5,Shooters 0 - L,Skirmishers,Resilient - L,,,,43,,,,,5,5,12,0,0,0,,3,1,1,1,1,1,1,3,,5,5,12,0,0,0
+Snow trolls,21,4,3,6,Snow-Walk,Mountaineer,,,,,42,,,,,2,3,0,0,0,0,,6,1,1,1,1,1,1,6,,2,3,0,0,0,0
+Red trolls,18,4,3,5,Savage - L,Trample - L,,,,,47,,,,,9,7,0,0,0,0,,3,1,1,1,1,1,1,3,,9,7,0,0,0,0
+Troll Warchief,45,3,3,8,"General – P, R1",Tough - L,Hero - P,,,,110,,,,,12,24,8,0,0,0,,8,1,1,1,1,1,1,8,,12,24,8,0,0,0
+Troll Champion,37,3,3,7,Champion - P,Tough - L,,,,,87,,,,,4,24,0,0,0,0,,7,1,1,1,1,1,1,7,,4,24,0,0,0,0
+Troll Wisewoman,32,4,2,7,Spell-Caster - P,Spell: Curse,Spell: Fury,Resilient - L,,,67,,,,,10,5,8,12,0,0,,7,1,1,1,1,1,1,7,,10,5,8,12,0,0
+Troll Half-Giant,33,4,3,8,Giant Level 2 - L,Mountaineer,,,,,67,,,,,22,3,0,0,0,0,,8,1,1,1,1,1,1,8,,22,3,0,0,0,0
+Fire Trolls Catapult,31,3,2,6,Artillery level 2 – L,Flaming Projectiles,,,,,72,,,,,20,5,0,0,0,0,,6,1,1,1,1,1,1,6,,20,5,0,0,0,0
+Troll Dwarfslayers,30,3,2,7,"Slayers - L, R3",Resilient - L,,,,,69,,,,,5,12,0,0,0,0,,7,1,1,1,1,1,1,7,,5,12,0,0,0,0
+Troll Mountain Guide,#N/A,3,2,6,Mountaineer,Ranger -P,Snow-Walk,,,,56,,,,,3,5,2,0,0,0,,6,1,#N/A,1,1,1,1,#N/A,,3,#N/A,2,0,0,0
+,#N/A,,,,,,,,,,0,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+HOBGOBLINS ,#N/A,,,,,,,,,,0,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+Hobgoblin Infantry,16,4,2,6,,,,,,,33,,,,,0,0,0,0,0,0,,6,1,1,1,1,1,1,6,,0,0,0,0,0,0
+Hobgoblin Pikes,19,4,2,6,Pikes,,,,,,38,,,,,6,0,0,0,0,0,,6,1,1,1,1,1,1,6,,6,0,0,0,0,0
+Hobgoblin Heavy Infantry,20,4,2,7,Steadfast,,,,,,42,,,,,5,0,0,0,0,0,,7,1,1,1,1,1,1,7,,5,0,0,0,0,0
+Hobgoblin Veteran infantry,20,4,2,6,Drilled - L,,,,,,40,,,,,8,0,0,0,0,0,,6,1,1,1,1,1,1,6,,8,0,0,0,0,0
+Hobgoblin Hero,58,3,3,7,Hero - P,Extra Lives x2 - L,Resilient - L,,,,100,,,,,8,20,12,0,0,0,,7,1,3,1,1,1,1,21,,8,0,12,0,0,0
+Hobgoblin Archers,25,4,1,6,Shooters 2 - L,Drilled - L,,,,,49,,,,,16,8,0,0,0,0,,6,1,1,1,1,1,1,6,,16,8,0,0,0,0
+Hobgoblin Veteran Archers,29,3,1,6,Shooters 2 - L,Drilled - L,,,,,66,,,,,16,8,0,0,0,0,,6,1,1,1,1,1,1,6,,16,8,0,0,0,0
+Hobgoblin Steppe Raiders,15,4,1,5,Savage - L,Skirmishers,,,,,37,,,,,9,5,0,0,0,0,,3,1,1,1,1,1,1,3,,9,5,0,0,0,0
+Hobgoblin Cavalry,36,4,2,7,Mounted – L,,Extra Lives x2 - L,,,,59,,,,,6,0,20,0,0,0,,7,1,1,3,1,1,1,21,,6,0,0,0,0,0
+Hobgoblin Mounted Hero,60,3,3,7,Mounted – L,Hero - P,Savage - L,Extra Lives x2 - L,,,103,,,,,6,8,9,20,0,0,,7,1,1,1,3,1,1,21,,6,8,9,0,0,0
+Hobgoblin Mounted Hero Archer,75,3,3,7,Mounted – L,Hero - P,Shooters 2 - L,Extra Lives x3 - L,,,133,,,,,6,8,16,40,0,0,,7,1,1,1,4,1,1,28,,6,8,16,0,0,0
+Hobgoblin Ranger,#N/A,3,3,7,Forester,Mountaineer,Ranger -P,Extra Lives x3 - L,,,114,,,,,5,3,5,40,0,0,,7,1,1,#N/A,4,1,1,#N/A,,5,3,#N/A,0,0,0
+Hobgoblin Commander,60,3,3,7,"General – P, R1",Extra Lives x3 - L,,,,,113,,,,,12,40,0,0,0,0,,7,1,4,1,1,1,1,28,,12,0,0,0,0,0
+Hobgoblin Subcommander,#N/A,3,3,6,Sub-Commander,Extra Lives x2 - L,,,,,83,,,,,10,20,0,0,0,0,,6,#N/A,3,1,1,1,1,#N/A,,#N/A,0,0,0,0,0
+Hobgoblin Fire Shaman,33,3,1,5,Spell-Caster - P,Extra Lives x2 - L,Spell: Fireball,Spell: Rain of Arrows,,,79,,,,,10,20,6,5,0,0,,3,1,3,1,1,1,1,9,,10,0,6,5,0,0
+Hobgoblin Battle Sorcerer,54,3,2,6,Spell-Caster - P,Extra Lives x2 - L,Spell: Bolster,Spell: Lightning Bolt,Spell: Windriders,,94,,,,,10,20,6,6,3,0,,6,1,3,1,1,1,1,18,,10,0,6,6,3,0
+Hobgoblin Youth,0,4,1,6,Unreliable,Horde,,,,,28,,,,,-2,1,0,0,0,0,,6,,1,1,1,1,1,0,,-2,1,0,0,0,0
+Hobgoblin Young Slingers,0,4,1,6,Unreliable,Shooters 0 - L,,,,,32,,,,,-2,5,0,0,0,0,,6,,1,1,1,1,1,0,,-2,5,0,0,0,0
+Hobgoblin Mistmancer,22,3,1,5,Spell-Caster - P,Spell: Alter Terrain,Spell: Terror,Spell: Teleportation,,,66,,,,,10,5,6,8,0,0,,3,1,1,1,1,1,1,3,,10,5,6,8,0,0
+Hobgoblin Discipline Master,28,3,2,7,"Discipline Master -P, R1",Fearless,,,,,64,,,,,8,5,0,0,0,0,,7,1,1,1,1,1,1,7,,8,5,0,0,0,0
+Hobgoblin Warband,0,4,2,6,warband,,,,,,37,,,,,4,0,0,0,0,0,,6,,1,1,1,1,1,0,,4,0,0,0,0,0
+Hobgoblin Veteran Warband,0,3,2,6,warband,Drilled - L,,,,,58,,,,,4,8,0,0,0,0,,6,,1,1,1,1,1,0,,4,8,0,0,0,0
+Hobgoblin War Wagon,#N/A,4,3,6,Chariot level 3 - L,Shooters 2 - L,Resilient - L,,,,67,,,,,7,16,12,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,16,12,0,0,0
+Hobgoblin Light Chariot,32,4,3,6,Chariot level 2 - L,Shooters 2 - L,Resilient - L,Fast,,,68,,,,,4,16,12,4,0,0,,6,1,1,1,1,1,1,6,,4,16,12,4,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RATMEN  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ratman Master Assassin,42,3,2,7,"Assassin Level 3 - P, R2",Stealth - P,Tough - L,,,,103,,,,,21,3,24,0,0,0,,7,1,1,1,1,1,1,7,,21,3,24,0,0,0
+Ratman assassin,28,3,2,6,"Assassin Level 2 - P, R3",Stealth - P,,,,,63,,,,,14,3,0,0,0,0,,6,1,1,1,1,1,1,6,,14,3,0,0,0,0
+Ratmen Skirmishers,3,4,1,5,Skirmishers,Rabble,,,,,18,,,,,5,-14,0,0,0,0,,3,1,1,1,1,1,1,3,,5,-14,0,0,0,0
+Ratmen Infantry,18,4,2,6,Fast,,,,,,37,,,,,4,0,0,0,0,0,,6,1,1,1,1,1,1,6,,4,0,0,0,0,0
+Ratmen Elite Infantry,25,3,2,6,Fast,Poison/Venom - L,,,,,58,,,,,4,8,0,0,0,0,,6,1,1,1,1,1,1,6,,4,8,0,0,0,0
+Ratmen Flamers,22,4,1,6,Shooters 2 - L,,,,,,43,,,,,16,0,0,0,0,0,,6,1,1,1,1,1,1,6,,16,0,0,0,0,0
+Ratman Champion,26,3,3,7,Champion - P,,,,,,60,,,,,4,0,0,0,0,0,,7,1,1,1,1,1,1,7,,4,0,0,0,0,0
+Ratman General,79,3,3,7,"General – P, R1",Tough - L,Extra Lives x3 - L,,,,140,,,,,12,24,40,0,0,0,,7,1,1,4,1,1,1,28,,12,24,0,0,0,0
+Ratman Astrologer,,3,1,5,"Astrologer - P, R2",Poison/Venom - L,,,,,48,,,,,5,8,0,0,0,0,,,,,,,,,,,,,,,,
+Ratman Warlock,22,3,1,5,Spell-Caster - P,Spell: Chaos,Spell: Terror,Spell: Fireball,,,67,,,,,10,8,6,6,0,0,,3,1,1,1,1,1,1,3,,10,8,6,6,0,0
+Plague Carriers,12,4,2,6,Plague-Carriers,,,,,,37,,,,,4,0,0,0,0,0,,6,"0,5",1,1,1,1,1,3,,0,0,0,0,0,0
+Ratmen Pikes,15,4,2,5,Fast,Pikes,,,,,38,,,,,4,6,0,0,0,0,,3,1,1,1,1,1,1,3,,4,6,0,0,0,0
+Ratmen Crossbows,23,4,1,6,Fast,Shooters 2 - L,,,,,46,,,,,4,16,0,0,0,0,,6,1,1,1,1,1,1,6,,4,16,0,0,0,0
+Ratmen Rabble,0,4,1,5,Fast,Rabble,,,,,17,,,,,4,-14,0,0,0,0,,3,1,1,1,1,1,1,3,,4,-14,0,0,0,0
+Giant Rat Swarm,24,4,2,7,Animal,Swamp-Walk,Horde,,,,39,,,,,-2,3,1,0,0,0,,7,1,2,1,1,1,1,14,,-2,0,1,0,0,0
+Ratman Hero,60,3,3,7,Hero - P,Fast,Extra Lives x3 - L,,,,113,,,,,8,4,40,0,0,0,,7,1,1,4,1,1,1,28,,8,4,0,0,0,0
+Ratman Ranger,#N/A,3,2,6,Forester,Swamp-Walk,Ranger -P,,,,59,,,,,5,3,5,0,0,0,,6,1,2,#N/A,1,1,1,#N/A,,5,0,#N/A,0,0,0
+Ratman Ranger with Crossbow,#N/A,3,2,6,Forester,Swamp-Walk,Ranger -P,Shooters 2 - L,,,77,,,,,5,3,5,16,0,0,,6,1,2,#N/A,1,1,1,#N/A,,5,0,#N/A,16,0,0
+Gargantuan Rat,53,4,3,7,"Monster Level 2 - L, R3",Swamp-Walk,Fear,,,,84,,,,,35,3,13,0,0,0,,7,1,2,1,1,1,1,14,,35,0,13,0,0,0
+Ratman Light Cavalry,15,4,1,5,Mounted – L,Fast,Skirmishers,,,,38,,,,,6,4,5,0,0,0,,3,1,1,1,1,1,1,3,,6,4,5,0,0,0
+Ratman Heavy Cavalry,24,4,2,7,Mounted – L,Devastating Charge - L,,,,,48,,,,,6,7,0,0,0,0,,7,1,1,1,1,1,1,7,,6,7,0,0,0,0
+Ratman Burrowers,17,4,1,7,Burrowing,,,,,,36,,,,,3,0,0,0,0,0,,7,1,1,1,1,1,1,7,,3,0,0,0,0,0
+Ratmen Warband,0,4,2,6,Fast,warband,,,,,40,,,,,4,4,0,0,0,0,,6,1,,1,1,1,1,0,,4,4,0,0,0,0
+Ratmen Veteran Warband,0,3,2,6,Fast,warband,,,,,53,,,,,4,4,0,0,0,0,,6,1,,1,1,1,1,0,,4,4,0,0,0,0
+Ratmen Light Chariot,20,4,2,6,Fast,Chariot level 2 - L,,,,,40,,,,,4,4,0,0,0,0,,6,1,1,1,1,1,1,6,,4,4,0,0,0,0
+Ratmen War Chariot,#N/A,4,2,6,Fast,Chariot level 3 - L,Resilient - L,,,,53,,,,,4,7,12,0,0,0,,6,1,#N/A,1,1,1,1,#N/A,,4,#N/A,12,0,0,0
+Ratman Wrecking Crew,24,3,1,7,Burrowing,Engineers - L,Fast,,,,57,,,,,3,4,4,0,0,0,,7,1,1,1,1,1,1,7,,3,4,4,0,0,0
+Micemen Infantry,11,4,1,5,Forester,Coward,,,,,28,,,,,5,-2,0,0,0,0,,3,1,1,1,1,1,1,3,,5,-2,0,0,0,0
+Elite Micemen Infantry,13,3,1,5,Forester,,,,,,39,,,,,5,0,0,0,0,0,,3,1,1,1,1,1,1,3,,5,0,0,0,0,0
+Miceman Subcommander,#N/A,3,2,7,Forester,Sub-Commander,Ranger -P,,,,72,,,,,5,10,5,0,0,0,,7,1,#N/A,#N/A,1,1,1,#N/A,,5,#N/A,#N/A,0,0,0
+Young Micemen Infantry,#NUM!,4,1,5,Forester,Coward,Rabble,,,,16,,,,,5,-2,-14,0,0,0,,3,1,1,1,1,1,1,3,,5,-2,-14,0,0,0
+ Micemen Skirmishers,7,4,1,5,Forester,Skirmishers,Rabble,,,,22,,,,,5,5,-14,0,0,0,,3,1,1,1,1,1,1,3,,5,5,-14,0,0,0
+ Micemen Shooters,17,4,1,5,Forester,Shooters 1 - L,Difficult Target,Ambushers - L,,,44,,,,,5,10,5,3,0,0,,3,1,1,1,1,1,1,3,,5,10,5,3,0,0
+Micemen Forest Guardians,21,3,2,5,Forester,Resilient - L,Difficult Target,,,,63,,,,,5,12,5,0,0,0,,3,1,1,1,1,1,1,3,,5,12,5,0,0,0
+Miceman Forest Guardian Hero,35,3,3,6,Forester,Resilient - L,Difficult Target,Hero - P,,,83,,,,,5,12,5,8,0,0,,6,1,1,1,1,1,1,6,,5,12,5,8,0,0
+Miceman Forest Guardian Hero Archer,36,3,3,6,Forester,Shooters 2 - L,Difficult Target,Hero - P,,,88,,,,,5,16,5,8,0,0,,6,1,1,1,1,1,1,6,,5,16,5,8,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+HALFLING,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+Halfling Militia,12,4,1,5,Difficult Target,,,,,,29,,,,,5,0,0,0,0,0,,3,1,1,1,1,1,1,3,,5,0,0,0,0,0
+Halfling Villagers,#NUM!,4,1,5,Rabble,Difficult Target,Reluctant,,,,16,,,,,-14,5,-2,0,0,0,,3,1,1,1,1,1,1,3,,-14,5,-2,0,0,0
+Halfling Slingers,16,4,1,5,Shooters 1 - L,Skirmishers,,,,,42,,,,,10,5,5,0,0,0,,3,1,1,1,1,1,1,3,,10,5,5,0,0,0
+Halfling Rabble Slingers,7,4,1,5,Rabble,Shooters 0 - L,Skirmishers,,,,22,,,,,-14,5,5,0,0,0,,3,1,1,1,1,1,1,3,,-14,5,5,0,0,0
+Halfling Militia Commander,#N/A,3,2,6,Sub-Commander,,,,,,56,,,,,10,0,0,0,0,0,,6,#N/A,1,1,1,1,1,#N/A,,#N/A,0,0,0,0,0
+Halfling Pony Outriders,19,4,1,6,Mounted – L,Scout - R4,,,,,38,,,,,6,5,0,0,0,0,,6,1,1,1,1,1,1,6,,6,5,0,0,0,0
+Halfling Rider Hero,31,3,2,6,Mounted – L,Hero - P,Resilient - L,,,,73,,,,,6,8,12,0,0,0,,6,1,1,1,1,1,1,6,,6,8,12,0,0,0
+Halfling SubCommander,#N/A,3,2,7,Sub-Commander,Resilient - L,,,,,74,,,,,10,12,0,0,0,0,,7,#N/A,1,1,1,1,1,#N/A,,#N/A,12,0,0,0,0
+Halfling Archers,19,4,1,6,Shooters 1 - L,,,,,,38,,,,,10,0,0,0,0,0,,6,1,1,1,1,1,1,6,,10,0,0,0,0,0
+Halfling Elite Archers,26,4,1,6,Shooters 2 - L,Resilient - L,,,,,53,,,,,16,12,0,0,0,0,,6,1,1,1,1,1,1,6,,16,12,0,0,0,0
+Halfling Small Cannon,25,4,2,6,Artillery level 2 – L,,,,,,50,,,,,20,0,0,0,0,0,,6,1,1,1,1,1,1,6,,20,0,0,0,0,0
+Halfling Large Cannon,38,4,2,7,Artillery level 3 - L,Resilient - L,,,,,81,,,,,40,12,0,0,0,0,,7,1,1,1,1,1,1,7,,40,12,0,0,0,0
+Halfling Ranger,#N/A,3,2,7,Ranger -P,Tough - L,Forester,,,,88,,,,,5,24,5,0,0,0,,7,#N/A,1,1,1,1,1,#N/A,,#N/A,24,5,0,0,0
+Halfling Wisewoman,20,3,1,5,Spell-Caster - P,Spell: Blessing,Spell: Windstorm,Spell: Futuresight,,,59,,,,,10,4,4,5,0,0,,3,1,1,1,1,1,1,3,,10,4,4,5,0,0
+Halfling Druid,32,3,2,6,Spell-Caster - P,Spell: Alter Terrain,Spell: Eagle's Eyes,Spell: Lightning Bolt,Spell: Windstorm,,76,,,,,10,5,3,6,4,0,,6,1,1,1,1,1,1,6,,10,5,3,6,4,0
+Halfling Heavy Infantry,19,4,2,6,Steadfast,,,,,,38,,,,,5,0,0,0,0,0,,6,1,1,1,1,1,1,6,,5,0,0,0,0,0
+Halfling Hero,44,3,2,7,Hero - P,Extra Lives x2 - L,,,,,81,,,,,8,20,0,0,0,0,,7,1,3,1,1,1,1,21,,8,0,0,0,0,0
+Halfling Pikes,19,4,2,6,Pikes,Slow,,,,,38,,,,,6,-1,0,0,0,0,,6,1,1,1,1,1,1,6,,6,-1,0,0,0,0
+Halfling Heavy Cavalry,24,4,2,7,Mounted – L,Devastating Charge - L,,,,,48,,,,,6,7,0,0,0,0,,7,1,1,1,1,1,1,7,,6,7,0,0,0,0
+Halfling Mounted Archers,26,4,2,6,Mounted – L,Shooters 2 - L,,,,,52,,,,,6,16,0,0,0,0,,6,1,1,1,1,1,1,6,,6,16,0,0,0,0
+Halfling General,52,3,3,7,"General – P, R1",Extra Lives x2 - L,,,,,91,,,,,12,20,0,0,0,0,,7,1,3,1,1,1,1,21,,12,0,0,0,0,0
+Halfling Angry Mob,10,4,1,5,Horde,,,,,,26,,,,,1,0,0,0,0,0,,3,1,1,1,1,1,1,3,,1,0,0,0,0,0
+Ogre Mercenaries,0,4,3,7,Unreliable,Fear,Tough - L,,,,71,,,,,-2,13,24,0,0,0,,7,,1,1,1,1,1,0,,-2,13,24,0,0,0
+Adventurers,28,4,2,7,"Adventuring Party - L1, R1",Resilient - L,,,,,56,,,,,10,12,0,0,0,0,,7,1,1,1,1,1,1,7,,10,12,0,0,0,0
+Highwaymen,20,3,1,5,Ambushers - L,Difficult Target,Skirmishers,Shooters 1 - L,,,59,,,,,3,5,5,10,0,0,,3,1,1,1,1,1,1,3,,3,5,5,10,0,0
+Halfling Battle Wizard,37,3,2,6,Spell-Caster - P,Spell: Armor,Spell: Fireball,Spell: Fury,Resilient - L,,90,,,,,10,5,6,8,12,0,,6,1,1,1,1,1,1,6,,10,5,6,8,12,0
+Battle Bear,27,4,3,7,"Monster Level 1 - L, R3",Animal,Forester,Ambushers - L,,,55,,,,,10,-2,5,3,0,0,,7,1,1,1,1,1,1,7,,10,-2,5,3,0,0
+Halfling Siege Tower,31,4,2,8,Siege Engine Level 2 - L,Resilient - L,,,,,63,,,,,14,12,0,0,0,0,,8,1,1,1,1,1,1,8,,14,12,0,0,0,0
+Halfling Mushroom Eaters,0,4,2,6,"Berserk - L, R3",Unpredictable,,,,,39,,,,,8,-1,0,0,0,0,,6,1,,1,1,1,1,0,,8,-1,0,0,0,0
+Fungi Folk Allies,29,4,2,6,Poisoned Missiles L,Shooters 2 - L,,,,,50,,,,,4,16,0,0,0,0,,6,"1,5",1,1,1,1,1,9,,0,16,0,0,0,0
+Halfling Spearmen w Leafsteel Armor,20,4,2,7,Shieldwall,,,,,,41,,,,,4,0,0,0,0,0,,7,1,1,1,1,1,1,7,,4,0,0,0,0,0
+Hill Wyrm,59,3,3,8,"Monster Level 2 - L, R3",Dragon Breath level 2 - R3,Resilient - L,,,,158,,,,,35,40,12,0,0,0,,8,1,1,1,1,1,1,8,,35,40,12,0,0,0
+Battle Hogs,22,4,3,7,Animal,Horde,Forester,,,,45,,,,,-2,1,5,0,0,0,,7,1,1,1,1,1,1,7,,-2,1,5,0,0,0
+Battle Fowl,#NUM!,4,1,4,Animal,Rabble,Horde,Amphibious,Coward,,9,,,,,-2,-14,1,3,-2,0,,2,1,1,1,1,1,1,2,,-2,-14,1,3,-2,0
+Battle Cattle,17,4,2,5,Animal,Devastating Charge - L,Resilient - L,,,,43,,,,,-2,7,12,0,0,0,,3,1,1,1,1,1,1,3,,-2,7,12,0,0,0
+Halfling Beastmaster,29,3,2,6,Beast Lord - P,Forester,Hero - P,,,,67,,,,,7,5,8,0,0,0,,6,1,1,1,1,1,1,6,,7,5,8,0,0,0
+Halfling Warband,,4,2,5,warband,,,,,,33,,,,,4,0,0,0,0,0,,0,0,0,,,,,,,,,,,,
+Halfling Warband with Slings,,4,1,5,warband,Shooters 0 - L,,,,,33,,,,,4,5,0,0,0,0,,0,0,,,,,,,,,,,,,
+Halfling Leafsteel Warriors,,4,2,6,warband,,,,,,37,,,,,4,0,0,0,0,0,,0,0,,,,,,,,,,,,,
+Halfling Sharpshooter,59,3,2,6,Hero - P,Extra Lives x2 - L,Difficult Target,Shooters 3 - P,,,104,,,,,8,20,5,21,0,0,,6,1,3,1,1,1,1,18,,8,0,5,21,0,0
+Halfling Champion,28,3,2,8,Forester,Champion - P,,,,,66,,,,,5,4,0,0,0,0,,8,1,1,1,1,1,1,8,,5,4,0,0,0,0
+Halfling Bodyguards,21,4,2,6,Bodyguards - L,Steadfast,,,,,42,,,,,5,5,0,0,0,0,,6,1,1,1,1,1,1,6,,5,5,0,0,0,0
+Ogre Mercenaries,0,4,3,7,Unreliable,Horde,Extra Lives x2 - L,Resilient - L,,,68,,,,,-2,1,20,12,0,0,,7,,1,3,1,1,1,0,,-2,1,0,12,0,0
+Bear-Folk Mercenaries,0,4,3,7,Unreliable,Horde,Tough - L,Savage - L,,,68,,,,,-2,1,24,9,0,0,,7,,1,1,1,1,1,0,,-2,1,24,9,0,0
+Veteran Bear-Folk Mercenaries,0,3,3,7,Unreliable,Horde,Tough - L,Savage - L,,,91,,,,,-2,1,24,9,0,0,,7,,1,1,1,1,1,0,,-2,1,24,9,0,0
+Hill Giant Mercenary,0,4,3,6,Unreliable,Giant Level 2 - L,Extra Lives x3 - L,,,,88,,,,,-2,22,40,0,0,0,,6,,1,4,1,1,1,0,,-2,22,0,0,0,0
+Monster Hog,75,4,3,7,Animal,"Monster Level 2 - L, R3",Forester,Extra Lives x3 - L,Savage - L,,114,,,,,-2,35,5,40,9,0,,7,1,1,1,4,1,1,28,,-2,35,5,0,9,0
+Treemen,75,4,3,9,Ambushers - L,"Monster Level 2 - L, R3",Forester,Extra Lives x2 - L,Slow,Trample - L,108,,,,,3,35,5,20,-1,7,,9,1,1,1,3,1,1,27,,3,35,5,0,-1,7
+Halfling Mastiff Riders,23,4,2,6,Mounted – L,Savage - L,,,,,46,,,,,6,9,0,0,0,0,,6,1,1,1,1,1,1,6,,6,9,0,0,0,0
+Giant Snail,74,4,3,8,Animal,"Monster Level 2 - L, R3",Tough - L,Extra Lives x2 - L,Slow,,109,,,,,-2,35,24,20,-1,0,,8,1,1,1,3,1,1,24,,-2,35,24,0,-1,0
+Giant Slug,61,4,3,8,Animal,"Monster Level 2 - L, R3",,Extra Lives x2 - L,Slow,,89,,,,,-2,35,0,20,-1,0,,8,1,1,1,3,1,1,24,,-2,35,0,0,-1,0
+Dwarven Armored Mercenaries,0,4,2,7,Slow,Unreliable,,,,,35,,,,,-1,-2,0,0,0,0,,7,1,,1,1,1,1,0,,-1,-2,0,0,0,0
+Dwarven Mercenary Crossbows,0,4,2,7,Slow,Unreliable,Shooters 2 - L,,,,48,,,,,-1,-2,16,0,0,0,,7,1,,1,1,1,1,0,,-1,-2,16,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0
+,#N/A,,,,,,,,,,,,,,,0,0,0,0,0,0,,#N/A,1,1,1,1,1,1,#N/A,,0,0,0,0,0,0

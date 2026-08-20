@@ -1,0 +1,248 @@
+@if (army(); as current) {
+  <header class="builder-bar no-print">
+    <a routerLink="/" class="back">← Armies</a>
+    <div class="identity">
+      <input
+        class="name-input"
+        [ngModel]="current.name"
+        (ngModelChange)="patch({ name: $event })"
+        aria-label="Army name"
+      />
+      <span class="faction-pill" [style.--faction]="faction()?.color">{{ faction()?.name }}</span>
+    </div>
+    <div class="bar-actions">
+      <span class="save-flash" [class.on]="saveFlash()">{{ saveFlash() || 'Autosaved' }}</span>
+      <button type="button" class="ghost" (click)="printRoster()">Print</button>
+      <button type="button" class="ghost danger" (click)="deleteArmy()">Delete</button>
+    </div>
+  </header>
+
+  <section class="status-grid no-print">
+    <label>
+      Budget
+      <select [ngModel]="current.budget" (ngModelChange)="patch({ budget: +$event })">
+        @for (preset of rules.budgetPresets; track preset) {
+          <option [ngValue]="preset">{{ preset }} points</option>
+        }
+        @if (!rules.budgetPresets.includes(current.budget)) {
+          <option [ngValue]="current.budget">{{ current.budget }} points</option>
+        }
+      </select>
+    </label>
+    <label>
+      Custom budget
+      <input
+        type="number"
+        min="100"
+        step="50"
+        [ngModel]="current.budget"
+        (ngModelChange)="patch({ budget: +$event || current.budget })"
+      />
+    </label>
+    <label>
+      Home terrain
+      <select [ngModel]="current.homeTerrain" (ngModelChange)="patch({ homeTerrain: $event })">
+        @for (terrain of rules.homeTerrains; track terrain) {
+          <option [ngValue]="terrain">{{ terrain }}</option>
+        }
+      </select>
+    </label>
+    <div class="stat">
+      <span>Points</span>
+      <strong [class.over]="(result()?.remaining ?? 0) < 0">
+        {{ result()?.totalPoints | number }} / {{ current.budget | number }}
+      </strong>
+    </div>
+    <div class="stat">
+      <span>Units / stands</span>
+      <strong>{{ result()?.unitCount }} / {{ result()?.standCount }}</strong>
+    </div>
+  </section>
+
+  <section class="caps no-print">
+    <div>
+      <div class="cap-label">
+        <span>Total</span>
+        <span>{{ result()?.totalPoints }} / {{ current.budget }}</span>
+      </div>
+      <div class="meter"><span [style.width.%]="totalRatio()"></span></div>
+    </div>
+    <div>
+      <div class="cap-label">
+        <span>Limited + Personality (max 50%)</span>
+        <span>{{ result()?.limitedPoints }} / {{ result()?.limitedCap }}</span>
+      </div>
+      <div class="meter">
+        <span [class.hot]="(result()?.limitedPoints ?? 0) > (result()?.limitedCap ?? 0)" [style.width.%]="limitedRatio()"></span>
+      </div>
+    </div>
+    <div>
+      <div class="cap-label">
+        <span>Personality (max 33%)</span>
+        <span>{{ result()?.personalityPoints }} / {{ result()?.personalityCap }}</span>
+      </div>
+      <div class="meter">
+        <span [class.hot]="(result()?.personalityPoints ?? 0) > (result()?.personalityCap ?? 0)" [style.width.%]="personalityRatio()"></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="workspace">
+    <section class="catalog no-print">
+      <div class="catalog-tools">
+        <input
+          type="search"
+          placeholder="Search units, traits, spells…"
+          [ngModel]="query()"
+          (ngModelChange)="query.set($event)"
+        />
+        <div class="kind-row">
+          <button type="button" class="chip" [class.active]="kindFilter() === 'all'" (click)="kindFilter.set('all')">All</button>
+          <button type="button" class="chip" [class.active]="kindFilter() === 'troop'" (click)="kindFilter.set('troop')">Troops</button>
+          <button type="button" class="chip" [class.active]="kindFilter() === 'character'" (click)="kindFilter.set('character')">Characters</button>
+          <button type="button" class="chip" [class.active]="kindFilter() === 'monster'" (click)="kindFilter.set('monster')">Monsters</button>
+          <button type="button" class="chip" [class.active]="kindFilter() === 'war-engine'" (click)="kindFilter.set('war-engine')">Engines</button>
+        </div>
+        <label class="check">
+          <input
+            type="checkbox"
+            [checked]="showMercenaries()"
+            (change)="showMercenaries.set($any($event.target).checked)"
+          />
+          Include mercenaries from other lists (−10%, paid from the Limited budget)
+        </label>
+      </div>
+
+      @for (group of groupedUnits(); track group.factionId) {
+        <div class="unit-group">
+          <h3>
+            {{ group.name }}
+            @if (!group.native) {
+              <em>Mercenaries</em>
+            }
+          </h3>
+          <ul class="unit-list">
+            @for (unit of group.units; track unit.id) {
+              <li>
+                <div class="unit-main">
+                  <div class="unit-title">
+                    <strong>{{ unit.name }}</strong>
+                    <span class="tags">
+                      <span>{{ kindLabel(unit.kind) }}</span>
+                      @if (unit.limited) {
+                        <span class="l">L</span>
+                      }
+                      @if (unit.personality) {
+                        <span class="p">P</span>
+                      }
+                    </span>
+                  </div>
+                  <div class="profile">
+                    {{ unitCost(unit, !group.native) }} pts
+                    · {{ qualityLabel(unit.quality) }}
+                    · A{{ unit.attack }}
+                    · D{{ unit.defense }}
+                    · {{ unit.minStands === unit.maxStands ? unit.minStands + ' stand' : unit.minStands + '–' + unit.maxStands + ' stands' }}
+                  </div>
+                  <div class="traits">
+                    @for (trait of unit.traits; track trait.raw) {
+                      <span [title]="trait.raw">{{ trait.raw }}</span>
+                    }
+                    @if (unit.traits.length === 0) {
+                      <span class="muted">No traits</span>
+                    }
+                  </div>
+                </div>
+                <button type="button" class="add" (click)="addUnit(unit, !group.native)">Add</button>
+              </li>
+            }
+          </ul>
+        </div>
+      } @empty {
+        <p class="muted">No units match this filter.</p>
+      }
+    </section>
+
+    <aside class="roster">
+      <div class="roster-sheet">
+        <div class="print-only masthead">
+          <h1>{{ current.name }}</h1>
+          <p>
+            {{ faction()?.name }} · {{ current.homeTerrain }} · {{ result()?.totalPoints }} / {{ current.budget }} points
+          </p>
+        </div>
+        <h2>Roster</h2>
+        @if ((result()?.unitCount ?? 0) === 0) {
+          <p class="muted">No units in this army yet.</p>
+        } @else {
+          <ul class="roster-list">
+            @for (item of result()!.resolved; track item.entry.id) {
+              <li>
+                <div>
+                  <strong>{{ item.unit.name }}</strong>
+                  @if (item.entry.mercenary) {
+                    <span class="merc">Mercenary</span>
+                  }
+                  <div class="roster-meta">
+                    {{ qualityLabel(item.unit.quality) }} · A{{ item.unit.attack }} · D{{ item.unit.defense }}
+                    @if (item.countsAsLimited) { · L }
+                    @if (item.countsAsPersonality) { · P }
+                  </div>
+                  <div class="traits compact">
+                    @for (trait of item.unit.traits; track trait.raw) {
+                      <span>{{ trait.raw }}</span>
+                    }
+                  </div>
+                </div>
+                <div class="roster-controls no-print">
+                  <label>
+                    Stands
+                    <input
+                      type="number"
+                      [min]="item.unit.minStands"
+                      [max]="item.unit.maxStands"
+                      [ngModel]="item.entry.stands"
+                      (ngModelChange)="setStands(item.entry.id, $event)"
+                      [disabled]="item.unit.minStands === item.unit.maxStands"
+                    />
+                  </label>
+                  <span class="cost">{{ item.points }}</span>
+                  <button type="button" class="ghost danger" (click)="removeEntry(item.entry.id)">Remove</button>
+                </div>
+                <div class="print-only print-cost">{{ item.entry.stands }} std · {{ item.points }} pts</div>
+              </li>
+            }
+          </ul>
+        }
+
+        <section class="validation">
+          <h3 [class.ok]="(errors().length === 0)">
+            @if (errors().length === 0) {
+              Army is legal
+            } @else {
+              Army is illegal
+            }
+          </h3>
+          @for (issue of errors(); track issue.message) {
+            <p class="issue error">{{ issue.message }}</p>
+          }
+          @for (issue of warnings(); track issue.message) {
+            <p class="issue warn">{{ issue.message }}</p>
+          }
+          @if ((result()?.rareUsage?.length ?? 0) > 0) {
+            <div class="rare">
+              <h4>Rare traits</h4>
+              <ul>
+                @for (rare of result()!.rareUsage; track rare.trait) {
+                  <li [class.over]="rare.used > rare.max">
+                    {{ rare.trait }}: {{ rare.used }} / {{ rare.max }}
+                  </li>
+                }
+              </ul>
+            </div>
+          }
+        </section>
+      </div>
+    </aside>
+  </div>
+}
