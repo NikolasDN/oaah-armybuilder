@@ -81,6 +81,7 @@ export class ArmyBuilderComponent {
       .map(([factionId, units]) => ({
         factionId,
         name: this.catalog.factionById(factionId)?.name ?? factionId,
+        relation: this.catalog.relation(factionId, army.factionId),
         native: this.catalog.isAvailableFaction(factionId, army.factionId),
         units,
       }))
@@ -111,6 +112,10 @@ export class ArmyBuilderComponent {
     const sharedIndex = this.catalog.sharedFactionIds.indexOf(factionId);
     if (sharedIndex >= 0) {
       return 1 + sharedIndex;
+    }
+    const allyIndex = this.catalog.alliedFactionIds(armyFactionId).indexOf(factionId);
+    if (allyIndex >= 0) {
+      return 20 + allyIndex;
     }
     return 100;
   }

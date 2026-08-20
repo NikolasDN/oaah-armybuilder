@@ -117,7 +117,10 @@
         <div class="unit-group">
           <h3>
             {{ group.name }}
-            @if (!group.native) {
+            @if (group.relation === 'ally') {
+              <em>Allies</em>
+            }
+            @if (group.relation === 'mercenary') {
               <em>Mercenaries</em>
             }
           </h3>
