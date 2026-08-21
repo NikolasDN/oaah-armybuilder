@@ -1,0 +1,936 @@
+{
+  "source": "of-armies-and-hordes.pdf",
+  "entries": [
+    {
+      "name": "Adventuring Party",
+      "kind": "trait",
+      "text": "The unit represents a fellowship of treasure hunting heroes. An adventuring party may reroll all rolls for the exploration of ruins or dungeons.",
+      "aliases": [
+        "Adventuring Party"
+      ]
+    },
+    {
+      "name": "Airship",
+      "kind": "trait",
+      "text": "Airship are flying vessels that may be armed with cannons, ballistae and other artillery. To create an Airship armed with cannons, add the closest Artillery equivalent, and the Flying Trait. If the Airship is also seaworthy, add the Boat Trait. An Airship may carry up to 16 stands of infantry (or 8 of cavalry - use the Stacking rules) plus up to three Personalities. The Airship may land in any Clear area (or water if it possesses the Boat Trait) and the troops may use one action to disembark. Disembarked troops in the same area can spend one action to board the Airship. Even with its carried troops disembarked, the Airship is considered to have enough crew on board for its normal operations. Carried troops may fight in melee only if attacked in melee by other airships or other flying troops, or if they disembark and attack ground troops. An Airship with the Boat Trait may navigate a water area like a boat, or take off with its next action. Monsters and Giants may be carried taking up four spaces each on the airship and may disembark as normal. An Airship must have the Resilient Trait and at least two Extra Lives. Airships are immune to poison and disease. Artillery hits count as Special Damage against them and hit on a 4+ on any die. Airships have a stacking value equal to the troops they carry, with a minimum of four. For example: an Airship carrying three stands will have a stacking value of four, and an Airship carrying 16 infantry will have a stacking value of 16. Note: it is the starting value that counts: if an Airship loses some of its carried troops, it will still have its full stacking value.",
+      "aliases": [
+        "Airship"
+      ]
+    },
+    {
+      "name": "Alter Terrain",
+      "kind": "spell",
+      "text": "This spell may be cast on any one unoccupied area anywhere on the battlefield. The target area becomes Rough terrain, or, if already Rough, it becomes Clear terrain. The effect lasts one turn per action spent in casting the spell. The Spell-Caster chooses the type of terrain and the area. The spell will not create impassable terrain or water, but it may create a bridge or ford, which remains for the duration of the spell. The spell may also be used to create a section of Road or a path going through a Forest or other wooded terrain instead of transforming the whole area, or to turn a Hill into another Hill type (see Hills, p.20).",
+      "aliases": [
+        "Alter Terrain",
+        "Spell: Alter Terrain"
+      ]
+    },
+    {
+      "name": "Ambushers",
+      "kind": "trait",
+      "text": "A unit with a terrain-based Trait in the appropriate terrain (e.g. Foresters in forests, units with Swamp-Walk in swamps) may spend one action to set up an Ambush. Mark the Ambush by placing the figures in appropriate positions. The ambushers gain +1 to A and D both in melee and missile combat against any enemy entering the area. This bonus is negated if the enemy has Scouts in the unit. The Ambush bonus is cumulative with the elevation bonus. Units with the Ambushers Trait may also be deployed as ambushes if their side wins the Scouting roll.",
+      "aliases": [
+        "Ambushers"
+      ]
+    },
+    {
+      "name": "Amphibious",
+      "kind": "trait",
+      "text": "Unit counts water areas (rivers, lakes, sea, etc) as clear areas. They may set up Ambushes against non-Amphibious, non-Aquatic units in such areas.",
+      "aliases": [
+        "Amphibious"
+      ]
+    },
+    {
+      "name": "Animal",
+      "kind": "trait",
+      "text": "Animal units do not enjoy bonus Activations from a General, Sub-Commander or Discipline Master, but they get a +1 from a Beast Lord associated with the unit. Animal units may not receive medals in campaigns, use spells or magic items. Animals may only use Open Order, Column, or Horde formations. If at any time an army has only Animal units on the table, the player loses the game.",
+      "aliases": [
+        "Animal"
+      ]
+    },
+    {
+      "name": "Aquatic",
+      "kind": "trait",
+      "text": "Aquatic units may move only through water terrain, counting rivers as roads and other bodies of water as clear areas. They are used only in special scenarios.",
+      "aliases": [
+        "Aquatic"
+      ]
+    },
+    {
+      "name": "Armor",
+      "kind": "spell",
+      "text": "The target unit anywhere on the tabletop gets +1 to D until the end of the turn. This bonus does not apply against Special Damage (any attack type that hits on a 4+ regardless of the target's D rating).",
+      "aliases": [
+        "Armor",
+        "Spell: Armor"
+      ]
+    },
+    {
+      "name": "Army Standard",
+      "kind": "trait",
+      "text": "Each Army may have an Army Standard used to encourage its troops. The Army Standard can be a separate stand or a standard-bearer character attached to a unit. If the Army standard is on the table, all units in play (except Animals) may reroll a failed Morale die per turn; however, if the Army Standard is captured (this happens when the unit carrying it is destroyed), all units in the army must perform a Morale roll. The enemy unit that captures the Army Standard gains the Fear Trait until the end of the game.",
+      "aliases": [
+        "Army Standard"
+      ]
+    },
+    {
+      "name": "Artificial",
+      "kind": "trait",
+      "text": "Artificial units (elementals, automata, golems, constructs, robots) may not be pushed and may not gain the Fatigued or the Exhausted status. If an Artificial figure is attached to a non-Artificial unit that is pushed, the Artificial figure must be left behind. Artificial creatures are immune to poison and disease and are affected by the Destroy Constructs spell.",
+      "aliases": [
+        "Artificial"
+      ]
+    },
+    {
+      "name": "Artillery",
+      "kind": "trait",
+      "text": "Artillery rules are on p.56. An Artillery unit has a number of Artillery dice equal to its level. Artillery may fire in its own area in the missile phase, firing at a charging enemy, and into any area adjacent to its own area. Artillery may fire only once per turn, spending one Action, or during the opponent's turn by spending a successful Reaction. Artillery rolls 2 to 5 Attack dice based on its type. Examples: Level 2: bolt throwers, ballistae Level 3: stone throwers, rocket launchers, organ guns Level 4: heavy catapults, light cannons Level 5: heavy cannons, field mortars, steam tanks If the target area contains more than one unit, the player may concentrate all fire on one unit or spread the Artillery dice between two or more targets. Any unit taking casualties from Artillery fire is Disordered. Movement: It takes two actions to move an Artillery unit in Clear terrain (including downhill) and three actions to move on Rough terrain. Artillery may not move through Fores/Jungle, Swamp, or any Very Rough terrain. Artillery moves normally on bridges and roads. The Artillery's A score is not used when firing. It is only used in melee if the unit is charged. All Artillery dice hit on a 4+, regardless of the D score of the target. Artillery dice hit on 3+ against Giants and Dragons. Artillery dice hit on 5+ against Fortifications and units in Forest/Jungle areas. Only other Artillery units may fire back at an Artillery unit if the Artillery is firing from one area away. If the Artillery is firing in the same area, Artillery fire is part of the missile phase and regular shooters may fire back at the Artillery. Artillery units placed on a Hill roll one additional Artillery die. If attacked in melee, Artillery is destroyed by a single hit. However, if there are any friendly troops in the area, these automatically Shield the Artillery if the player desires. Melee: Artillery units may not attack in melee, but defend if attacked, rolling one melee die and using their A score. This represents the crew leaving their positions and drawing swords. Engineers: Engineer units attack Artillery at +1 to A. Special missiles: Certain Artillery units may use Flaming, Plague, or Fear projectiles. Each is a separate Trait. Tactical hints: Artillery units can fire over the next area but they are difficult to maneuver and fragile. Use light troops to shield them. If possible, deploy them on hills.",
+      "aliases": [
+        "Artillery",
+        "Artillery level 2",
+        "Artillery level 3",
+        "Artillery level 4",
+        "Artillery level 5"
+      ]
+    },
+    {
+      "name": "Assassin",
+      "kind": "trait",
+      "text": "This Trait comes in three levels. An Assassin may not be attacked by non-Personality units unless he attacks the unit or a Personality attached to the unit. Hits from Assassin are assigned by the Assassin's controlling player. An Assassin's ranged and melee dice may be directed against any target figure in an area, ignoring Shielding; however, if the target personality is attached to a unit with the Bodyguards Trait, the Assassin must assign his hits to the Bodyguards before he can assign them to the personality. An Assassin rolls one melee die per level. In campaigns, Assassins may be sent to perform assassination missions.",
+      "aliases": [
+        "Assassin",
+        "Assassin Level 1",
+        "Assassin Level 2",
+        "Assassin Level 3"
+      ]
+    },
+    {
+      "name": "Astrologer",
+      "kind": "trait",
+      "text": "If you have an Astrologer in your army, you have a +1 to the Scouting roll at the beginning of the game. In addition, once per game, you may reroll any one single die for a unit in the same area with the Astrologer OR you may disregard an enemy's Ambush bonus for an entire combat. This reroll represents the Astrologer's fortune-telling that provides some degree of control over fate or a warning about an Ambush or stratagem.",
+      "aliases": [
+        "Astrologer"
+      ]
+    },
+    {
+      "name": "Beast Lord",
+      "kind": "trait",
+      "text": "A Beast Lord works as a General but can give bonuses and be attached to Animal units only. An army may have both a General and one or two Beast Lords. Like Generals, Beast Lords may decide to Lead from the Front putting their life in jeopardy but adding three melee dice to the unit's melee dice total.",
+      "aliases": [
+        "Beast Lord"
+      ]
+    },
+    {
+      "name": "Berserk",
+      "kind": "trait",
+      "text": "When a player announces that the Berserk unit will perform an attack, the player rolls a die. On a 1-3, nothing happens. On a 4+, the unit goes Berserk, getting -1 to D but +1 to A and Morale rolls for the duration of the combat. Roll each time the unit enters a new combat. Berserk units may shoot missiles but may not perform hit and run tactics with missile weapons. If a General is attached to a Berserk unit, and the unit goes Berserk, the General must Lead from the Front. Any character attached to a Berserk unit will suffer the same effects of the Berserk Trait. If multiple Berserk units are in the same area, roll once per unit, but if at least one unit goes Berserk, ALL the units in the area go Berserk.",
+      "aliases": [
+        "Berserk"
+      ]
+    },
+    {
+      "name": "Blessing",
+      "kind": "spell",
+      "text": "This spell gives one Activation reroll to a unit in its next Activation. Blessing may be cast only once per game on any unit in play with no range restriction. This spell may also be used to negate a Curse spell or to restore the powers of a healing fountain/spring. Such alternative uses do not count against the one use per game limit, but the Spell-Caster must be in the same area as the Curse to be broken or defiled fountain. Note: It is possible for a Blessing to be cast three times in a game: on a unit, to cancel a curse and to restore a healing fountain.",
+      "aliases": [
+        "Blessing",
+        "Spell: Blessing"
+      ]
+    },
+    {
+      "name": "Boat",
+      "kind": "trait",
+      "text": "You may assign Boats to troops in scenarios with bodies of water. Boats treat bodies of water as clear terrain and rivers as roads. A unit uses one action to embark or disembark. Boats may be attacked only by Flying, Aquatic, or Amphibious creatures, or by other boats. Artillery firing on boats hits them on a 4+ on any Artillery die. Boat is a generic term and may be used to represent larger vessels. A full system for naval battles is beyond the scope of this book.",
+      "aliases": [
+        "Boat"
+      ]
+    },
+    {
+      "name": "Bodyguards",
+      "kind": "trait",
+      "text": "If a Personality is attached to a unit of Bodyguards, Assassins may not target that Personality until all Bodyguards have been destroyed.",
+      "aliases": [
+        "Bodyguards"
+      ]
+    },
+    {
+      "name": "Bolster",
+      "kind": "spell",
+      "text": "Target unit gains the Steadfast Trait. The spell may be cast on any one unit in play, with no range restriction. The effect lasts for one turn per action spent. The spell may not be cast on units that are already Steadfast. If cast on a Coward unit, it cancels the effect of Coward for the duration of the spell.",
+      "aliases": [
+        "Bolster",
+        "Spell: Bolster"
+      ]
+    },
+    {
+      "name": "Burrowing",
+      "kind": "trait",
+      "text": "A Burrowing unit may be deployed as a Lurker (see p. 48) in any nonwater area. Burrowing creatures may attack Fortifications in sieges, scoring a hit on any 5 or 6 rolled in melee, but one stand is destroyed for every one rolled when attacking the Fortification. This represents burrowers being buried by collapsing walls.",
+      "aliases": [
+        "Burrowing"
+      ]
+    },
+    {
+      "name": "Champion",
+      "kind": "trait",
+      "text": "A Champion is a character that is normally attached to a unit. If a unit has a Champion and a Personality in the same area is challenged to a duel, the player may accept the challenge and use the Champion instead of the challenged Personality.",
+      "aliases": [
+        "Champion"
+      ]
+    },
+    {
+      "name": "Chaos",
+      "kind": "spell",
+      "text": "Target unit is Disordered. The spell has a range of one area.",
+      "aliases": [
+        "Chaos",
+        "Spell: Chaos"
+      ]
+    },
+    {
+      "name": "Chariot",
+      "kind": "trait",
+      "text": "A Chariot unit is represented by one or two Chariot models. The Chariot Trait comes in levels 26. In melee a Chariot stand rolls one die per level. Chariots have a stacking value of 8 due to the space they need to maneuver. Chariots may move freely only on Clear areas. They may move on Rough terrain but may only defend (they fight only if attacked but they cannot initiate an attack). They may not enter Very Rough terrain or Forests. Chariots attacking Disordered enemies do so at +1 to their A score. Chariots count as Mounted troops. In clear terrain, they have +1 to A vs foot troops. Chariots must make a Morale roll on one die in order to charge Pikes and MUST take a different course of action if the Morale roll fails. Any unit taking losses from a Chariot melee attack is automatically Disordered at the end of the combat, even if victorious. A victorious unit taking no losses from a Chariot is not Disordered.",
+      "aliases": [
+        "Chariot",
+        "Chariot level 2",
+        "Chariot level 3",
+        "Chariot level 4",
+        "Chariot level 5",
+        "Chariot level 6"
+      ]
+    },
+    {
+      "name": "Coward",
+      "kind": "trait",
+      "text": "Coward units have -1 on Morale rolls. A Coward unit may not have the Fear, Fearless, or Steadfast Traits.",
+      "aliases": [
+        "Coward"
+      ]
+    },
+    {
+      "name": "Curse",
+      "kind": "spell",
+      "text": "Target unit has -1 to A or -1 to D until the end of the game or until a Blessing is cast to remove the Curse. Use this spell once per game, on any one enemy unit or personality, with no range restriction.",
+      "aliases": [
+        "Curse",
+        "Spell: Curse"
+      ]
+    },
+    {
+      "name": "Desert-Walk",
+      "kind": "trait",
+      "text": "The unit treats desert areas as clear areas. The unit may set up Ambushes in desert areas.",
+      "aliases": [
+        "Desert-Walk"
+      ]
+    },
+    {
+      "name": "Destroy Constructs",
+      "kind": "spell",
+      "text": "This spell creates a ranged attack against Artificial troops only. It has no effect on targets that do not have the Artificial Trait. Against Artificial targets, it inflicts one die of Special Damage for every action spent. It may be cast at a range of one area away or used in the shooting phase.",
+      "aliases": [
+        "Destroy Constructs",
+        "Spell: Destroy Constructs"
+      ]
+    },
+    {
+      "name": "Destroy Undead",
+      "kind": "spell",
+      "text": "This spell counts as a ranged attack against Undead troops only. It has no effect against targets without the Undead Trait. Against Undead, it inflicts one die of Special Damage for every action spent. It may be cast at a range of one area away or used in the shooting phase.",
+      "aliases": [
+        "Destroy Undead",
+        "Spell: Destroy Undead"
+      ]
+    },
+    {
+      "name": "Devastating Charge",
+      "kind": "trait",
+      "text": "The unit may reroll any melee dice that rolls a two (if those are failures) when it moves into an occupied area and attacks. Devastating Charge does not apply against units of Pikes unless the Pikes are Disordered or units in Square formation. Devastating Charge applies only when the unit is attacking. Mounted units charging downhill (see gentle Hills, p.21) automatically gain the Devastating Charge Trait until the end of the turn.",
+      "aliases": [
+        "Devastating Charge"
+      ]
+    },
+    {
+      "name": "Difficult Target",
+      "kind": "trait",
+      "text": "Unit has +1 to D against ranged attacks. This does not apply against Special Damage. This modifier is NOT cumulative with the +1 to D from the Undead Trait.",
+      "aliases": [
+        "Difficult Target"
+      ]
+    },
+    {
+      "name": "Discipline Master",
+      "kind": "trait",
+      "text": "If the Discipline Master is attached to a unit, that unit must roll at least two dice per turn. The unit may reroll up to 3 failed activation rolls per turn. If the activation dice roll two or three ones, the Discipline Master is destroyed and the unit must immediately make a Morale roll. This simulates a stern commander that is feared and hated by his troops.",
+      "aliases": [
+        "Discipline Master"
+      ]
+    },
+    {
+      "name": "Dragon Breath",
+      "kind": "trait",
+      "text": "The unit has a breath weapon that lets it perform a Special Damage ranged attack of one die per level in the ranged attack phase. This hits at 4+ and may set fire to Forest areas (see Forest, p.22). If the figure is Exhausted, the effect of Dragon Breath is reduced by one die until the creature recovers.",
+      "aliases": [
+        "Dragon Breath",
+        "Dragon Breath level 2",
+        "Dragon Breath level 3",
+        "Dragon Breath level 6"
+      ]
+    },
+    {
+      "name": "Drilled",
+      "kind": "trait",
+      "text": "Drilled units may reroll one failed Activation die each turn. Reaction rolls may not be rerolled.",
+      "aliases": [
+        "Drilled"
+      ]
+    },
+    {
+      "name": "Eagle's Eyes",
+      "kind": "spell",
+      "text": "Target unit gets +1 to their next missile attack. This spell may be cast only once per game, with no range restriction, on any one unit in play. It has no effect on units without the Shooter Trait.",
+      "aliases": [
+        "Eagle's Eyes",
+        "Spell: Eagle's Eyes"
+      ]
+    },
+    {
+      "name": "Elan",
+      "kind": "trait",
+      "text": "On the first turn of the game, the unit has +1 on Activation rolls. This applies even if the opponent has the initiative. Elan gives no modifier to Reaction rolls.",
+      "aliases": [
+        "Elan"
+      ]
+    },
+    {
+      "name": "Engineers",
+      "kind": "trait",
+      "text": "The unit may attack bridges and Fortifications. In addition, it has +1 to A in melee against Artillery.",
+      "aliases": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Expendable",
+      "kind": "trait",
+      "text": "When this unit is destroyed, its point value is not counted for victory point purposes.",
+      "aliases": [
+        "Expendable"
+      ]
+    },
+    {
+      "name": "Extra Lives",
+      "kind": "trait",
+      "text": "The unit has two or three life points and is removed from the game only when the last life point is depleted. Wounds inflicted on the unit count for purposes of calculating who won a combat even if the unit is not destroyed. The character has four life points and is removed from the game only when the last life point is depleted. Wounds inflicted on the unit count for purposes of calculating who won a combat even if the unit is not destroyed.",
+      "aliases": [
+        "Extra Lives",
+        "Extra Lives x2",
+        "Extra Lives x3",
+        "Extra Lives x4"
+      ]
+    },
+    {
+      "name": "Fast",
+      "kind": "trait",
+      "text": "The unit may move up to two areas per turn, spending the appropriate number of actions to do so (See Movement rules).",
+      "aliases": [
+        "Fast"
+      ]
+    },
+    {
+      "name": "Fear",
+      "kind": "trait",
+      "text": "The unit causes fear. Any enemy wishing to attack the area occupied by the fearsome unit must first pass a Morale roll on one die. If successful, the attack proceeds as normal. On a failure, the unit may not attack the area. The unit failing the Morale roll may perform other actions, such as attacking a different enemy. A unit may try the Morale roll against Fear each turn until they succeed. Once a unit has surpassed its Fear, they will be able to attack that specific enemy unit in later turns without having to pass additional Morale rolls. Units with Fear or Fearless are immune to Fear.",
+      "aliases": [
+        "Fear"
+      ]
+    },
+    {
+      "name": "Fear Projectiles",
+      "kind": "trait",
+      "text": "An Artillery unit with this Trait may shoot fear-inducing ammunition. The player decides whether the unit is going to use Fear Projectiles before rolling its Artillery dice. If using Fear Projectiles, the target unit will take no hits from the attack, but it will have to perform a Morale roll if at least one of the Artillery dice scores a hit. Fear Projectiles have no effect on Fortifications. Fearless, Artificial units, or units with Fear are immune to this ammunition.",
+      "aliases": [
+        "Fear Projectiles"
+      ]
+    },
+    {
+      "name": "Fearless",
+      "kind": "trait",
+      "text": "The unit is unaffected by the Terror spell, the Fear Trait and Fear Projectiles.",
+      "aliases": [
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Fireball",
+      "kind": "spell",
+      "text": "This spell causes a missile attack of one die of Special Damage per action used. Fireball may be used in the shooting phase of an attack like a regular ranged attack or against a single unit one area away.",
+      "aliases": [
+        "Fireball",
+        "Spell: Fireball"
+      ]
+    },
+    {
+      "name": "Flaming Projectiles",
+      "kind": "trait",
+      "text": "Artillery units with this Trait roll an additional die against Fortifications.",
+      "aliases": [
+        "Flaming Projectiles"
+      ]
+    },
+    {
+      "name": "Flying",
+      "kind": "trait",
+      "text": "The unit can fly. See movement rules.",
+      "aliases": [
+        "Flying"
+      ]
+    },
+    {
+      "name": "Forester",
+      "kind": "trait",
+      "text": "The unit moves through forests as if it were clear areas. It may also set up Ambushes in forests.",
+      "aliases": [
+        "Forester"
+      ]
+    },
+    {
+      "name": "Fury",
+      "kind": "spell",
+      "text": "A target unit gains +1 to A in melee until the end of the turn. This spell may be cast on any one unit in play with no range restrictions. Futuresight (1, 2 or 3 Actions) Shooter Trait possessed by the SpellTarget unit may reroll 1, 2 or 3 dice Caster. in its next turn (one die per each",
+      "aliases": [
+        "Fury",
+        "Spell: Fury"
+      ]
+    },
+    {
+      "name": "Futuresight",
+      "kind": "spell",
+      "text": "Target unit may reroll 1, 2 or 3 dice in its next turn (one die per each action spent in casting the spell). Rerolls may be used for any Q or melee rolls. This spell may be cast on any friendly unit in play with no range restrictions. (1, 2 or 3 Actions)",
+      "aliases": [
+        "Futuresight",
+        "Spell: Futuresight"
+      ]
+    },
+    {
+      "name": "Gaze Attack",
+      "kind": "trait",
+      "text": "The unit possesses a gaze attack type that comes in levels 1-5. Use this Trait to represent monsters that kill or turn to stone with their gaze like the catoblepas or gorgons. The attack hits automatically in the ranged attack phase. For each level possessed by the monster, one stand in the enemy unit must perform a Q roll on a single die or be removed from play. Units with the Adventuring Party Trait may reroll any failed Q roll against a Gaze Attack. Example: a unit of five goblins stumble upon a gorgon. The gorgon has the Gaze Attack ability, level 3. The goblin player rolls three dice vs the goblins' Q of 4 and one goblin stand is turned to stone (removed from play) for every failure rolled.",
+      "aliases": [
+        "Gaze Attack",
+        "Gaze Attack Level 1",
+        "Gaze Attack Level 2",
+        "Gaze Attack Level 3"
+      ]
+    },
+    {
+      "name": "General",
+      "kind": "trait",
+      "text": "An army may have a single General. The General gives +1 to Activation, Reaction, and Morale rolls of all units in his area. If a unit is involved in combat, the General must opt to fight normally (adding a single melee die with his A bonus) OR Lead from the Front at the beginning of a combat. If the General Leads from the Front, you may add three melee dice to the unit to which he is attached, adding the unit's (not the General's) A score to the dice rolls. However, if the sum of these three dice is 5 or less, the General is killed in action (in campaigns, roll on the general's Death table to determine the General's fate). When a General is killed, all friendly units in play must make a Morale roll. If the army has a Subcommander, that Subcommander becomes the army's new General.",
+      "aliases": [
+        "General"
+      ]
+    },
+    {
+      "name": "Giant",
+      "kind": "trait",
+      "text": "The unit is a Giant. Enemies on hills may not claim an elevation bonus against a Giant. This Trait comes in levels 2-6. In melee, a Giant rolls one die per level, adding his A score to all dice. A Giant may attack bridges and Fortifications, hitting them on a 5+ on each die. If a Giant is killed in melee, a random unit (friend or foe) in the same area receives a melee attack from the Giant which represents the colossus collapsing on smaller troops. A Giant killed by missile fire causes this effect only to a unit he is Shielding. A Giant counts as four stands for purposes of Stacking. Most giants will have Resilient, Tough, or Extra Lives, or just a high D score. A Giant killed in a river area creates a ford. A Giant killed on a bridge turns the bridge into rough terrain.",
+      "aliases": [
+        "Giant",
+        "Giant Level 2",
+        "Giant Level 3",
+        "Giant Level 4",
+        "Giant Level 5"
+      ]
+    },
+    {
+      "name": "Grenades",
+      "kind": "trait",
+      "text": "The unit is armed with explosives that are thrown at opponents in the missile combat phase. As the grenades are bulky, the unit can use them only once per game mark the unit with a grenade counter and remove it once it has been used. Grenades count as a missile attack (roll one die every two stands in the unit) but inflict Special Damage (hitting on a 4+ and ignoring saves for Resilient and Tough). Grenades may also be used against Fortifications, hitting on a 5 or 6.",
+      "aliases": [
+        "Grenades"
+      ]
+    },
+    {
+      "name": "Hero",
+      "kind": "trait",
+      "text": "A Hero can always reroll one failed Morale or Activation die per turn. No rerolls are allowed for Reactions.",
+      "aliases": [
+        "Hero"
+      ]
+    },
+    {
+      "name": "High Priest",
+      "kind": "trait",
+      "text": "If a High Priest is attached to a unit, that unit receives a two dice ranged attack that can be used against any Undead unit. If not attached to a unit, the High Priest may fight with a single die in melee, but receives a +1 to A versus Undead foes. High Priests may bless Healing Fountains (see terrain section).",
+      "aliases": [
+        "High Priest"
+      ]
+    },
+    {
+      "name": "Highwaymen",
+      "kind": "trait",
+      "text": "A unit of Highwaymen may set up Ambushes in a road area. Highwaymen must be deployed in Open Order or Column.",
+      "aliases": [
+        "Highwaymen"
+      ]
+    },
+    {
+      "name": "Horde",
+      "kind": "trait",
+      "text": "A Horde unit treats all of its sides as front sides. In other words, no enemy may claim a flank or rear attack bonus against Hordes. The Horde cannot claim any flank or rear attack bonuses. Hordes may be deployed only in Horde or Column formations.",
+      "aliases": [
+        "Horde"
+      ]
+    },
+    {
+      "name": "Immaterial",
+      "kind": "trait",
+      "text": "The unit moves through all terrain types, including impassable terrain, friends, and foes. The unit treats other Immaterial units as if they did not possess the Immaterial Trait. In melee against material units, Immaterial units hit only on a 6 and are hit only on a 6. Spells, magic weapons and attacks by a High Priest attached to a unit hit on a 4+. Use this Trait to represent ghosts, spirits, air elementals and swarms of insects.",
+      "aliases": [
+        "Immaterial"
+      ]
+    },
+    {
+      "name": "Inspiring Leader",
+      "kind": "trait",
+      "text": "Only a General may take this Trait. The General's presence inspires his troops to fight valiantly. Every turn, one stand in the same area as the General may reroll one failed melee die. The reroll may not be used for the General's own combat rolls.",
+      "aliases": [
+        "Inspiring Leader"
+      ]
+    },
+    {
+      "name": "Lightning Bolt",
+      "kind": "spell",
+      "text": "This spell causes a missile attack of one die of Special Damage per action used. It may be used in the shooting phase like a regular ranged attack, or to attack a target up to one area away. It may cause a maximum of one casualty (one stand removed) against any target unit, but against single targets with Extra Lives (personalities, monsters, giants, dragons), the Spell-Caster may reroll any die that fails. Rerolls are final. (1, 2 or 3 Actions)",
+      "aliases": [
+        "Lightning Bolt",
+        "Spell: Lightning Bolt"
+      ]
+    },
+    {
+      "name": "Lurkers",
+      "kind": "trait",
+      "text": "Unit may be deployed as Lurkers.",
+      "aliases": [
+        "Lurkers"
+      ]
+    },
+    {
+      "name": "Meteor Storm",
+      "kind": "spell",
+      "text": "This spell causes a three dice Special Damage missile attack anywhere on the table, with no range restriction. It may be used only once per game. moned. The monster appears in the Spell-Caster's area, ignoring stacking rules, or up to one area away, and may be placed to shield another unit if the caster so desires (see Shielding rules). The monster may be summoned in an area occupied Rain of Arrows (2 or 3 Actions) by enemies, and may be immediThis spell causes a missile attack of one die per action used. The arrows hit at +1, and all results of one are rerolled (reroll only once: if a one rolls up a one again, it remains a one). This spell is NOT Special Damage. It hits like a regular missile attack. The +1 from Rain of Arrows does not stack with the bonus from any ately activated to attack those enemies in melee. The monster may be chosen from any army lists allowed in the game. The caster is not restricted to creatures in his own army list. The creature must have the Monster Trait. The monster disappears at the end of the melee. If killed, the monster is ignored for Morale purposes; any hits inflicted on the monster are 63 NOT calculated for Morale purposes. Hits inflicted BY the monster are calculated as normal.",
+      "aliases": [
+        "Meteor Storm",
+        "Spell: Meteor Storm"
+      ]
+    },
+    {
+      "name": "Monster",
+      "kind": "trait",
+      "text": "The Monster Trait comes in levels 2-6. In melee, the monster rolls one die per level. For example, a level 4 Monster will roll four melee dice, adding its A score to each die. Most monsters will have Extra Lives. Monsters are immune to Disorder. When a monster is Disordered, it goes on rampage. Move the monster immediately into one random adjacent area. Roll a die for any area the monster could legally move into, including rough and very rough areas; the monster moves into the area rolling the lowest result and attacks any one unit, friend or foe, occupying the area. Disregard any SL until the end of the combat. At the end of the combat, enforce the area SL, destroying the monster if it violates it. After one rampage, the monster will automatically return to the player's control.",
+      "aliases": [
+        "Monster",
+        "Monster Level 1",
+        "Monster Level 2",
+        "Monster Level 3",
+        "Monster Level 4"
+      ]
+    },
+    {
+      "name": "Mountaineer",
+      "kind": "trait",
+      "text": "The unit treats uphill movement as clear terrain and may set up Ambushes in Hill areas. Mountain areas, normally impassable terrain, may have a mountain path that can be crossed only by troops with the Mountaineer Trait.",
+      "aliases": [
+        "Mountaineer"
+      ]
+    },
+    {
+      "name": "Mounted",
+      "kind": "trait",
+      "text": "Use this Trait to represent various types of cavalry. Mounted units roll two dice per stand in melee. They may not enter forests. In clear terrain, a Mounted unit has +1 to A against any infantry unless said infantry has Pikes. Mounted units must pass a Morale roll on one die in order to charge into a unit with Pikes. If the roll fails, they may choose another action but may not charge the Pikes. This does not apply if the Pikes are Disordered or in any other formation than Close Order or Square. Most cavalry types should have Two Extra Lives.",
+      "aliases": [
+        "Mounted"
+      ]
+    },
+    {
+      "name": "Necromancer",
+      "kind": "trait",
+      "text": "At the end of any battle in his area, if victorious, the Necromancer may cause a single non-Undead, non-Artificial stand to come back to life as an Undead stand. To raise the dead, the Necromancer must pass a successful Q roll on a single die. If the die fails, the ritual is unsuccessful. The stand will be Q4+, A1, D5, Undead (or use its own stats if worse than these). The stand will remain associated with the Necromancer. This is the only instance in the game in which a unit may be formed by a single stand. The Necromancer may continue to add a stand like this until the full SL for his unit is reached. Undead thus created are retained in a campaign until destroyed in combat.",
+      "aliases": [
+        "Necromancer"
+      ]
+    },
+    {
+      "name": "Nonreactive",
+      "kind": "trait",
+      "text": "Nonreactive units may not perform Reactions.",
+      "aliases": [
+        "Nonreactive"
+      ]
+    },
+    {
+      "name": "Pikes",
+      "kind": "trait",
+      "text": "If in clear terrain and in Close Order or Square formation, a unit of Pikes gains +1 to A against all infantry and Mounted units, and +1 to D against Mounted units. The bonus does not apply against monsters, dragons, giants, and other Pikes. Pikes on rough or very rough terrain, or Disordered, do not gain this bonus. Mounted units must perform a Morale roll on a single die if they want to charge Pikes, except when the Pikes are Disordered or in any other formation than Square or Close Order.",
+      "aliases": [
+        "Pikes"
+      ]
+    },
+    {
+      "name": "Plague Projectiles",
+      "kind": "trait",
+      "text": "If an Artillery unit with Plague Projectiles scores any hit on a target, that target unit must perform a Q roll or lose an additional stand. Saves from Resilient or Tough can be used against this additional casualty, and targets with Undead, Artificial, Monster, Giant or Dragon Breath Traits are unaffected by disease. Test once per area per turn, even if the area is attacked by multiple Artillery units with Plague Projectiles.",
+      "aliases": [
+        "Plague Projectiles"
+      ]
+    },
+    {
+      "name": "Plague-Carriers",
+      "kind": "trait",
+      "text": "At the end of any melee with the unit, all enemy units must test Q on a die or lose a single stand to disease. Units with the Undead, Artificial, Monster, Giant, and Dragon Breath Traits are unaffected. Saves from the Tough or Resilient Traits can be used against this additional hit. The loss, if any, is applied before the end of the melee phase and is counted for the purposes of determining who won the combat. Test once per area per turn, even if there are multiple Plague-Carriers in the area.",
+      "aliases": [
+        "Plague-Carriers"
+      ]
+    },
+    {
+      "name": "Poison/Venom",
+      "kind": "trait",
+      "text": "An attacker using poisoned weapons or a natural venomous bite or sting may reroll HALF his melee dice that failed to hit, rounded down. The minimum reroll is always one die. This reroll may not be applied against Undead or Artificial creatures. Monsters with multiple attack dice may use this ability. Creatures with Resilient or Tough get a save versus the rerolled dice as normal.",
+      "aliases": [
+        "Poison/Venom"
+      ]
+    },
+    {
+      "name": "Poisoned Missiles",
+      "kind": "trait",
+      "text": "The unit may reroll HALF his missile dice that failed to hit, rounded down. The minimum reroll is always 1 die. This reroll may not be applied against Undead or Artificial creatures or Fortifications. Saves from Resilient or Tough can be used against these additional hits. Example: a unit of eight goblin archers with poisoned arrows rolls four missile dice. One hits, and three fail to hit. The goblin player uses the Poison Trait to reroll one die (half of three, rounded down to one).",
+      "aliases": [
+        "Poisoned Missiles"
+      ]
+    },
+    {
+      "name": "Rabble",
+      "kind": "trait",
+      "text": "Rabble units may not be deployed in Close Order. They lose TWO stands per every hit suffered. They should not be designed with Q better than 4, A better than 2 and D better than 6.",
+      "aliases": [
+        "Rabble"
+      ]
+    },
+    {
+      "name": "Rain of Arrows",
+      "kind": "spell",
+      "text": "This spell causes a missile attack of one die per action used. The arrows hit at +1, and all results of one are rerolled (reroll only once). This spell is NOT Special Damage; it hits like a regular missile attack. The +1 does not stack with the bonus from any Shooter Trait possessed by the Spell-Caster. (2 or 3 Actions)",
+      "aliases": [
+        "Rain of Arrows",
+        "Spell: Rain of Arrows"
+      ]
+    },
+    {
+      "name": "Ranger",
+      "kind": "trait",
+      "text": "A Ranger is a character that transfers his terrain abilities (Forester, SnowWalk, Mountaineer, Swamp-Walk, Desert Walk) to any unit he is attached to. A Ranger must be designed with at least one terrain based Trait.",
+      "aliases": [
+        "Ranger"
+      ]
+    },
+    {
+      "name": "Reluctant",
+      "kind": "trait",
+      "text": "The unit must pass a Morale roll on one die if they want to charge into an enemy unit. If the Morale roll fails, they may choose another course of action but may not charge. A Mounted Reluctant unit wishing to charge into Pikes would have to test twice: once for the Reluctant Trait and once for the Mounted Trait. Reluctant units may not be assigned the Berserk or Devastating Charge Traits.",
+      "aliases": [
+        "Reluctant"
+      ]
+    },
+    {
+      "name": "Resilient",
+      "kind": "trait",
+      "text": "Stands with the Resilient Trait roll a die for each hit taken and on a 5+, that hit is ignored. This \"save\" does not work against Special Damage (Dragon Breath, Artillery, spells).",
+      "aliases": [
+        "Resilient"
+      ]
+    },
+    {
+      "name": "Savage",
+      "kind": "trait",
+      "text": "At the end of a melee, units with Savage count as if they inflicted an additional hit for Morale purposes only.",
+      "aliases": [
+        "Savage"
+      ]
+    },
+    {
+      "name": "Scout",
+      "kind": "trait",
+      "text": "Scout units must be formed by 2-4 stands each. They may be deployed in any area, except in the opponent's deployment areas, IF their side wins the Scouting roll (See Scouting). The army has a +1 modifier on the Scouting roll per every Scout unit it possesses. When fighting a unit of Scouts, a unit never enjoys the Ambush bonus.",
+      "aliases": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Shieldwall",
+      "kind": "trait",
+      "text": "The unit is expert at defensive formations. If the unit is in Close Order, and defending an area, it gains a +1 to D if it passes a Q roll on a single die. If the roll fails, the bonus is not gained.",
+      "aliases": [
+        "Shieldwall"
+      ]
+    },
+    {
+      "name": "Shooters",
+      "kind": "trait",
+      "text": "The unit may attack in the missile combat phase. This ability comes in four levels: Shooters 0 (troops with javelins and other short range missiles, no bonus is added to the ranged combat rolls); Shooters 1 (bows and slings, shooting is at +1); Shooters 2 (good bows, crossbows, and harquebuses, shooting is at +2); Shooter 3 should be allowed only to Personalities and represents a crack shot hero with a +3 ranged attack. Shooting is NOT mandatory. Units that shoot in the missile phase fight at -1 to A in the melee phase.",
+      "aliases": [
+        "Shooters",
+        "Shooters 0",
+        "Shooters 1",
+        "Shooters 2",
+        "Shooters 3"
+      ]
+    },
+    {
+      "name": "Siege Engine",
+      "kind": "trait",
+      "text": "The Siege Engine Trait comes in five levels. A Siege Engine works and moves like an Artillery unit, but it may be used to attack only Fortifications in its own area. Siege Engine units roll one die per Level of the Siege Engine Trait they possess. For example, a Level 3 Siege Engine will roll three dice against Fortifications. In melee, a Siege Engine rolls a single die, and adds its A value. Enemies with the Engineer Trait have +1 to A against Siege Engines. Large Siege Engines may have the Resilient or Tough Trait and Extra Lives.",
+      "aliases": [
+        "Siege Engine",
+        "Siege Engine Level 1",
+        "Siege Engine Level 2",
+        "Siege Engine Level 3"
+      ]
+    },
+    {
+      "name": "Skirmishers",
+      "kind": "trait",
+      "text": "Units with this Trait may be deployed only in Open Order or Column formations. They have maximum A1 and D5. Skirmishers may perform the move, shoot and retreat maneuver without having to spend one extra action to do so (see Ranged Combat). They get one free action to perform the shoot and retreat maneuver if the conditions for the maneuver apply (the unit must be faster than the opponent).",
+      "aliases": [
+        "Skirmishers"
+      ]
+    },
+    {
+      "name": "Slayers",
+      "kind": "trait",
+      "text": "Slayer units inflict Special Damage against a specific foe. The unit's melee dice hit that specific target on a 4+, disregarding the target's D score and ignoring the saves from Resilient and Tough. The following variations of the Slayers Trait are possible: Mageslayers (+1 to A vs any spellcasting unit), Dragonslayers (vs dragons), Giantslayers (vs giants), Ghoulslayers (vs Undead), or against one specific non-human race (Dwarfslayers, Elfslayers, etc, any race that has its own army list). Players may agree that other form of Slayers exist.",
+      "aliases": [
+        "Slayers"
+      ]
+    },
+    {
+      "name": "Slow",
+      "kind": "trait",
+      "text": "Unit has -1 to determine which unit is faster in combat. A player gets -1 on the Scouting roll per every Slow unit in his army.",
+      "aliases": [
+        "Slow"
+      ]
+    },
+    {
+      "name": "Snow-Walk",
+      "kind": "trait",
+      "text": "The unit ignores the effect of Snow, which normally worsens terrain by one category.",
+      "aliases": [
+        "Snow-Walk"
+      ]
+    },
+    {
+      "name": "Spell-Caster",
+      "kind": "trait",
+      "text": "The character can cast spells. Spells are additional Traits that must be paid for separately.",
+      "aliases": [
+        "Spell-Caster"
+      ]
+    },
+    {
+      "name": "Spy",
+      "kind": "trait",
+      "text": "Spies may be sent to perform espionage missions between battles. See the campaign rules.",
+      "aliases": [
+        "Spy"
+      ]
+    },
+    {
+      "name": "Static",
+      "kind": "trait",
+      "text": "Static troops are units that do not move. They may be deployed on any area except the opponent's deployment areas. Static troops are normally used in specific scenarios to represent traps or magic terrain features that attack any enemy moving through the area. A static troop does not move and does not recoil from its area if it loses a melee; the opponent is allowed to retreat or to attack again until either the attacker or the static unit is destroyed.",
+      "aliases": [
+        "Static"
+      ]
+    },
+    {
+      "name": "Steadfast",
+      "kind": "trait",
+      "text": "The unit has +1 to Morale rolls.",
+      "aliases": [
+        "Steadfast"
+      ]
+    },
+    {
+      "name": "Steal Spell",
+      "kind": "spell",
+      "text": "This spell may only be cast on an enemy Spell-Caster during an attack on that spell-caster's area. The Spell-Caster chooses and steals one of the target's spells and may cast the stolen spell only once per game. The target may not cast the stolen spell until the spell-thief has cast it, at which point it immediately returns to its original owner. (2 Actions)",
+      "aliases": [
+        "Steal Spell",
+        "Spell: Steal Spell"
+      ]
+    },
+    {
+      "name": "Stealth",
+      "kind": "trait",
+      "text": "Characters and creatures with Stealth may be attacked only by units that include Monsters or Characters. If they attack a unit, they will fight normally, but if they choose not to be seen, an enemy unit will move through their area without noticing them.",
+      "aliases": [
+        "Stealth"
+      ]
+    },
+    {
+      "name": "Sub-Commander",
+      "kind": "trait",
+      "text": "A Sub-Commander is the army's second-in-command. If an army has a Sub-Commander and the General dies, the army comes under the SubCommander's control; and, units DO NOT make Morale rolls for the loss of the General. The Sub-Commander gives a +1 to Activation and Reaction rolls for troops in his area when the army's General dies or is taken prisoner. Units must perform a Morale roll when the Sub-Commander dies, at -1, ONLY IF the Sub-Commander has previously become the army's General. If the Sub-Commander dies while the General is still in play, no Morale roll is required.",
+      "aliases": [
+        "Sub-Commander",
+        "SubCommander"
+      ]
+    },
+    {
+      "name": "Summon Monster",
+      "kind": "spell",
+      "text": "This spell summons a monster that fights for the caster. A single monster per game may be summoned. It appears in the Spell-Caster's area, ignoring stacking rules, or up to one area away, and may be placed to shield another unit. The monster may be chosen from any army lists allowed in the game and must have the Monster Trait. It may be summoned into an enemy-occupied area and immediately activated to attack. The monster disappears at the end of the melee. If killed, hits on the monster are ignored for Morale; hits it inflicted count as normal. (3 Actions)",
+      "aliases": [
+        "Summon Monster",
+        "Spell: Summon Monster"
+      ]
+    },
+    {
+      "name": "Swamp-Walk",
+      "kind": "trait",
+      "text": "The unit treats swamps, bogs and similar areas as Clear terrain and may set up Ambushes there.",
+      "aliases": [
+        "Swamp-Walk"
+      ]
+    },
+    {
+      "name": "Talisman vs. Fey Creatures",
+      "kind": "trait",
+      "text": "A unit attached to the character with this Trait will not be attacked by sprites in an Enchanted Forest area.",
+      "aliases": [
+        "Talisman vs. Fey Creatures"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "kind": "trait",
+      "text": "Once per game, a unit with Teleport may disappear from its current location and reappear into any area up to three areas away. Using Teleport requires the expenditure of two Actions or Reactions. The unit may reappear into an area occupied by the enemy, and perform a normal attack. If the teleporting unit must make a Morale roll to enter an occupied area (for example, because it is Reluctant, or because the target unit has the Fear Trait), the teleporting unit must pass a Morale roll on a single die. If the roll fails, the unit can teleport to a different area, but may NOT enter the occupied area. If the roll is successful, the unit teleports into the occupied area.",
+      "aliases": [
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Teleportation",
+      "kind": "spell",
+      "text": "A friendly unit within one area of the caster is teleported up to three areas away. The maximum distance travelled by the teleported unit is one area per action spent in casting the spell. Characters attached to the unit including the Spell-Caster may be teleported together with the unit. This spell may be used only once per game. It may not be used to teleport a unit into an area occupied by the enemy or into impassable terrain. The spell has a range of one area. Spell-Casters may use this spell on themselves, teleporting together with the unit they are attached to.",
+      "aliases": [
+        "Teleportation",
+        "Spell: Teleportation"
+      ]
+    },
+    {
+      "name": "Terror",
+      "kind": "spell",
+      "text": "This spell causes target unit to test Morale. The Morale roll must be performed immediately BEFORE combat. Undead and Artificial units, and units with the Fear Trait, are immune to this spell. Terror may be cast when attacking an area or from an adjacent area.",
+      "aliases": [
+        "Terror",
+        "Spell: Terror"
+      ]
+    },
+    {
+      "name": "Thief",
+      "kind": "trait",
+      "text": "A Thief may perform Thievery between battles. See the campaign rules.",
+      "aliases": [
+        "Thief"
+      ]
+    },
+    {
+      "name": "Tough",
+      "kind": "trait",
+      "text": "The unit rolls a die for each hit taken. On a 4+, that hit is ignored. This save is not allowed against Special Damage (spells, Dragon Breath, magic weapons, attacks from units with the appropriate Slayers Trait, and Artillery).",
+      "aliases": [
+        "Tough"
+      ]
+    },
+    {
+      "name": "Trample",
+      "kind": "trait",
+      "text": "If a unit with Trample kills at least 50% of an enemy unit rounded up in melee (ignore losses caused by missiles), it may reroll any dice that failed to hit. If there are fewer stands in the target unit than the trampler has dice to be rerolled, excess dice spill over to any other other enemy unit in the area, ignoring the Shielding rules.",
+      "aliases": [
+        "Trample"
+      ]
+    },
+    {
+      "name": "Undead",
+      "kind": "trait",
+      "text": "Undead units are immune to poison and fatigue. They may not be pushed. Undead units have +1 to D vs missile attacks (except Artillery, Dragon Breath, spells, and magic weapons).",
+      "aliases": [
+        "Undead"
+      ]
+    },
+    {
+      "name": "Unique",
+      "kind": "trait",
+      "text": "This profile is unique. Take it only once unless a scenario says otherwise. The rulebook does not give Unique its own Trait entry.",
+      "aliases": [
+        "Unique"
+      ]
+    },
+    {
+      "name": "Unpredictable",
+      "kind": "trait",
+      "text": "Every time you activate an Unpredictable unit, roll an additional, differently colored die with the Activation die. If the colored die is a 1 or 2, the unit's Q counts as 1 point lower this turn. If it is a 3 or a 4, use the unit's normal Q. On a 5 or 6, the unit's Q is 1 better this turn. Note that the colored die is rolled simultaneously with the Activation dice, so the player chooses how many dice to roll before knowing the actual Q score.",
+      "aliases": [
+        "Unpredictable"
+      ]
+    },
+    {
+      "name": "Unreliable",
+      "kind": "trait",
+      "text": "After deployment, roll a die for any unit with Unreliable. On a 1, the unit loses a stand (use the Stragglers rule: a two stand unit losing a stand is destroyed) or a Life (if it has Extra Lives). On a 2-4, nothing happens. On a 5, the unit begins the game Disordered. On a 6, the unit is eager to fight and will reroll all failed Activation dice on its first turn only. The rerolled dice may not cause Reactions or Turn Over.",
+      "aliases": [
+        "Unreliable"
+      ]
+    },
+    {
+      "name": "Vampire",
+      "kind": "trait",
+      "text": "Vampire units become stronger by drinking the blood and feasting on the life-force of their slain opponents. Every time a Vampire unit completely destroys an enemy unit which is not Undead or Artificial, the Vampire unit gains one Blood point. Only if the unit is completely destroyed to the last stand (including a stand lost because of the Stragglers rule) does the Vampire unit gain a Blood point. You can represent these with red glass counters or a red die. During the game, the player burns Blood points to negate hits on the Vampire unit on one point per hit basis. For example, if a Vampire unit with three Blood points takes four hits of damage, the unit will lose three Blood points and take a single hit. Blood points must be spent BEFORE rolling for saves from Traits like Resilient and Tough. Damage from spells and magic items may not be prevented with the expenditure of Blood points. The maximum number of Blood points that a Vampire unit can have at any given moment is equal to three times its current number of stands. Excess Blood points are lost. Vampire units must perform a successful Morale roll to attack an area containing an enemy High Priest. In addition, a Vampire unit immediately takes one hit that may not be saved or prevented with Blood points if stepping into an area of holy ground. Vampire units may not be deployed in holy ground or river areas and are destroyed if forced to recoil into any water terrain. They must pass a Morale test on one die in order to cross a ford. If the die roll fails, they may perform a different action and may try to cross the ford later. They can safely cross rivers on bridges.",
+      "aliases": [
+        "Vampire"
+      ]
+    },
+    {
+      "name": "Warband",
+      "kind": "trait",
+      "text": "Warband units may go from Open Order to Close Order with one action. They are trained to fight well in both formations.",
+      "aliases": [
+        "Warband",
+        "warband"
+      ]
+    },
+    {
+      "name": "Windriders",
+      "kind": "spell",
+      "text": "A target unit gains the Fast Trait and either the Mounted or the Flying Trait the next time it successfully activates. The spell effect disappears as soon as the unit completes a successful movement. The spell may be cast on any unit with no range restrictions.",
+      "aliases": [
+        "Windriders",
+        "Spell: Windriders"
+      ]
+    },
+    {
+      "name": "Windstorm",
+      "kind": "spell",
+      "text": "The spell gives a -1 to all non-magical ranged attacks performed in area for one full turn. Artillery and anything that inflicts Special Damage are unaffected by the Windstorm. The spell is cast before the players declare whether they are going to perform ranged attacks or not. Windstorm has a range of one area.",
+      "aliases": [
+        "Windstorm",
+        "Spell: Windstorm"
+      ]
+    }
+  ]
+}

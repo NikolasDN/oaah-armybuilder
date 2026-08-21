@@ -91,6 +91,20 @@ export interface ResolvedEntry {
   countsAsPersonality: boolean;
 }
 
+export interface TraitRuleEntry {
+  name: string;
+  kind: 'trait' | 'spell';
+  text: string;
+  aliases: string[];
+}
+
+export interface FeaturedTraitRule {
+  name: string;
+  kind: 'trait' | 'spell';
+  labels: string[];
+  text: string;
+}
+
 export interface ValidationResult {
   totalPoints: number;
   limitedPoints: number;

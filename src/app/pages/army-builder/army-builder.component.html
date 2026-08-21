@@ -218,7 +218,7 @@
           </ul>
         }
 
-        <section class="validation">
+        <section class="validation no-print">
           <h3 [class.ok]="(errors().length === 0)">
             @if (errors().length === 0) {
               Army is legal
@@ -245,6 +245,28 @@
             </div>
           }
         </section>
+        @if (featuredTraits().length > 0) {
+          <section class="trait-glossary print-only">
+            <h2>Trait rules</h2>
+            <p class="glossary-lead">
+              Rules for Traits and spells on this roster, from Of Armies And Hordes.
+            </p>
+            @for (trait of featuredTraits(); track trait.name) {
+              <article>
+                <h3>
+                  {{ trait.name }}
+                  @if (trait.kind === 'spell') {
+                    <span>Spell</span>
+                  }
+                </h3>
+                @if (trait.labels.length > 1 || trait.labels[0] !== trait.name) {
+                  <p class="glossary-used">On this roster: {{ trait.labels.join('; ') }}</p>
+                }
+                <p>{{ trait.text }}</p>
+              </article>
+            }
+          </section>
+        }
       </div>
     </aside>
   </div>

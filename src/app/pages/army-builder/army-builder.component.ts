@@ -5,6 +5,7 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CatalogUnit, SavedArmy, UnitKind } from '../../models/army.models';
 import { CatalogService } from '../../services/catalog.service';
 import { StorageService } from '../../services/storage.service';
+import { TraitRulesService } from '../../services/trait-rules.service';
 import { ValidationService } from '../../services/validation.service';
 
 @Component({
@@ -19,6 +20,7 @@ export class ArmyBuilderComponent {
   private readonly catalog = inject(CatalogService);
   private readonly storage = inject(StorageService);
   private readonly validation = inject(ValidationService);
+  private readonly traitRules = inject(TraitRulesService);
 
   readonly rules = this.catalog.rules;
   readonly army = signal<SavedArmy | null>(null);
@@ -39,6 +41,10 @@ export class ArmyBuilderComponent {
 
   readonly errors = computed(() => this.result()?.issues.filter((issue) => issue.severity === 'error') ?? []);
   readonly warnings = computed(() => this.result()?.issues.filter((issue) => issue.severity === 'warning') ?? []);
+  readonly featuredTraits = computed(() => {
+    const resolved = this.result()?.resolved ?? [];
+    return this.traitRules.featured(resolved.flatMap((item) => item.unit.traits));
+  });
 
   readonly visibleUnits = computed(() => {
     const army = this.army();
