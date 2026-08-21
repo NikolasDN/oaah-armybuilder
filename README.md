@@ -27,3 +27,11 @@ npm run build
 ```
 
 The static site is written to `dist/oaah-armybuilder`.
+
+## GitHub Pages
+
+Pushes to `master` build and publish the site with GitHub Actions.
+
+Live site: https://nikolasdn.github.io/oaah-armybuilder/
+
+In the repository settings, set Pages to deploy from the `gh-pages` branch `/` (root). Actions need read and write permission so the workflow can push that branch.
