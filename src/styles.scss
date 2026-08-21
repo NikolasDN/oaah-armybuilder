@@ -51,6 +51,13 @@ button.ghost:focus-visible {
   color: var(--gold);
 }
 
+button.ghost:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  border-color: var(--line);
+  color: var(--muted);
+}
+
 button.danger {
   color: var(--blood);
 }

@@ -12,6 +12,15 @@
     </div>
     <div class="bar-actions">
       <span class="save-flash" [class.on]="saveFlash()">{{ saveFlash() || 'Autosaved' }}</span>
+      <input
+        #importInput
+        class="file-input"
+        type="file"
+        accept="application/json,.json"
+        (change)="importFile($event)"
+      />
+      <button type="button" class="ghost" (click)="importInput.click()">Import</button>
+      <button type="button" class="ghost" (click)="exportArmy()">Export</button>
       <button type="button" class="ghost" (click)="printRoster()">Print</button>
       <button type="button" class="ghost danger" (click)="deleteArmy()">Delete</button>
     </div>

@@ -36,10 +36,32 @@
   margin-top: 1.75rem;
 }
 
+.panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .panel-head h2 {
   margin: 0;
   font-family: var(--display);
   font-size: 1.45rem;
+}
+
+.panel-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.file-input {
+  display: none;
+}
+
+.import-status {
+  margin: -0.4rem 0 0.8rem;
+  color: var(--gold);
 }
 
 .panel-head p {

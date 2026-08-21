@@ -35,9 +35,25 @@
 
 <section class="panel">
   <div class="panel-head">
-    <h2>Saved army lists</h2>
-    <p>Stored in this browser only. Nothing is uploaded.</p>
+    <div>
+      <h2>Saved army lists</h2>
+      <p>Stored in this browser only. Nothing is uploaded.</p>
+    </div>
+    <div class="panel-actions">
+      <input
+        #importInput
+        class="file-input"
+        type="file"
+        accept="application/json,.json"
+        (change)="importFile($event)"
+      />
+      <button type="button" class="ghost" (click)="importInput.click()">Import</button>
+      <button type="button" class="ghost" [disabled]="!hasArmies()" (click)="exportAll()">Export</button>
+    </div>
   </div>
+  @if (importMessage()) {
+    <p class="import-status">{{ importMessage() }}</p>
+  }
 
   @if (!hasArmies()) {
     <div class="empty-saved">
@@ -63,6 +79,7 @@
             </span>
           </a>
           <div class="saved-actions">
+            <button type="button" class="ghost" (click)="exportArmy($event, army)">Export</button>
             <button type="button" class="ghost" (click)="duplicateArmy($event, army.id)">Duplicate</button>
             <button type="button" class="ghost danger" (click)="deleteArmy($event, army)">Delete</button>
           </div>

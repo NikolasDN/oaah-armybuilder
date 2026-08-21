@@ -56,6 +56,7 @@
 
 .bar-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.4rem;
   align-items: center;
 }
@@ -68,6 +69,10 @@
 
 .save-flash.on {
   color: var(--gold);
+}
+
+.file-input {
+  display: none;
 }
 
 .status-grid {

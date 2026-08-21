@@ -202,6 +202,32 @@ export class ArmyBuilderComponent {
     window.print();
   }
 
+  exportArmy(): void {
+    const current = this.army();
+    if (current) {
+      this.storage.exportArmy(current);
+    }
+  }
+
+  importFile(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const file = input.files?.[0];
+    input.value = '';
+    if (!file) {
+      return;
+    }
+    file
+      .text()
+      .then((raw) => {
+        const imported = this.storage.importFromText(raw);
+        void this.router.navigate(['/army', imported[0].id]);
+      })
+      .catch((error: unknown) => {
+        const message = error instanceof Error ? error.message : 'Could not import that file.';
+        window.alert(message);
+      });
+  }
+
   deleteArmy(): void {
     const current = this.army();
     if (!current) {

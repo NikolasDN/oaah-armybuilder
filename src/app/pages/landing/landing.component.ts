@@ -1,5 +1,5 @@
 import { DatePipe } from '@angular/common';
-import { Component, computed, inject } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { CatalogService } from '../../services/catalog.service';
 import { StorageService } from '../../services/storage.service';
@@ -21,6 +21,7 @@ export class LandingComponent {
   readonly factions = this.catalog.selectableFactions;
   readonly armies = this.storage.armies;
   readonly hasArmies = computed(() => this.armies().length > 0);
+  readonly importMessage = signal('');
 
   factionName(id: string): string {
     return this.catalog.factionById(id)?.name ?? id;
@@ -60,5 +61,34 @@ export class LandingComponent {
     if (confirmed) {
       this.storage.remove(army.id);
     }
+  }
+
+  exportArmy(event: Event, army: SavedArmy): void {
+    event.stopPropagation();
+    this.storage.exportArmy(army);
+  }
+
+  exportAll(): void {
+    this.storage.exportAll();
+  }
+
+  importFile(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const file = input.files?.[0];
+    input.value = '';
+    if (!file) {
+      return;
+    }
+    file
+      .text()
+      .then((raw) => {
+        const imported = this.storage.importFromText(raw);
+        const label = imported.length === 1 ? imported[0].name : `${imported.length} army lists`;
+        this.importMessage.set(`Imported ${label}.`);
+      })
+      .catch((error: unknown) => {
+        const message = error instanceof Error ? error.message : 'Could not import that file.';
+        this.importMessage.set(message);
+      });
   }
 }
